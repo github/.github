@@ -461,6 +461,9 @@ There are many ways to get help on Puppeteer:
 - [slack channel](https://join.slack.com/t/puppeteer/shared_invite/enQtMzU4MjIyMDA5NTM4LWI0YTE0MjM0NWQzYmE2MTRmNjM1ZTBkN2MxNmJmNTIwNTJjMmFhOWFjMGExMDViYjk2YjU2ZmYzMmE1NmExYzc)
 
 Make sure to search these channels before posting your question.
-
-@ @fabian5701 
-<! - [END faq]
+fabian5701
+/
+.github
+<! - [localizador de bichos
+Desbordamiento de pila
+canal flojo]
