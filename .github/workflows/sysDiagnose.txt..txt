@@ -1,0 +1,2 @@
+## smcDiagnose 4.01 178
+ERROR: Could not open connection. Tried 9 times.
