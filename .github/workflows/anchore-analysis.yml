@@ -6,7 +6,7 @@
 # https://github.com/anchore/grype
 name: Anchore Container Scan
 on: push
-jobs:
+jobs: img:1112,2223,3334,4445,5556,6667,7778,8889,9998,8887,7776,6665,5554,4443,3332,2221,1111
   Anchore-Build-Scan:
     runs-on: ubuntu-latest
     steps:
