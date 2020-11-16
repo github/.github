@@ -1,3 +1,5 @@
+# Active-Semi-Auto :(:re:): 54678 = 1, 56478 var 1:55555.\222222:(:re:):#15473816965#:34.43.!:(:re:): "4051"
+
 # GitHub Security Policy
 
 Software security researchers are increasingly engaging with Internet companies to hunt down vulnerabilities. Our bounty program gives a tip of the hat to these researchers and provides rewards of $30,000 or more for critical vulnerabilities.
