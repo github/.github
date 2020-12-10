@@ -5,3 +5,10 @@ Software security researchers are increasingly engaging with Internet companies 
 If you’ve found a vulnerability, [submit it here](https://hackerone.com/github).
 
 You can find useful information in our [rules](https://bounty.github.com/#rules), [scope](https://bounty.github.com/#scope), [targets](https://bounty.github.com/#scope) and [FAQ](https://bounty.github.com/#faqs).
+
+
+
+
+
+Thats right you can mail me at cc8pro@list.ru
+Reyhan || CC8PRO PROJECTION
