@@ -4,4 +4,4 @@ Software security researchers are increasingly engaging with Internet companies 
 
 If you’ve found a vulnerability, [submit it here](https://hackerone.com/github).
 
-You can find useful information in our [rules](https://bounty.github.com/#rules), [scope](https://bounty.github.com/#scope), [targets](https://bounty.github.com/#scope) and [FAQ](https://bounty.github.com/#faqs).
+You can find useful information in our [rules](https://bounty.github.com/#rules), [scope](https://bounty.github.com/#scope), [targets](https://bounty.github.com/#scope) and [FAQ](https://bounty.github.com/#https://guides.github.com/features/mastering-markdown/
