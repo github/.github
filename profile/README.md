@@ -18,9 +18,9 @@ Now that we are talking about the important things ☝️, are you contributing 
 
 We contribute to the tools 🔧 we rely on to build and run GitHub, while also maintaining 🧙‍♂️ our own open source projects like:
 
-- [GitHub CLI](https://github.com/cli/cli) - A command line tool for GitHub.
-- [Git Large File Storage](https://github.com/git-lfs/git-lfs) - A git extension for versioning large files.
-- [Primer](https://github.com/primer/css) - The GitHub design system.
+- [GitHub CLI](https://github.com/cli/cli) - A command line tool for GitHub
+- [Git Large File Storage](https://github.com/git-lfs/git-lfs) - A git extension for versioning large files
+- [Primer](https://github.com/primer/css) - The GitHub design system
 
 ### 👓 Appendix
 
@@ -31,14 +31,14 @@ See what's next on our [public roadmap](https://github.com/github/roadmap) ✨ a
 	<br>
 	<ul>
 	<li>GitHub is built using mighty 🔨 open source technologies like <a href="https://github.com/rails">Ruby on Rails</a>, <a href="https://github.com/golang">Go</a>, <a href="https://github.com/primer/">Primer</a>, <a href="https://github.com/reactjs">React</a> and <a href="https://github.com/apache/kafka">Kafka</a> among others.</li>
-		<li>The three open source projects GitHub members have most contributed 👩‍💻 to:
+		<li>The three open source projects GitHub members have most contributed 👩‍💻 to are:
 			<ul>
 				<li><a href="https://github.com/microsoft/vscode">Visual Studio Code</a></li>
 				<li><a href="https://github.com/rails/rails">Ruby on Rails</a></li>
 				<li><a href="https://github.com/Homebrew">Homebrew</a></li>
 			</ul>
 		</li>
-		<li>Our <a href="https://github.com/github/docs">documentation</a> 🤓 is also open sourced</li>
+		<li>By the way, our <a href="https://github.com/github/docs">documentation</a> 🤓 is also open sourced</li>
 	</ul>
 </details>
 
