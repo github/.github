@@ -18,9 +18,9 @@ Now that we are talking about the important things ☝️, are you contributing 
 
 We contribute to the tools 🔧 we rely on to build and run GitHub, while also maintaining 🧙‍♂️ our own open source projects like:
 
-- [GitHub CLI](https://github.com/cli/cli) - A command line tool for GitHub
-- [Git Large File Storage](https://github.com/git-lfs/git-lfs) - A git extension for versioning large files
-- [Primer](https://github.com/primer/css) - The GitHub design system
+- [GitHub CLI](https://github.com/cli/cli) — A command line tool for GitHub
+- [Git Large File Storage](https://github.com/git-lfs/git-lfs) — A git extension for versioning large files
+- [Primer](https://github.com/primer/css) — The GitHub design system
 
 ### 👓 Appendix
 
