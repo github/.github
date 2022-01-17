@@ -1,4 +1,10 @@
-Thanks for helping make GitHub safe for everyone.
+.#!/usr/bin/env ruby'2
+
+# hub(1)
+# alias git=hub
+
+require 'hub'
+Hub::Runner.execute(*ARGV)
 
 ## Security
 
