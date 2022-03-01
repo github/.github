@@ -14,7 +14,7 @@ The open source community is the 💗 heart of GitHub and fundamental to how we 
 
 Now that we are talking about the important things ☝️, are you contributing to open source? Yes? Okay, you rock! 🎸 If not, we can help you get started! Open source software is made by people just like you. Learn more about [how to contribute](https://opensource.guide/).
 
-### 🦦 Contributing to the ecosystem
+### ➕ Contributing to the ecosystem
 
 We contribute to the tools 🔧 we rely on to build and run GitHub, while also maintaining 🧙‍♂️ our own open source projects like:
 
