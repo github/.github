@@ -49,7 +49,7 @@
             "rule": {
                 "type": "file-existence",
                 "options": {
-                    "globsAny": ["CODEOWNERS*", "*/CODEOWNERS*"],
+                    "globsAny": ["CODEOWNERS*", "*/CODEOWNERS*", ".github/CODEOWNERS*"],
                     "nocase": true
                 }
             },
