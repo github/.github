@@ -1,4 +1,11 @@
-## Contributing
+##: #::Runs::/:'::Run:':'' 
+Run::/:Script::/:':Build:'": AUTOMATE
+AUTOMATE: 
+:Build::
+SCript: build_script: 
+build_script: NAme
+NAMe: 
+- Contributing.md
 
 Hi there! We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.
 
