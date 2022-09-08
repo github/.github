@@ -5,6 +5,7 @@ GitHub's [Bug Bounty program](https://bounty.github.com) rewards researchers for
 If the repository is eligible for rewards, you can submit a report via [HackerOne](https://hackerone.com/github). You can find more useful information in our [rules](https://bounty.github.com/#rules) and [FAQ](https://bounty.github.com/#faqs).
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Even though [open source repositories are outside of the scope of our bug bounty program](https://bounty.github.com/index.html#scope) and therefore not eligible for bounty rewards, we will ensure that your finding gets passed along to the appropriate maintainers for remediation. 
 
 ## Reporting Security Issues
@@ -33,3 +34,6 @@ See [GitHub's Safe Harbor Policy](https://docs.github.com/en/github/site-policy/
 =======
 For repositories not covered by the Bug Bounty program, please open an issue.
 >>>>>>> parent of 5540da0 (Updating security.md file)
+=======
+For repositories not covered by the Bug Bounty program, please open an issue.
+>>>>>>> parent of ade2246 (update security.md)
