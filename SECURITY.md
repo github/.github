@@ -1,9 +1,10 @@
 # GitHub Security Policy
 
-GitHub's [Bug Bounty program](https://bounty.github.com) rewards researchers for discovering security vulnerabilities in a number of repositories. The full list of projects that are eligible for rewards are [available on our Bug Bounty site](https://bounty.github.com/#scope).
+Software security researchers are increasingly engaging with Internet companies to hunt down vulnerabilities. Our bounty program gives a tip of the hat to these researchers and provides rewards of $30,000 or more for critical vulnerabilities.
 
-If the repository is eligible for rewards, you can submit a report via [HackerOne](https://hackerone.com/github). You can find more useful information in our [rules](https://bounty.github.com/#rules) and [FAQ](https://bounty.github.com/#faqs).
+If you’ve found a vulnerability, [submit it here](https://hackerone.com/github).
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Even though [open source repositories are outside of the scope of our bug bounty program](https://bounty.github.com/index.html#scope) and therefore not eligible for bounty rewards, we will ensure that your finding gets passed along to the appropriate maintainers for remediation. 
@@ -37,3 +38,6 @@ For repositories not covered by the Bug Bounty program, please open an issue.
 =======
 For repositories not covered by the Bug Bounty program, please open an issue.
 >>>>>>> parent of ade2246 (update security.md)
+=======
+You can find useful information in our [rules](https://bounty.github.com/#rules), [scope](https://bounty.github.com/#scope), [targets](https://bounty.github.com/#scope) and [FAQ](https://bounty.github.com/#faqs).
+>>>>>>> parent of d0ad28a (Update SECURITY.md)
