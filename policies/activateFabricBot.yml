@@ -1,0 +1,8 @@
+name: Fabric Bot
+description: Description
+
+resource: repository
+
+configuration:
+  activateFabricBot:
+    activate: true
