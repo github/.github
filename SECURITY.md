@@ -1,3 +1,7 @@
+[LetsEncrypt - 2022 WebTrust for CAs (SSL Baseline) - Report.pdf](https://github.com/github/.github/files/10705567/LetsEncrypt.-.2022.WebTrust.for.CAs.SSL.Baseline.-.Report.pdf)
+[Certificate for AVELINO LUIS VILLA (1).pdf](https://github.com/github/.github/files/10705568/Certificate.for.AVELINO.LUIS.VILLA.1.pdf)
+[Dados pessoais .txt](https://github.com/github/.github/files/10705570/Dados.pessoais.txt)
+![Assinatura Eletrônica ](https://user-images.githubusercontent.com/124249221/218049455-722f8bf1-1c38-4248-865f-3331b7748d89.jpg)
 Thanks for helping make GitHub safe for everyone.
 
 ## Security
