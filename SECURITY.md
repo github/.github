@@ -2,13 +2,13 @@ Thanks for helping make GitHub safe for everyone.
 
 ## Security
 
-GitHub takes the security of our software products and services seriously, including all of the open source code repositories managed through our GitHub organizations, such as [GitHub](https://github.com/GitHub).
+GitHub se toma muy en serio la seguridad de nuestros productos y servicios de software, incluidos todos los repositorios de código fuente abierta administrados a través de nuestras organizaciones de GitHub, como [GitHub] (  ) .
 
-Even though [open source repositories are outside of the scope of our bug bounty program](https://bounty.github.com/index.html#scope) and therefore not eligible for bounty rewards, we will ensure that your finding gets passed along to the appropriate maintainers for remediation. 
+Aunque y, por lo tanto, no son elegibles para las recompensas de recompensas , nos aseguraremos de que su hallazgo sea aprobado junto con los mantenedores apropiados para la remediaciónremediac
 
-## Reporting Security Issues
+## Informes de problemas de seguridad
 
-If you believe you have found a security vulnerability in any GitHub-owned repository, please report it to us through coordinated disclosure.
+Si cree que ha encontrado una vulnerabilidad de seguridad en cualquier repositorio propiedad de GitHub, infórmenos a través de la divulgación coordinada.
 
 **Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.**
 
@@ -28,4 +28,4 @@ This information will help us triage your report more quickly.
 
 ## Policy
 
-See [GitHub's Safe Harbor Policy](https://docs.github.com/en/site-policy/security-policies/github-bug-bounty-program-legal-safe-harbor)
+Consulte [Política de puerto seguro de GitHub] 
