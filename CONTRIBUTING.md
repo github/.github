@@ -18,6 +18,7 @@ Please note that this project is released with a Contributor Code of Conduct. By
 
 Here are a few things you can do that will increase the likelihood of your pull request being accepted:
 
+
 - Follow standards for style and code quality.
 - Write tests.
 - Keep your change as focused as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
@@ -28,3 +29,4 @@ Here are a few things you can do that will increase the likelihood of your pull 
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 - [Using Pull Requests](https://help.github.com/articles/about-pull-requests/)
 - [GitHub Help](https://help.github.com)
+doc/md029.md
