@@ -1,6 +1,6 @@
 Thanks for helping make GitHub safe for everyone.
 
-## Security
+## Securityhttps://github.com/github/docs/blob/5f0bc9bcadd859e021640b31944a31330b01ca86/content/billing/managing-your-github-billing-settings/about-billing-for-your-enterprise.md
 
 GitHub takes the security of our software products and services seriously, including all of the open source code repositories managed through our GitHub organizations, such as [GitHub](https://github.com/GitHub).
 
