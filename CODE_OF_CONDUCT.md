@@ -62,7 +62,7 @@ Examples of unacceptable behavior include:
   reported to the community leaders responsible for enforcement at
   support@github.com.
  
- * All complaints will be reviewed and investigated promptly and fairly.
+* All complaints will be reviewed and investigated promptly and fairly.
 
 * All community leaders are obligated to respect the privacy and security of the
   reporter of any incident.
