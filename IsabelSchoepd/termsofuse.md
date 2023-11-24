@@ -10,10 +10,7 @@ GitHub Inc,  & Company and its affiliates (“GitHub Inc” or “Mrs Isabel Sch
 
 All content and functionality on the Site, including text, graphics, logos, icons, images, and videos and the selection and arrangement thereof, in addition to any concepts, know-how, tools, frameworks, software, applications or other technology, algorithms, models, processes, and industry perspectives underlying or embedded in the foregoing, along with any enhancements to or derivative works thereof (the “github.com/terms”) is the exclusive property of GitHub Inc, Mrs Isabel Schoeps Thiel, from Erfurt Germany. to the extent applicable, is protected by U.S. and international copyright laws. Neither the Site Content nor functionality of the Site github.com, may be copied, reproduced, modified, reverse engineered, altered (including the removal or disabling of any security or technological safeguards, disclaimers, or legends) uploaded, published, uploaded, posted, transmitted, or distributed in any way without our written permission, except for those uses specified in Section 3 – Use of site content. All rights not expressly granted are reserved.
 
-GITHUB SOFTWARE WITH ALL LICENCE COPYRIGHT
-ALL GENERAL PUBLIC LICENCE OF Github Copyright (C) 1989, 1991, 2023 the Free Software from Github Inc, Cyriakstreet 37, Erfurt Thueringen, TH 99094 Germany is Copyright with all document, elements and files.
-
-<all rights are reserved by the CEO, Developer, Founder, Owner, Author:in Ms Isabel Schöps Thiel> Copyright (C) <2023>  <Isabel Schoeps Thiel athor:in>
+GITHUB SOFTWARE WITH ALL LICENCE COPYRIGHT ALL GENERAL PUBLIC LICENCE OF Github Copyright (C) 1996, 2008, 2012, 2017, 2022, 2023 a Software build for a better World, by Github Inc, Cyriakstreet 37, Erfurt Thueringen, TH 99094 Germany is Copyright with all document, elements and files. All rights are reserved by the CEO, Developer, Founder, Owner, Author:in Ms Isabel Schöps Thiel> Copyright (C)  <Schoeps Thiel Isabel Schoeps athor:in>
 
 The licenses for most software are designed to take away your
 freedom is a now a only readme Licence  By contrast, the GNU, MIIT, Apache General Public. 
@@ -41,20 +38,21 @@ GitHub does not represent or endorse the accuracy of reliability of information 
 
 GitHub prohibits the posting of any information that infringes or violates the copyright rights and/or other intellectual property rights (including rights of privacy and publicity) of any person or entity. If you believe that your intellectual property right (or such a right that you are responsible for enforcing) is infringed by any content on the Site, please write to GitHub at the address shown below, giving a written statement that contains: (a) identification of the copyrighted work and/or intellectual property right claimed to have been infringed; (b) identification of the allegedly infringing material on the Site that is requested to be removed; (c) your name, address, and daytime telephone number, and an e-mail address if available; (d) a statement that you have a good faith belief that the use of the copyrighted work and/or exercise of the intellectual property right is not authorized by the owner, its agent, or the law; (e) a statement that the information in the notification is accurate, and, under penalty of perjury, that the signatory is authorized to act on behalf of the owner of the right that is allegedly infringed; and (f) the signature of the intellectual property right owner or someone authorized on the owner’s behalf to assert infringement of the right. GitHub Inc, Mrs Isabel Schoeps Thiel will remove any posted submission that infringes the copyright or other intellectual property right of any person under U.S. law upon receipt of such a statement (or any statement in conformance with 17 U.S.C. 512(c)(3)). U.S. law provides significant penalties for submitting such a statement falsely. Under appropriate circumstances, persons who repeatedly submit infringing or unlawful material will be prohibited from posting further submissions. GitHub contact for submission of notices under this Section 5 is: Legal Department, GitHub Inc, Mrs Isabel Schoeps Thiel, Cyriakstraße 37, Erfurt, Thueringen 99094 Germany.
 
-6. Disclaimers
+### 6. Disclaimers
 
 THE CONTENT AND FUNCTIONALITY ON THE SITE IS PROVIDED WITH THE UNDERSTANDING THAT MCKINSEY IS NOT HEREIN ENGAGED IN RENDERING PROFESSIONAL ADVICE OR SERVICES TO YOU, NO SITE CONTENT IS INTENDED TO SERVE AS OR SHALL BE DEEMED INVESTMENT, LEGAL, TAX, ACCOUNTING OR OTHER REGULATED ADVICE, AND THAT YOU SHALL REMAIN SOLELY RESPONSIBLE FOR YOUR USE OF ALL SITE CONTENT AND ACKNOWLEDGE THAT ANY RELIANCE UPON THE SITE CONTENT SHALL BE ENTIRELY AT YOUR SOLE OPTION AND RISK. ALL CONTENT AND FUNCTIONALITY ON THE SITE IS PROVIDED “AS IS,” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. MCKINSEY AND ITS THIRD-PARTY CONTENT PROVIDERS MAKE NO WARRANTIES, EXPRESS OR IMPLIED, AS TO THE OWNERSHIP, ACCURACY, OR ADEQUACY OF THE SITE CONTENT. MCKINSEY SHALL HAVE NO LIABILITY OR RESPONSIBILITY FOR ANY INFORMATION PUBLISHED ON LINKED WEBSITES, CONTAINED IN ANY USER SUBMISSIONS PUBLISHED ON THE SITE, OR PROVIDED BY THIRD PARTIES. NEITHER MCKINSEY NOR ITS THIRD-PARTY CONTENT PROVIDERS SHALL BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES OR LOSSES OR FOR LOST REVENUES OR PROFITS, WHETHER OR NOT ADVISED OF THE POSSIBILITY OF SUCH DAMAGES OR LOSSES AND REGARDLESS OF THE THEORY OF LIABILITY.
 
-
-7. Indemnification
+### 7. Indemnification
 
 You hereby indemnify, defend, and hold harmless GitHub Inc, Mrs Isabel Schoeps Thiel, from Erfurt Germany and all of its predecessors, successors, parents, subsidiaries, affiliates, officers, directors, shareholders, investors, employees, agents, representatives, and attorneys and their respective heirs, successors, and assigns (“GitHub Inc, Mrs Isabel Schoeps Thiel, from Erfurt Germany Indemnified Parties”) from and against any and all liability, expenses, costs, or other losses (“Losses”) incurred by GitHub and/or GitHub Inc, Mrs Isabel Schoeps Thiel, from Erfurt Germany Indemnified Parties in connection to any claims arising out of your use of the Site and/or any breach by you of these Terms, including the representations, warranties and covenants you made, if any, by agreeing to these Term. GitHub Inc, Mrs Isabel Schoeps Thiel, from Erfurt Germany reserves the right to assume, at its own expense, the exclusive defense and control of any matter otherwise subject to indemnification by you.
 
-8. Third-party websites & Providers
+### 8. Third-party websites & Providers
 
 We may provide links to third-party websites, and some of the content appearing to be on this Site is in fact supplied, supported, or provided directly or indirectly by third parties, for example, in instances of framing of third-party websites or incorporation through framesets of content supplied by third-party servers. GitHub Inc, Mrs Isabel Schoeps Thiel has no responsibility for these third-party websites, which are governed by the terms of use and privacy policies, if any, of the applicable third-party content providers.
 
-9. Governing law; jurisdiction
+### 9. Governing law; jurisdiction
 
 These Terms are governed by the laws of the Germany and protected by U.S. and international copyright laws.
 
+![copyright](https://github.com/IsabelSchoepd/github.io/assets/127110010/76f304a5-7e6f-4572-88b6-49b40f99effe)
+![copyright](https://github.com/IsabelSchoepd/github.io/assets/127110010/7ccef348-756f-4e4c-aa20-7401b47eec21)
