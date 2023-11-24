@@ -1,6 +1,6 @@
 Terms of use github.com/terms
 
-https://docs.github.com/de/site-policy/github-terms/github-terms-of-service
+https://docs.github.com/IsabelSchoeod/site-policy/github-terms/github-terms-of-service
 
 Terms of use (update 20.11.2023)
 
