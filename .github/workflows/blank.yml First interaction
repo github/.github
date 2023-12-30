@@ -1,0 +1,139 @@
+# This is   uses: actions/first-interaction@v1.3.0
+a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run onBelow I am trying to send data to eventhub, it works for few minutes and then the OperationCanceledException is thrown. Any hint on where I am wrong in using CancellationToken (if that is what I should be using)? or how I could fix this issue?
+
+public async void send<T>(IEnumerable<T> list, string eventhubname)
+{                
+     var token = new CancellationTokenSource();
+     CancellationToken ct = token.Token;
+     EventHubProducerClient producer = null;
+
+     try
+     {
+
+        producer = new EventHubProducerClient(this._connectionString, eventhubname);
+
+        var eventBatch = await producer.CreateBatchAsync(ct); **Line 148 here**
+        foreach (T item in list)
+        {
+            eventBatch.TryAdd(new EventData(Encoding.UTF8.GetBytes(item.ToString())));
+        }
+       await producer.SendAsync(eventBatch);
+       await producer.DisposeAsync();
+     }
+    catch (Exception ex)
+    {
+       //($"Error While sending message to Event Hub: { ex.Message}", ex);
+        if (producer != null)
+        {
+            await producer.DisposeAsync();
+        }
+        if (ct.IsCancellationRequested)
+        {
+        token.Dispose();
+        throw new TaskCanceledException(ex.Message);
+        }
+        throw;
+    }
+}
+Following is the Exception stalk
+
+
+System.OperationCanceledException: The operation was canceled.
+   at Microsoft.Azure.Amqp.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at Microsoft.Azure.Amqp.AmqpCbsLink.SendTokenAsyncResult.<>c__DisplayClass13_0.<GetAsyncSteps>b__3(SendTokenAsyncResult thisPtr, IAsyncResult r)
+   at Microsoft.Azure.Amqp.IteratorAsyncResult`1.StepCallback(IAsyncResult result)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Azure.Amqp.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at Microsoft.Azure.Amqp.AmqpCbsLink.<>c__DisplayClass4_0.<SendTokenAsync>b__1(IAsyncResult a)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at Azure.Messaging.EventHubs.Amqp.AmqpConnectionScope.<CreateSendingLinkAsync>d__63.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Azure.Messaging.EventHubs.Amqp.AmqpConnectionScope.<OpenProducerLinkAsync>d__58.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Azure.Messaging.EventHubs.Amqp.AmqpProducer.<CreateLinkAndEnsureProducerStateAsync>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.Amqp.FaultTolerantAmqpObject`1.<OnCreateAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.Amqp.Singleton`1.<GetOrCreateAsync>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.Amqp.Singleton`1.<GetOrCreateAsync>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Azure.Messaging.EventHubs.Amqp.AmqpProducer.<CreateBatchAsync>d__29.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Azure.Messaging.EventHubs.Producer.EventHubProducerClient.<CreateBatchAsync>d__42.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at <send>d__20`1.MoveNext() in  line 148
+c#async-awaitazure-eventhub
+Share
+Edit
+Follow
+edited Jun 30, 2020 at 3:12
+Jeremy Thompson's user avatar
+Jeremy Thompson
+63k3737 gold badges203203 silver badges325325 bronze badges
+asked Jun 30, 2020 at 2:55
+Gudbahri's user avatar
+Gudbahri
+3111 gold badge11 silver badge66 bronze badges
+You don't take into consideration unmanaged resources, anything that implements the IDisposable Interface you should Dispose of explicitly. The using command is a neat way of doing this: using EventDataBatch eventBatch. Without the using your code could be exhausting the heap. That's a guess whats the ex.InnerException.Message? – 
+Jeremy Thompson
+ Jun 30, 2020 at 3:09 
+I am not sure why you are passing a token anyway, also, this could be the internal workings of the eventhub, are you getting connection issues or something? Is the token actually in a cancelled state (im guessing not) – 
+TheGeneral
+ Jun 30, 2020 at 3:24 
+
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      # Runs a single command using the runners shellhttps://github.com/octocat/octocat.github.io/commit/67c0afc1da354d8571f51b6f0af8f2794117fd10.patch
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
