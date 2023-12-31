@@ -1,0 +1,19 @@
+
+1. **Create a Project**: In Azure Deployment Environments, you start by creating a project¹.
+2. **Define Environment Types**: Define specific environment types for development, testing, staging, or production¹.
+3. **Use Infrastructure as Code (IaC) Templates**: Your platform engineer can provide a curated set of predefined IaC templates¹. Azure Deployment Environments currently supports only Azure Resource Manager (ARM) templates¹.
+4. **Deploy Environments**: Developers can deploy a preconfigured environment for any stage of the development cycle¹. This can be done directly from where they work¹.
+5. **Integrate with CI/CD Pipelines**: You can seamlessly integrate with your continuous integration and continuous delivery (CI/CD) pipeline¹.
+
+For more detailed steps and instructions, you might find the [Azure Deployment Environments documentation](^1^) helpful. There's also a [GitHub repository](^4^) that provides sample IaC templates to get started with the Azure Deployment Environments service. If you're looking for hands-on experience, Microsoft Azure also offers [on-demand demos](^5^) for various services. Please note that these resources are external and the exact steps might vary. Always refer to the official Azure documentation for the most accurate information. If you have any specific questions, feel free to ask! 😊
+
+Source: Conversation with Bing, 12/31/2023
+https://github.com/keenomvictor
+https://github.com/keenomvictor/Microsoft-Ignite-Azure-AI-Language
+https://dynamics.microsoft.com/en-gb/victorkeenom.thewebimagineers/web.facebook.com/vict
+ What is Azure Deployment Environments? - Azure Deployment Environments .... https://learn.microsoft.com/en-us/azure/deployment-environments/overview-what-is-azure-deployment-environments.
+What is Azure Deployment Environments? - Azure Deployment Environments .... https://learn.microsoft.com/en-us/azure/deployment-environments/overview-what-is-azure-deployment-environments.
+GitHub - Azure/deployment-environments: Sample infrastructure-as-code .... https://github.com/Azure/deployment-environments.
+ Watch Azure Demos to Get Started | Microsoft Azure. https://azure.microsoft.com/en-us/get-started/on-demand/.
+ Azure Deployment Environments | Microsoft Azure. https://azure.microsoft.com/en-us/products/deployment-environments/.
+Deploy a demo environment - Finance & Operations | Dynamics 365. https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment.
