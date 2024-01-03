@@ -1,0 +1,18 @@
+Security remains a top priority at GitHub, extending to all our software products, services, and the open-source repositories managed within our GitHub organizations, such as GitHub.
+
+While it's important to note that open-source repositories are not covered under our bug bounty program, we still greatly appreciate and take seriously any reported vulnerabilities. Rest assured, findings related to these repositories will be forwarded to the appropriate maintainers for prompt remediation.
+
+To report a security vulnerability within any GitHub-owned repository, we encourage coordinated disclosure. Please refrain from disclosing security issues through public GitHub issues, discussions, or pull requests. Instead, kindly send an email to opensource-security[@]github.com.
+
+For effective handling of the reported issue, providing the following information would be immensely helpful:
+
+The nature of the issue (e.g., buffer overflow, SQL injection, cross-site scripting)
+Full paths of the source file(s) linked to the issue
+The precise location of the affected source code (tag/branch/commit or direct URL)
+Any specific configuration necessary to reproduce the issue
+Step-by-step instructions for reproducing the issue
+Proof-of-concept or exploit code, if feasible
+Details regarding the impact of the issue and potential exploitation methods by attackers
+Your cooperation in furnishing this information will expedite the triaging of your report.
+
+For further information regarding GitHub's approach to security and our Safe Harbor Policy, please refer to GitHub's Safe Harbor Policy.
