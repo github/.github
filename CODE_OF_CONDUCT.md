@@ -112,7 +112,7 @@ individual, or aggression toward or disparagement of classes of individuals.
 
 **Consequence**: A permanent ban from any sort of public interaction within the
 community.
-
+https://github.com/keenomvictor/keenomvictor/blob/Victor-Keenom/Readme
 ## Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant][homepage],
