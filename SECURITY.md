@@ -1,31 +1,29 @@
-Thanks for helping make GitHub safe for everyone.
+      شكراً على مساعدته في #                  الأمن                      
 
-## Security
+    يأخذ جيتهوب أمن منتجاتنا وخدماتنا البرمجيات على محمل الجد، بما في ذلك جميع مستودعات رموز المصدر المفتوح التي تدار من خلال منظماتنا في جيتهوب، مثل      يأخذ جيتهوب أمن منتجاتنا وخدماتنا البرمجيات على محمل الجد، بما في ذلك جميع مستودعات رموز المصدر المفتوح التي تدار من خلال منظماتنا في جيتهوب، مثل     يأخذ جيتهوب أمن منتجاتنا وخدماتنا البرمجيات على محمل الجد، بما في ذلك جميع مستودعات رموز المصدر المفتوح التي تدار من خلال منظماتنا في جيتهوب، مثل      [جيتهوب](https://github.com/GitHub).
 
-GitHub takes the security of our software products and services seriously, including all of the open source code repositories managed through our GitHub organizations, such as [GitHub](https://github.com/GitHub).
+                  على الرغم من           على الرغم من       [مستومستومستودعات المصادر المفتوحة خارج نطاق برنامج مكافأة الحشرات](https://bounty.github.com/index.html#scope)     ولذلك، لا يحق لها الحصول على مكافآت مكافأة، سنكفل أن يتم نقل ثقكم إلى أصحاب المصلحة المناسبين للإصلاح.                         
 
-Even though [open source repositories are outside of the scope of our bug bounty program](https://bounty.github.com/index.html#scope) and therefore not eligible for bounty rewards, we will ensure that your finding gets passed along to the appropriate maintainers for remediation. 
+##                            تقديم التقارير عن المسائل الأمنية                          
 
-## Reporting Security Issues
+إذا كنت تعتقد أنك وجدت ضعاً أمنياً في أي مستودع مملوك لـ (جيتهوبز) ، يرجى إبلاغ ذلك إلينا من خلال الكشف المنسق.
 
-If you believe you have found a security vulnerability in any GitHub-owned repository, please report it to us through coordinated disclosure.
+**يرجى عدم الإبلاغ عن أوجه الضعف الأمنية من خلال قضايا أو مناقشاتها أو طلبات سحب الطلبات.**
 
-**Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.**
+بدلاً من ذلك، يرجى إرسال رسالة إلكترونية إلى الأمن المفتوح المصدر[@]github.com.
 
-Instead, please send an email to opensource-security[@]github.com.
+يرجى إدراج أكبر قدر من المعلومات الواردة أدناه ما يمكن أن تساعدنا على فهم المسألة وحلها على نحو أفضل:
 
-Please include as much of the information listed below as you can to help us better understand and resolve the issue:
+  *                  نوع القضايا (مثل التدفق الزائد العازل، حقن SSL، أو scular عبر الموقع)           نوع القضايا (مثل التدفق الزائد العازل، حقن SSL، أو scular عبر الموقع)                          
+  *                  المسارات الكاملة لملف المصدر (ق) المتصلة بمظهر المسألة           المسارات الكاملة لملف المصدر (ق) المتصلة بمظهر المسألة                          
+  *                 موقع رمز المصدر المتأثر (بطاقة/فرع/الالتزام أو المباشرة)           موقع رمز المصدر المتأثر (بطاقة/فرع/الالتزام أو المباشرة)                         
+  *              أي تشكيلة خاصة مطلوبة لاستنساخ هذه المسألة           أي تشكيلة خاصة مطلوبة لاستنساخ هذه المسألة                      
+  *             تعليمات خطوة خطوة إلى أخرى لاستنسخ المسألة           تعليمات خطوة خطوة إلى أخرى لاستنسخ المسألة                     
+  *             دليل مفهوم أو رمز استغل (إن أمكن)           دليل مفهوم أو رمز استغل (إن أمكن)                     
+  *             أثر هذه المسألة، بما في ذلك الكيفية التي يمكن بها لمهاجم أن يستغل هذه المسألة           أثر هذه المسألة، بما في ذلك الكيفية التي يمكن بها لمهاجم أن يستغل هذه المسألة                     
 
-  * The type of issue (e.g., buffer overflow, SQL injection, or cross-site scripting)
-  * Full paths of source file(s) related to the manifestation of the issue
-  * The location of the affected source code (tag/branch/commit or direct URL)
-  * Any special configuration required to reproduce the issue
-  * Step-by-step instructions to reproduce the issue
-  * Proof-of-concept or exploit code (if possible)
-  * Impact of the issue, including how an attacker might exploit the issue
+هذه المعلومات ستساعدنا على إثبات تقريرك بسرعة أكبر
 
-This information will help us triage your report more quickly.
+##                       السياسة العامة                     
 
-## Policy
-
-See [GitHub's Safe Harbor Policy](https://docs.github.com/en/site-policy/security-policies/github-bug-bounty-program-legal-safe-harbor)
+    انظر - [سياسة الميناء الآمن في جيتهوب] (https://docs.github.com/en/site-policy/security-policies/github-bug-bouur-program-legal-safe-hars)
