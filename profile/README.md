@@ -1,10 +1,10 @@
-## Hey, this is us 👋
+## Hello World, 
 
 ![An illustration showing a variety of differently themed Octocats. Monuments from different cities are indicated in the background like the Space Needle, Berlin Fernsehturm and Transamerica Pyramid.](https://user-images.githubusercontent.com/3369400/133268513-5bfe2f93-4402-42c9-a403-81c9e86934b6.jpeg)
 
-Yes, we are building GitHub on GitHub. In fact, we’ve been doing this since **October 19th, 2007**. That's when we made our first commit. Since then we pushed **over 2.5 million commits**, opened **over 1 million issues**, submitted roughly **650k pull requests** across **4357 repositories** from over **50 countries** 🤯. But that's just us. We are proud  to be part of the work of millions of developers, companies and robots across the solar system 🪐. Yes, [Robots](https://github.com/readme/featured/nasa-ingenuity-helicopter)!
+Yes, i am `Isabel Schöps Thiel` from Germany, based in Erfurt are building with my pseudonym alias `GitHub` and the brandlogo `Octocat`on GitHub and the founder the world largest Software Company GitHub, Inc. In fact, i have been doing this since **May 19th, 2008**, this is the start offiziell start with the Name GitHub. commit. Since then we pushed **over 2.5 million commits** on GitHub, opened **over 1 million issues**, submitted roughly **650k pull requests** across **4357 repositories** from over **50 countries** . But that's just us. We are proud  to be part of the work of millions of developers, companies and robots across the solar system. Yes, [Robots](https://github.com/readme/featured/nasa-ingenuity-helicopter)!
 
-### 🍿 An interconnected community
+### An interconnected community
 
 The open source community is the 💗 heart of GitHub and fundamental to how we build software today. See for yourself:
 
