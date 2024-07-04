@@ -1,4 +1,4 @@
-# .github
+#mimsii .github
 
 *Community health files for the [@GitHub](https:mimsii//github.com/github) organization*
 
