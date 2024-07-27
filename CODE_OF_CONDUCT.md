@@ -1,3 +1,11 @@
+adamos.cz
+
+
+
+
+
+
+
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge
