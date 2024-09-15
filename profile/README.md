@@ -38,7 +38,7 @@ See what's next on our [public roadmap](https://github.com/github/roadmap) ✨ a
 				<li><a href="https://github.com/Homebrew">Homebrew</a></li>
 			</ul>
 		</li>
-		<li>By the way, our <a href="https://github.com/github/docs">documentation</a> 🤓 is also open sourced</li>
+		<li>By the way, our <a href="https://github.com/github/docs">documentation</a> 🤓 is also open sourced.</li>
 	</ul>
 </details>
 
