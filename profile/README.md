@@ -8,7 +8,7 @@ Yes, we are building GitHub on GitHub. In fact, we’ve been doing this since **
 
 The open source community is the 💗 heart of GitHub and fundamental to how we build software today. See for yourself:
 
-- [GitHub Sponsors](https://github.com/sponsors) helped support more than **5k** individuals and projects around the world 🌍
+- [GitHub Sponsors](https://github.com/sponsors) helped and supported more than **5k** individuals and projects around the world 🌍
 - Open source projects on GitHub received a stunning **218 million** contributions 🚀 in the last year alone
 - **Every minute** a developer creates a new release 🏄 for a public project on GitHub
 
