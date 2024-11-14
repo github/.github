@@ -34,9 +34,9 @@ See what's next on our [public roadmap](https://github.com/github/roadmap) ✨ a
 
 - GitHub is built using mighty 🔨 open source technologies like [Ruby on Rails](https://github.com/rails), [Go](https://github.com/golang), [Primer](https://github.com/primer/), [React](https://github.com/reactjs) and [Kafka](https://github.com/apache/kafka) among others.
 - The three open source projects GitHub members have most contributed 👩‍💻 to are:
-   - [Visual Studio Code](https://github.com/microsoft/vscode)
-   - [Ruby on Rails](https://github.com/rails/rails)
-   - [Homebrew](https://github.com/Homebrew)
+  - [Visual Studio Code](https://github.com/microsoft/vscode)
+  - [Ruby on Rails](https://github.com/rails/rails)
+  - [Homebrew](https://github.com/Homebrew)
 
 - By the way, our [documentation](https://github.com/github/docs) 🤓 is also open sourced
 
