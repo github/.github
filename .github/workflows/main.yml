@@ -6,3 +6,4 @@ curl \
   related_website_sets.JSON
   https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=YOUR_API_KEY
 https://github.com/TVH1996/.github/actions/workflows/main.yml/badge.svg
+[![.github/workflows/main.yml](https://github.com/TVH1996/.github/actions/workflows/main.yml/badge.svg)](https://github.com/TVH1996/.github/actions/workflows/main.yml)
