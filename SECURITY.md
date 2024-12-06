@@ -12,7 +12,7 @@ If you believe you have found a security vulnerability in any GitHub-owned repos
 
 **Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.**
 
-Instead, please send an email to opensource-security[@]github.com.
+## Instead, please send an email to opensource-security[@]github.com.
 
 Please include as much of the information listed below as you can to help us better understand and resolve the issue:
 
@@ -24,8 +24,9 @@ Please include as much of the information listed below as you can to help us bet
   * Proof-of-concept or exploit code (if possible)
   * Impact of the issue, including how an attacker might exploit the issue
 
-This information will help us triage your report more quickly.
+## This information will help us triage your report more quickly.
 
 ## Policy
 
 See [GitHub's Safe Harbor Policy](https://docs.github.com/en/site-policy/security-policies/github-bug-bounty-program-legal-safe-harbor)
+## Welcome to Gboard clipboard, any text you copy will be saved here.
