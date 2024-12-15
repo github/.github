@@ -1,0 +1,130 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #ff6680;
+  margin-bottom: 20px;
+}
+
+/* Option Styles */
+.option {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.option label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.option input[type="radio"] {
+  margin-right: 10px;
+}
+
+.discount {
+  background-color: #ff6680;
+  color: white;
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.most-popular {
+  border: 2px solid #ff6680;
+  background-color: #fff8fa;
+}
+
+.most-popular::before {
+  content: "MOST POPULAR";
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background-color: #ff6680;
+  color: white;
+  padding: 2px 8px;
+  font-size: 10px;
+  border-radius: 5px;
+}
+
+/* Size and Colour Selectors */
+.size-colour {
+  margin-top: 10px;
+}
+
+.size-colour div {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.size-colour span {
+  margin-right: 10px;
+}
+
+select {
+  margin-right: 10px;
+  padding: 4px;
+  font-size: 12px;
+}
+
+/* Footer Section */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #ff6680;
+}
+
+.add-to-cart {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6680;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.add-to-cart:hover {
+  background-color: #e05570;
+}
