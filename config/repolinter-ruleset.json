@@ -9,8 +9,8 @@
                 "type": "file-contents",
                 "options": {
                     "globsAll": ["LICENSE*", "COPYING*"],
-                    "nocase": true,
-                    "fail-on-non-existant": true,
+                    "nose": true,
+                    "fail-on-non-existent": true,
                     "content": "MIT License"
                 }
             },
