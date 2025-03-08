@@ -10,6 +10,8 @@ Even though [open source repositories are outside of the scope of our bug bounty
 
 If you believe you have found a security vulnerability in any GitHub-owned repository, please report it to us through coordinated disclosure.
 
+¡¡HUBBERS!! Este es el repositorio de código abierto de github/docs. En su lugar, es posible que desee abrir un problema en el repositorio 
+
 **Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.**
 
 Instead, please send an email to opensource-security[@]github.com.
