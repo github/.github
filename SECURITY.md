@@ -1,7 +1,7 @@
-Thanks for helping make GitHub safe for everyone.
-
+©️ PETE & JUN DEVELOPMENT TEAM
+ALL RIGHTS RESERVED 
 ## Security
-
+CEO-PETE 
 GitHub takes the security of our software products and services seriously, including all of the open source code repositories managed through our GitHub organizations, such as [GitHub](https://github.com/GitHub).
 
 Even though [open source repositories are outside of the scope of our bug bounty program](https://bounty.github.com/index.html#scope) and therefore not eligible for bounty rewards, we will ensure that your finding gets passed along to the appropriate maintainers for remediation. 
