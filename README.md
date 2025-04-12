@@ -1,5 +1,5 @@
 # .github
+[files] for the 
+[@GitHub](https://github.com/github) [your organization]
 
-*Community health files for the [@GitHub](https://github.com/github) organization*
-
-For more information, please see the article on [creating a default community health file for your organization](https://help.github.com/en/articles/creating-a-default-community-health-file-for-your-organization).
+For more information, please see the on creating a new community for [your organization](https://www.github.com/enterprises/your-organization).[@GitHubEnterprises]
