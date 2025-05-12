@@ -1,4 +1,12 @@
-Thanks for helping make GitHub safe for everyone.
+CODE_OF_CONDUCT.md.>[!div class="step-by-step"]
+> [Pre](../docs/csharp/expression-trees-interpreting.md)
+> [Next](../docs/csharp/expression-trees-translating.md)-trees-interpreting.md-trees-translating.md> [!div class="button"]
+> [button links](dotnet-contribute.md)dotnet-contribute.md> [!div class="checklist"]
+> * How to create a .NET Core app
+> * How to add a reference to the Microsoft.XmlSerializer.Generator package
+> * How to edit your MyApp.csproj to add dependencies
+> * How to add a class and an XmlSerializer
+> * How to build and run the applicationMicrosoft.XmlSerializer.GeneratorMyApp.csproj> [!VIDEO https://www.youtube.com/embed/Q2mMbjw6cLA]https://www.youtube.com/embed/Q2mMbjw6cLA
 
 ## Security
 
