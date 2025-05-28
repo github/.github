@@ -1,0 +1,228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=zC7xTh84" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://home.baidu.com/","20130806095451","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1375782891");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=p7PEIJWi" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>关于百度</title>
+<link href="https://web.archive.org/web/20130806095451cs_/http://home.baidu.com/resource/r/home/style.css" rel="stylesheet" type="text/css">
+<script language="javascript" src="https://web.archive.org/web/20130806095451js_/http://home.baidu.com/resource/r/home/menu.js"></script>
+<script src="https://web.archive.org/web/20130806095451js_/http://home.baidu.com/resource/r/home/flash.js" language="javascript"></script>
+</head>
+
+<body>
+<!--顶部开始 --><div id="head"><a href="https://web.archive.org/web/20130806095451/http://www.baidu.com/"><img src="https://web.archive.org/web/20130806095451im_/http://home.baidu.com/resource/r/home/img/logo-yy.gif" class="log"></a></div><!--顶部结束 -->
+<table border="0" cellspacing="0" cellpadding="0" id="menu">
+  <tr>
+    <td><!--顶部导航开始 --><script language="javascript">menuTop(1);</script><noscript>如果您关闭了浏览器的javascript，可能导致页面部分功能无法显示，请开启javascript以便正常浏览本网页。</noscript><!--顶部导航结束 -->
+</td>
+    <td width="240"><!--站内搜索开始 --><script>
+			function doSearch(form){
+				form.ct.value = "2097152";
+				form.si.value = "home.baidu.com";
+				form.tn.value = "baidulocal";
+				form.action = "https://web.archive.org/web/20130806095451/http://www.baidu.com/s";
+				return true;
+			}
+function cls(tar){
+    if(tar.value==tar.getAttribute('defaultvalue')) tar.value="";
+}
+function res(tar){
+    if(tar.value=='') tar.value=tar.getAttribute('defaultvalue');
+}
+			document.write("<FORM name=f1 onsubmit='return doSearch(this);'>");
+			document.write("<INPUT type=hidden name=tn><INPUT type=hidden name=si><INPUT type=hidden name=ct>");
+			document.write("<INPUT class=formfont size=16 name=word style='border:1px solid #7f9db9;background:url(http://home.baidu.com/resource/r/home/img/dot6.gif) no-repeat;padding-left:28px;color: #cbcbcb' onfocus='cls(this);' onblur='res(this);' value=\"站内搜索\"  defaultvalue=\"站内搜索\" onClick= \"javascript:if(this.value=='站内搜索')this.value=''\";>&nbsp;");
+			document.write("<INPUT type=submit value=百度一下>");
+		</script><!--站内搜索结束 -->
+</td>
+  </tr>
+</table>
+<!--页面banner开始 -->
+<div class="bnrInd">
+  <script language="javascript">
+	//初始化Flash时，包含xml路径
+	CreateFlash("banner", "https://web.archive.org/web/20130806095451/http://home.baidu.com/resource/r/home/banner.swf", 1002, 280, "data=http://home.baidu.com/inddata.xml");
+</script></div>
+<!--页面banner结束 -->
+
+<div id="main">
+  <div class="indLeft1"><span class="f14b">新闻动态</span>
+    <ul class="indLsit1">
+       
+<li><strong>10/30/2012</strong><br>
+<a href="https://web.archive.org/web/20130806095451/http://home.baidu.com/news/2012-10-30/1352547758.html" target="_blank">百度发布三季度财报 移动流量增长迅猛</a></li>
+       
+<li><strong>10/18/2012</strong><br>
+<a href="https://web.archive.org/web/20130806095451/http://home.baidu.com/news/2012-10-18/1355219291.html" target="_blank">百度校园：揭秘百度人才成长机制</a></li>
+       
+<li><strong>10/18/2012</strong><br>
+<a href="https://web.archive.org/web/20130806095451/http://home.baidu.com/news/2012-10-18/1351351087.html" target="_blank">百度2013校园招聘宣讲会华南理工大学站</a></li>
+       
+<li><strong>10/18/2012</strong><br>
+<a href="https://web.archive.org/web/20130806095451/http://home.baidu.com/news/2012-10-18/1359826683.html" target="_blank">技术交流新平台，拉近网友与百度的距离</a></li>
+       
+<li><strong>10/18/2012</strong><br>
+<a href="https://web.archive.org/web/20130806095451/http://home.baidu.com/news/2012-10-18/1359620603.html" target="_blank">百度创始人李彦宏：判断你内心的“True N...</a></li>
+       
+<li><strong>10/16/2012</strong><br>
+<a href="https://web.archive.org/web/20130806095451/http://home.baidu.com/news/2012-10-18/1358576504.html" target="_blank">百度2013校园招聘宣讲会哈工大深圳研究生...</a></li>
+            <li><a href="https://web.archive.org/web/20130806095451/http://home.baidu.com/news/news/">更多&raquo;</a></li>
+    </ul>
+
+  </div>
+  
+  <div class="indLeft2">
+   <span class="f14b">百度直达</span>
+   <ul class="indLsit2">
+        <li>帮助中心
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+         <td><a href="https://web.archive.org/web/20130806095451/http://www.baidu.com/search/page_feature.html" target="_blank">搜索特色&gt;&gt;</a></td>
+         <td><a href="https://web.archive.org/web/20130806095451/http://www.baidu.com/search/skill.html" target="_blank">搜索技巧&gt;&gt;</a></td>
+         <td><a href="https://web.archive.org/web/20130806095451/http://www.baidu.com/search/zhinan.html" target="_blank">新手指南&gt;&gt;</a></td>
+       </tr>
+   </table>
+</li>
+        <li>用户联系
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+         <td><a href="https://web.archive.org/web/20130806095451/http://home.baidu.com/contact.html" target="_blank">联系方式&gt;&gt;</a></td>
+         <td><a href="https://web.archive.org/web/20130806095451/http://home.baidu.com/contact/visitbaidu.html" target="_blank">参观百度&gt;&gt;</a></td>
+         <td><a href="https://web.archive.org/web/20130806095451/http://tousu.baidu.com/" target="_blank">投诉中心&gt;&gt;</a></td>
+       </tr>
+   </table>
+</li>
+        <li>招聘信息
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+         <td><a href="https://web.archive.org/web/20130806095451/http://hr.baidu.com/" target="_blank">社会招聘&gt;&gt;</a></td>
+         <td><a href="https://web.archive.org/web/20130806095451/http://tongxue.baidu.com/" target="_blank">校园招聘&gt;&gt;</a></td>
+         <td><a href="https://web.archive.org/web/20130806095451/http://shixisheng.baidu.com/" target="_blank">实习生招聘&gt;&gt;</a></td>
+       </tr>
+   </table>
+</li>
+        <li>百度推广
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+         <td><a href="https://web.archive.org/web/20130806095451/http://e.baidu.com/client/" target="_blank">成功故事&gt;&gt;</a></td>
+         <td><a href="https://web.archive.org/web/20130806095451/http://e.baidu.com/product/" target="_blank">产品介绍&gt;&gt;</a></td>
+         <td><a href="https://web.archive.org/web/20130806095451/http://e.baidu.com/faq/" target="_blank">常见问题&gt;&gt;</a></td>
+       </tr>
+   </table>
+</li>
+        <li>品牌营销
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+         <td><a href="https://web.archive.org/web/20130806095451/http://brandlink.baidu.com/index.php" target="_blank">品牌专区&gt;&gt;</a></td>
+         <td><a href="https://web.archive.org/web/20130806095451/http://ad.baidu.com/fuwu_1_5.html" target="_blank">精准广告&gt;&gt;</a></td>
+         <td><a href="https://web.archive.org/web/20130806095451/http://ad.baidu.com/fuwu_1_4.html" target="_blank">社区营销&gt;&gt;</a></td>
+       </tr>
+   </table>
+</li>
+        <li>百度联盟
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+         <td><a href="https://web.archive.org/web/20130806095451/http://union.baidu.com/" target="_blank">关于联盟&gt;&gt;</a></td>
+         <td><a href="https://web.archive.org/web/20130806095451/http://union.baidu.com/product/prod-cpro.html" target="_blank">业务合作&gt;&gt;</a></td>
+         <td><a href="https://web.archive.org/web/20130806095451/http://yingxiao.baidu.com/support/union/?controller=index&amp;action=main&amp;castk=LTE%3D" target="_blank">支持中心&gt;&gt;</a></td>
+       </tr>
+   </table>
+</li>
+        <li>百度校园
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+         <td><a href="https://web.archive.org/web/20130806095451/http://campus.baidu.com/activity" target="_blank">校园活动&gt;&gt;</a></td>
+         <td><a href="https://web.archive.org/web/20130806095451/http://campus.baidu.com/course" target="_blank">校园课程&gt;&gt;</a></td>
+         <td><a href="https://web.archive.org/web/20130806095451/http://campus.baidu.com/pages/about" target="_blank">校园联系&gt;&gt;</a></td>
+       </tr>
+   </table>
+</li>
+   </ul>
+    
+  </div>
+  <div class="indRight">
+       <ul class="indLsit3">
+        <li>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="105"><img src="https://web.archive.org/web/20130806095451im_/http://home.baidu.com/resource/r/image/2012-08-29/b257fd40c3e5572f214e67c92a82a255.jpg"></td>
+<td><a href="https://web.archive.org/web/20130806095451/http://tongxue.baidu.com/" target="_blank" class="f14">2013校园招聘进行中 </a><br>
+               以实力不断挑战，以专业不断进取，以创新不断突破，招最好的人，给最大的空间，看最后的结果，让优秀的你脱颖而出！ </td>
+            </tr>
+          </table>
+        </li>
+     <li>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="105"><img src="https://web.archive.org/web/20130806095451im_/http://home.baidu.com/resource/r/image/2012-12-11/33fc59dbb24ce61c883227031d958ba9.jpg"></td>
+<td><a href="https://web.archive.org/web/20130806095451/http://edu.baidu.com/" target="_blank" class="f14">百度营销大学</a><br>
+               百度营销大学以“让营销人都懂互联网营销”为使命，致力于推动中国营销人员互联网营销水平的不断提升！</td>
+            </tr>
+          </table>
+        </li>
+        <li>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="105"><img src="https://web.archive.org/web/20130806095451im_/http://home.baidu.com/resource/r/image/2011-05-10/1467988a3a3e68edeb6ed07b33207f7f.jpg"></td>
+<td><a href="https://web.archive.org/web/20130806095451/http://gongyi.baidu.com/" target="_blank" class="f14">弥合信息鸿沟 共享知识社会</a><br>
+               百度公益频道全新上线，致力于集合百度人民和四亿网民的力量打造全球最大的公益信息平台！ </td>
+            </tr>
+          </table>
+        </li>
+      <li>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="105"><img src="https://web.archive.org/web/20130806095451im_/http://home.baidu.com/resource/r/image/2009-12-21/fd0b8c296e71ec60dbf899c06f8da3bb.gif"></td>
+<td><a href="https://web.archive.org/web/20130806095451/http://campus.baidu.com/" target="_blank" class="f14">百度校园正式上线
+</a><br>
+               百度校园倾听来自校园的声音，展开与校园师生的互动，是百度与学校沟通的桥梁</td>
+            </tr>
+          </table>
+        </li>
+    </ul>
+    </div>
+  <div class="clear"></div>
+</div><!--页脚其他链接开始 --><div id="pgft"><div>
+<a href="https://web.archive.org/web/20130806095451/http://gongyi.baidu.com/" target="_blank">百度公益</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="https://web.archive.org/web/20130806095451/http://csr.baidu.com/" target="_blank">社会责任</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="https://web.archive.org/web/20130806095451/http://ir.baidu.com/" target="_blank">About Baidu</a>
+</div></div><!--页脚其他链接结束 -->
+<!--页脚版权信息开始 --><div id="ft">&copy;2013 Baidu <a href="https://web.archive.org/web/20130806095451/http://www.baidu.com/duty/">使用百度前必读</a> <a href="https://web.archive.org/web/20130806095451/http://www.miibeian.gov.cn/" target="_blank">京ICP证030173号</a> <img src="https://web.archive.org/web/20130806095451im_/http://gimg.baidu.com/img/gs.gif"></div>
+<!--页脚版权信息结束 -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F42e7e1210aed7043d64111e71e0796af' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</body>
+</html><!--
+     FILE ARCHIVED ON 09:54:51 Aug 06, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:07:18 May 04, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.699
+  exclusion.robots: 0.047
+  exclusion.robots.policy: 0.036
+  esindex: 0.009
+  cdx.remote: 20.147
+  LoadShardBlock: 387.967 (6)
+  PetaboxLoader3.datanode: 238.218 (8)
+  PetaboxLoader3.resolve: 363.706 (4)
+  load_resource: 358.612 (2)
+-->

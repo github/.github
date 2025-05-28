@@ -1,0 +1,4 @@
+User-Agent: T-1000
+User-Agent: T-800
+Disallow: /+LarryPage
+Disallow: /+SergeyBrin

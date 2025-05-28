@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="https://www.unicode.org/webscripts/standard_styles.css" type="text/css" rel="stylesheet">
+
+<meta name="keywords" content=" iso 15924, script codes, registration authority, maintenance agency">
+
+<title>ISO 15924 Alphabetical Code List</title>
+
+<style type="text/css">
+.hilite           { background-color: #FFFFCC; } 
+</style>
+</head>
+
+<body>
+<table cellspacing="0" cellpadding="0" width="100%" border="0">
+
+<!-- BEGIN HEADER BAR -->
+    <tr>
+      <td colspan="2">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          
+          <td class="icon" style="width:38px; height:35px">
+          <a href="https://www.unicode.org/">
+          <img border="0" src="https://www.unicode.org/webscripts/logo60s2.gif" align="middle" 
+          alt="[Unicode]" width="34" height="33"></a>
+          </td>
+
+          <td class="icon" style="vertical-align:middle">
+          <a class="bar"> </a>
+          <a class="bar" href="https://www.unicode.org/iso15924/codelists.html"><font size="3">ISO 15924 Code Lists</font></a>
+          </td>
+
+          <td class="bar">
+          <a href="https://www.unicode.org/main.html" class="bar">Tech Site</a> 
+          | <a href="https://www.unicode.org/sitemap/" class="bar">Site Map</a> |
+          <a href="https://www.unicode.org/search" class="bar">Search </a>
+          </td>
+
+        </tr>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="gray">&nbsp;</td>
+    </tr>
+<!-- END HEADER BAR -->
+
+	<tr>
+		<td>
+		<table>
+			<tr>
+				<td class="contents" valign="top">
+				<blockquote>
+
+<!-- Page specific content starts here -->
+
+<h1>Codes for the representation of names of scripts<br>
+Codes pour la représentation des noms d’écritures</h1>
+
+<hr>
+
+<div align="center"><h2>Table 1<br>
+Alphabetical list of four-letter script codes<br>
+Liste alphabétique des codets d’écriture à quatre lettres</h2>
+</div>
+
+
+<div align="center">
+	<table class="simple">
+<tr><th class="hilite">Code</th><th>N°</th><th>English Name</th><th>Nom français</th><th><a href="https://www.unicode.org/Public/UCD/latest/ucd/PropertyValueAliases.txt">Alias</a></th><th>Age</th><th>Date</th></tr>
+
+<tr><td>Adlm</td><td>166</td><td>Adlam</td><td>adlam</td><td>Adlam</td><td>9.0</td><td nowrap>2016-12-05</td></tr>
+<tr><td>Afak</td><td>439</td><td>Afaka</td><td>afaka</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2010-12-21</td></tr>
+<tr><td>Aghb</td><td>239</td><td>Caucasian Albanian</td><td>aghbanien</td><td>Caucasian_Albanian</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Ahom</td><td>338</td><td>Ahom, Tai Ahom</td><td>âhom</td><td>Ahom</td><td>8.0</td><td nowrap>2015-07-07</td></tr>
+<tr><td>Arab</td><td>160</td><td>Arabic</td><td>arabe</td><td>Arabic</td><td>1.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Aran</td><td>161</td><td>Arabic (Nastaliq variant)</td><td>arabe (variante nastalique)</td><td>&nbsp;</td><td>1.1</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Armi</td><td>124</td><td>Imperial Aramaic</td><td>araméen impérial</td><td>Imperial_Aramaic</td><td>5.2</td><td nowrap>2009-06-01</td></tr>
+<tr><td>Armn</td><td>230</td><td>Armenian</td><td>arménien</td><td>Armenian</td><td>1.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Avst</td><td>134</td><td>Avestan</td><td>avestique</td><td>Avestan</td><td>5.2</td><td nowrap>2009-06-01</td></tr>
+<tr><td>Bali</td><td>360</td><td>Balinese</td><td>balinais</td><td>Balinese</td><td>5.0</td><td nowrap>2006-10-10</td></tr>
+<tr><td>Bamu</td><td>435</td><td>Bamum</td><td>bamoum</td><td>Bamum</td><td>5.2</td><td nowrap>2009-06-01</td></tr>
+<tr><td>Bass</td><td>259</td><td>Bassa Vah</td><td>bassa</td><td>Bassa_Vah</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Batk</td><td>365</td><td>Batak</td><td>batak</td><td>Batak</td><td>6.0</td><td nowrap>2010-07-23</td></tr>
+<tr><td>Beng</td><td>325</td><td>Bengali (Bangla)</td><td>bengalî (bangla)</td><td>Bengali</td><td>1.1</td><td nowrap>2016-12-05</td></tr>
+<tr><td>Berf</td><td>258</td><td>Beria Erfe</td><td>beria erfe</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2025-01-06</td></tr>
+<tr><td>Bhks</td><td>334</td><td>Bhaiksuki</td><td>bhaïksukî</td><td>Bhaiksuki</td><td>9.0</td><td nowrap>2016-12-05</td></tr>
+<tr><td>Blis</td><td>550</td><td>Blissymbols</td><td>symboles Bliss</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Bopo</td><td>285</td><td>Bopomofo</td><td>bopomofo</td><td>Bopomofo</td><td>1.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Brah</td><td>300</td><td>Brahmi</td><td>brahma</td><td>Brahmi</td><td>6.0</td><td nowrap>2010-07-23</td></tr>
+<tr><td>Brai</td><td>570</td><td>Braille</td><td>braille</td><td>Braille</td><td>3.0</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Bugi</td><td>367</td><td>Buginese</td><td>bouguis</td><td>Buginese</td><td>4.1</td><td nowrap>2006-06-21</td></tr>
+<tr><td>Buhd</td><td>372</td><td>Buhid</td><td>bouhide</td><td>Buhid</td><td>3.2</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Cakm</td><td>349</td><td>Chakma</td><td>chakma</td><td>Chakma</td><td>6.1</td><td nowrap>2012-02-06</td></tr>
+<tr><td>Cans</td><td>440</td><td>Unified Canadian Aboriginal Syllabics</td><td>syllabaire autochtone canadien unifié</td><td>Canadian_Aboriginal</td><td>3.0</td><td nowrap>2004-05-29</td></tr>
+<tr><td>Cari</td><td>201</td><td>Carian</td><td>carien</td><td>Carian</td><td>5.1</td><td nowrap>2007-07-02</td></tr>
+<tr><td>Cham</td><td>358</td><td>Cham</td><td>cham (čam, tcham)</td><td>Cham</td><td>5.1</td><td nowrap>2009-11-11</td></tr>
+<tr><td>Cher</td><td>445</td><td>Cherokee</td><td>tchérokî</td><td>Cherokee</td><td>3.0</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Chis</td><td>298</td><td>Chisoi</td><td>chisoi</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2023-09-12</td></tr>
+<tr><td>Chrs</td><td>109</td><td>Chorasmian</td><td>chorasmien</td><td>Chorasmian</td><td>13.0</td><td nowrap>2019-08-19</td></tr>
+<tr><td>Cirt</td><td>291</td><td>Cirth</td><td>cirth</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Copt</td><td>204</td><td>Coptic</td><td>copte</td><td>Coptic</td><td>4.1</td><td nowrap>2006-06-21</td></tr>
+<tr><td>Cpmn</td><td>402</td><td>Cypro-Minoan</td><td>syllabaire chypro-minoen</td><td>Cypro_Minoan</td><td>14.0</td><td nowrap>2017-07-26</td></tr>
+<tr><td>Cprt</td><td>403</td><td>Cypriot syllabary</td><td>syllabaire chypriote</td><td>Cypriot</td><td>4.0</td><td nowrap>2017-07-26</td></tr>
+<tr><td>Cyrl</td><td>220</td><td>Cyrillic</td><td>cyrillique</td><td>Cyrillic</td><td>1.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Cyrs</td><td>221</td><td>Cyrillic (Old Church Slavonic variant)</td><td>cyrillique (variante slavonne)</td><td>&nbsp;</td><td>1.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Deva</td><td>315</td><td>Devanagari (Nagari)</td><td>dévanâgarî</td><td>Devanagari</td><td>1.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Diak</td><td>342</td><td>Dives Akuru</td><td>dives akuru</td><td>Dives_Akuru</td><td>13.0</td><td nowrap>2019-08-19</td></tr>
+<tr><td>Dogr</td><td>328</td><td>Dogra</td><td>dogra</td><td>Dogra</td><td>11.0</td><td nowrap>2016-12-05</td></tr>
+<tr><td>Dsrt</td><td>250</td><td>Deseret (Mormon)</td><td>déseret (mormon)</td><td>Deseret</td><td>3.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Dupl</td><td>755</td><td>Duployan shorthand, Duployan stenography</td><td>sténographie Duployé</td><td>Duployan</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Egyd</td><td>070</td><td>Egyptian demotic</td><td>démotique égyptien</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Egyh</td><td>060</td><td>Egyptian hieratic</td><td>hiératique égyptien</td><td>&nbsp;</td><td>5.2</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Egyp</td><td>050</td><td>Egyptian hieroglyphs</td><td>hiéroglyphes égyptiens</td><td>Egyptian_Hieroglyphs</td><td>5.2</td><td nowrap>2009-06-01</td></tr>
+<tr><td>Elba</td><td>226</td><td>Elbasan</td><td>elbasan</td><td>Elbasan</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Elym</td><td>128</td><td>Elymaic</td><td>élymaïque</td><td>Elymaic</td><td>12.0</td><td nowrap>2018-08-26</td></tr>
+<tr><td>Ethi</td><td>430</td><td>Ethiopic (Geʻez)</td><td>éthiopien (geʻez, guèze)</td><td>Ethiopic</td><td>3.0</td><td nowrap>2004-10-25</td></tr>
+<tr><td>Gara</td><td>164</td><td>Garay</td><td>garay</td><td>Garay</td><td>16.0</td><td nowrap>2023-09-12</td></tr>
+<tr><td>Geok</td><td>241</td><td>Khutsuri (Asomtavruli and Nuskhuri)</td><td>khoutsouri (assomtavrouli et nouskhouri)</td><td>Georgian</td><td>1.1</td><td nowrap>2012-10-16</td></tr>
+<tr><td>Geor</td><td>240</td><td>Georgian (Mkhedruli and Mtavruli)</td><td>géorgien (mkhédrouli et mtavrouli)</td><td>Georgian</td><td>1.1</td><td nowrap>2016-12-05</td></tr>
+<tr><td>Glag</td><td>225</td><td>Glagolitic</td><td>glagolitique</td><td>Glagolitic</td><td>4.1</td><td nowrap>2006-06-21</td></tr>
+<tr><td>Gong</td><td>312</td><td>Gunjala Gondi</td><td>gunjala gondî</td><td>Gunjala_Gondi</td><td>11.0</td><td nowrap>2016-12-05</td></tr>
+<tr><td>Gonm</td><td>313</td><td>Masaram Gondi</td><td>masaram gondî</td><td>Masaram_Gondi</td><td>10.0</td><td nowrap>2017-07-26</td></tr>
+<tr><td>Goth</td><td>206</td><td>Gothic</td><td>gotique</td><td>Gothic</td><td>3.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Gran</td><td>343</td><td>Grantha</td><td>grantha</td><td>Grantha</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Grek</td><td>200</td><td>Greek</td><td>grec</td><td>Greek</td><td>1.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Gujr</td><td>320</td><td>Gujarati</td><td>goudjarâtî (gujrâtî)</td><td>Gujarati</td><td>1.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Gukh</td><td>397</td><td>Gurung Khema</td><td>gurung khema</td><td>Gurung_Khema</td><td>16.0</td><td nowrap>2023-09-12</td></tr>
+<tr><td>Guru</td><td>310</td><td>Gurmukhi</td><td>gourmoukhî</td><td>Gurmukhi</td><td>1.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Hanb</td><td>503</td><td>Han with Bopomofo (alias for Han + Bopomofo)</td><td>han avec bopomofo (alias pour han + bopomofo)</td><td>&nbsp;</td><td>1.1</td><td nowrap>2016-01-19</td></tr>
+<tr><td>Hang</td><td>286</td><td>Hangul (Hangŭl, Hangeul)</td><td>hangûl (hangŭl, hangeul)</td><td>Hangul</td><td>1.1</td><td nowrap>2004-05-29</td></tr>
+<tr><td>Hani</td><td>500</td><td>Han (Hanzi, Kanji, Hanja)</td><td>idéogrammes han (sinogrammes)</td><td>Han</td><td>1.1</td><td nowrap>2009-02-23</td></tr>
+<tr><td>Hano</td><td>371</td><td>Hanunoo (Hanunóo)</td><td>hanounóo</td><td>Hanunoo</td><td>3.2</td><td nowrap>2004-05-29</td></tr>
+<tr><td>Hans</td><td>501</td><td>Han (Simplified variant)</td><td>idéogrammes han (variante simplifiée)</td><td>&nbsp;</td><td>1.1</td><td nowrap>2004-05-29</td></tr>
+<tr><td>Hant</td><td>502</td><td>Han (Traditional variant)</td><td>idéogrammes han (variante traditionnelle)</td><td>&nbsp;</td><td>1.1</td><td nowrap>2004-05-29</td></tr>
+<tr><td>Hatr</td><td>127</td><td>Hatran</td><td>hatrénien</td><td>Hatran</td><td>8.0</td><td nowrap>2015-07-07</td></tr>
+<tr><td>Hebr</td><td>125</td><td>Hebrew</td><td>hébreu</td><td>Hebrew</td><td>1.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Hira</td><td>410</td><td>Hiragana</td><td>hiragana</td><td>Hiragana</td><td>1.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Hluw</td><td>080</td><td>Anatolian Hieroglyphs (Luwian Hieroglyphs, Hittite Hieroglyphs)</td><td>hiéroglyphes anatoliens (hiéroglyphes louvites, hiéroglyphes hittites)</td><td>Anatolian_Hieroglyphs</td><td>8.0</td><td nowrap>2015-07-07</td></tr>
+<tr><td>Hmng</td><td>450</td><td>Pahawh Hmong</td><td>pahawh hmong</td><td>Pahawh_Hmong</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Hmnp</td><td>451</td><td>Nyiakeng Puachue Hmong</td><td>nyiakeng puachue hmong</td><td>Nyiakeng_Puachue_Hmong</td><td>12.0</td><td nowrap>2017-07-26</td></tr>
+<tr><td>Hrkt</td><td>412</td><td>Japanese syllabaries (alias for Hiragana + Katakana)</td><td>syllabaires japonais (alias pour hiragana + katakana)</td><td>Katakana_Or_Hiragana</td><td>1.1</td><td nowrap>2011-06-21</td></tr>
+<tr><td>Hung</td><td>176</td><td>Old Hungarian (Hungarian Runic)</td><td>runes hongroises (ancien hongrois)</td><td>Old_Hungarian</td><td>8.0</td><td nowrap>2015-07-07</td></tr>
+<tr><td>Inds</td><td>610</td><td>Indus (Harappan)</td><td>indus</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Ital</td><td>210</td><td>Old Italic (Etruscan, Oscan, etc.)</td><td>ancien italique (étrusque, osque, etc.)</td><td>Old_Italic</td><td>3.1</td><td nowrap>2004-05-29</td></tr>
+<tr><td>Jamo</td><td>284</td><td>Jamo (alias for Jamo subset of Hangul)</td><td>jamo (alias pour le sous-ensemble jamo du hangûl)</td><td>&nbsp;</td><td>1.1</td><td nowrap>2016-01-19</td></tr>
+<tr><td>Java</td><td>361</td><td>Javanese</td><td>javanais</td><td>Javanese</td><td>5.2</td><td nowrap>2009-06-01</td></tr>
+<tr><td>Jpan</td><td>413</td><td>Japanese (alias for Han + Hiragana + Katakana)</td><td>japonais (alias pour han + hiragana + katakana)</td><td>&nbsp;</td><td>1.1</td><td nowrap>2006-06-21</td></tr>
+<tr><td>Jurc</td><td>510</td><td>Jurchen</td><td>jurchen</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2010-12-21</td></tr>
+<tr><td>Kali</td><td>357</td><td>Kayah Li</td><td>kayah li</td><td>Kayah_Li</td><td>5.1</td><td nowrap>2007-07-02</td></tr>
+<tr><td>Kana</td><td>411</td><td>Katakana</td><td>katakana</td><td>Katakana</td><td>1.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Kawi</td><td>368</td><td>Kawi</td><td>kawi</td><td>Kawi</td><td>15.0</td><td nowrap>2021-12-03</td></tr>
+<tr><td>Khar</td><td>305</td><td>Kharoshthi</td><td>kharochthî</td><td>Kharoshthi</td><td>4.1</td><td nowrap>2006-06-21</td></tr>
+<tr><td>Khmr</td><td>355</td><td>Khmer</td><td>khmer</td><td>Khmer</td><td>3.0</td><td nowrap>2004-05-29</td></tr>
+<tr><td>Khoj</td><td>322</td><td>Khojki</td><td>khojkî</td><td>Khojki</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Kitl</td><td>505</td><td>Khitan large script</td><td>grande écriture khitan</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2015-07-15</td></tr>
+<tr><td>Kits</td><td>288</td><td>Khitan small script</td><td>petite écriture khitan</td><td>Khitan_Small_Script</td><td>13.0</td><td nowrap>2015-07-15</td></tr>
+<tr><td>Knda</td><td>345</td><td>Kannada</td><td>kannara (canara)</td><td>Kannada</td><td>1.1</td><td nowrap>2004-05-29</td></tr>
+<tr><td>Kore</td><td>287</td><td>Korean (alias for Hangul + Han)</td><td>coréen (alias pour hangûl + han)</td><td>&nbsp;</td><td>1.1</td><td nowrap>2007-06-13</td></tr>
+<tr><td>Kpel</td><td>436</td><td>Kpelle</td><td>kpèllé</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2010-03-26</td></tr>
+<tr><td>Krai</td><td>396</td><td>Kirat Rai</td><td>kirat rai</td><td>Kirat_Rai</td><td>16.0</td><td nowrap>2023-09-12</td></tr>
+<tr><td>Kthi</td><td>317</td><td>Kaithi</td><td>kaithî</td><td>Kaithi</td><td>5.2</td><td nowrap>2009-06-01</td></tr>
+<tr><td>Lana</td><td>351</td><td>Tai Tham (Lanna)</td><td>taï tham (lanna)</td><td>Tai_Tham</td><td>5.2</td><td nowrap>2009-06-01</td></tr>
+<tr><td>Laoo</td><td>356</td><td>Lao</td><td>laotien</td><td>Lao</td><td>1.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Latf</td><td>217</td><td>Latin (Fraktur variant)</td><td>latin (variante brisée)</td><td>&nbsp;</td><td>1.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Latg</td><td>216</td><td>Latin (Gaelic variant)</td><td>latin (variante gaélique)</td><td>&nbsp;</td><td>1.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Latn</td><td>215</td><td>Latin</td><td>latin</td><td>Latin</td><td>1.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Leke</td><td>364</td><td>Leke</td><td>léké</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2015-07-07</td></tr>
+<tr><td>Lepc</td><td>335</td><td>Lepcha (Róng)</td><td>lepcha (róng)</td><td>Lepcha</td><td>5.1</td><td nowrap>2007-07-02</td></tr>
+<tr><td>Limb</td><td>336</td><td>Limbu</td><td>limbou</td><td>Limbu</td><td>4.0</td><td nowrap>2004-05-29</td></tr>
+<tr><td>Lina</td><td>400</td><td>Linear A</td><td>linéaire A</td><td>Linear_A</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Linb</td><td>401</td><td>Linear B</td><td>linéaire B</td><td>Linear_B</td><td>4.0</td><td nowrap>2004-05-29</td></tr>
+<tr><td>Lisu</td><td>399</td><td>Lisu (Fraser)</td><td>lisu (Fraser)</td><td>Lisu</td><td>5.2</td><td nowrap>2009-06-01</td></tr>
+<tr><td>Loma</td><td>437</td><td>Loma</td><td>loma</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2010-03-26</td></tr>
+<tr><td>Lyci</td><td>202</td><td>Lycian</td><td>lycien</td><td>Lycian</td><td>5.1</td><td nowrap>2007-07-02</td></tr>
+<tr><td>Lydi</td><td>116</td><td>Lydian</td><td>lydien</td><td>Lydian</td><td>5.1</td><td nowrap>2007-07-02</td></tr>
+<tr><td>Mahj</td><td>314</td><td>Mahajani</td><td>mahâjanî</td><td>Mahajani</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Maka</td><td>366</td><td>Makasar</td><td>makassar</td><td>Makasar</td><td>11.0</td><td nowrap>2016-12-05</td></tr>
+<tr><td>Mand</td><td>140</td><td>Mandaic, Mandaean</td><td>mandéen</td><td>Mandaic</td><td>6.0</td><td nowrap>2010-07-23</td></tr>
+<tr><td>Mani</td><td>139</td><td>Manichaean</td><td>manichéen</td><td>Manichaean</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Marc</td><td>332</td><td>Marchen</td><td>marchen</td><td>Marchen</td><td>9.0</td><td nowrap>2016-12-05</td></tr>
+<tr><td>Maya</td><td>090</td><td>Mayan hieroglyphs</td><td>hiéroglyphes mayas</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Medf</td><td>265</td><td>Medefaidrin (Oberi Okaime, Oberi Ɔkaimɛ)</td><td>médéfaïdrine</td><td>Medefaidrin</td><td>11.0</td><td nowrap>2016-12-05</td></tr>
+<tr><td>Mend</td><td>438</td><td>Mende Kikakui</td><td>mendé kikakui</td><td>Mende_Kikakui</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Merc</td><td>101</td><td>Meroitic Cursive</td><td>cursif méroïtique</td><td>Meroitic_Cursive</td><td>6.1</td><td nowrap>2012-02-06</td></tr>
+<tr><td>Mero</td><td>100</td><td>Meroitic Hieroglyphs</td><td>hiéroglyphes méroïtiques</td><td>Meroitic_Hieroglyphs</td><td>6.1</td><td nowrap>2012-02-06</td></tr>
+<tr><td>Mlym</td><td>347</td><td>Malayalam</td><td>malayâlam</td><td>Malayalam</td><td>1.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Modi</td><td>324</td><td>Modi, Moḍī</td><td>modî</td><td>Modi</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Mong</td><td>145</td><td>Mongolian</td><td>mongol</td><td>Mongolian</td><td>3.0</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Moon</td><td>218</td><td>Moon (Moon code, Moon script, Moon type)</td><td>écriture Moon</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2006-12-11</td></tr>
+<tr><td>Mroo</td><td>264</td><td>Mro, Mru</td><td>mro</td><td>Mro</td><td>7.0</td><td nowrap>2016-12-05</td></tr>
+<tr><td>Mtei</td><td>337</td><td>Meitei Mayek (Meithei, Meetei)</td><td>meitei mayek</td><td>Meetei_Mayek</td><td>5.2</td><td nowrap>2009-06-01</td></tr>
+<tr><td>Mult</td><td>323</td><td>Multani</td><td>multanî</td><td>Multani</td><td>8.0</td><td nowrap>2015-07-07</td></tr>
+<tr><td>Mymr</td><td>350</td><td>Myanmar (Burmese)</td><td>birman</td><td>Myanmar</td><td>3.0</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Nagm</td><td>295</td><td>Nag Mundari</td><td>nag mundari</td><td>Nag_Mundari</td><td>15.0</td><td nowrap>2021-12-03</td></tr>
+<tr><td>Nand</td><td>311</td><td>Nandinagari</td><td>nandinâgarî</td><td>Nandinagari</td><td>12.0</td><td nowrap>2018-08-26</td></tr>
+<tr><td>Narb</td><td>106</td><td>Old North Arabian (Ancient North Arabian)</td><td>nord-arabique</td><td>Old_North_Arabian</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Nbat</td><td>159</td><td>Nabataean</td><td>nabatéen</td><td>Nabataean</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Newa</td><td>333</td><td>Newa, Newar, Newari, Nepāla lipi</td><td>néwa, néwar, néwari, nepāla lipi</td><td>Newa</td><td>9.0</td><td nowrap>2016-12-05</td></tr>
+<tr><td>Nkdb</td><td>085</td><td>Naxi Dongba (na²¹ɕi³³ to³³ba²¹, Nakhi Tomba)</td><td>naxi dongba</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2017-07-26</td></tr>
+<tr><td>Nkgb</td><td>420</td><td>Naxi Geba (na²¹ɕi³³ gʌ²¹ba²¹, 'Na-'Khi ²Ggŏ-¹baw, Nakhi Geba)</td><td>naxi geba, nakhi geba</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2017-07-26</td></tr>
+<tr><td>Nkoo</td><td>165</td><td>N’Ko</td><td>n’ko</td><td>Nko</td><td>5.0</td><td nowrap>2006-10-10</td></tr>
+<tr><td>Nshu</td><td>499</td><td>Nüshu</td><td>nüshu</td><td>Nushu</td><td>10.0</td><td nowrap>2017-07-26</td></tr>
+<tr><td>Ogam</td><td>212</td><td>Ogham</td><td>ogam</td><td>Ogham</td><td>3.0</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Olck</td><td>261</td><td>Ol Chiki (Ol Cemet’, Ol, Santali)</td><td>ol tchiki</td><td>Ol_Chiki</td><td>5.1</td><td nowrap>2007-07-02</td></tr>
+<tr><td>Onao</td><td>296</td><td>Ol Onal</td><td>ol onal</td><td>Ol_Onal</td><td>16.0</td><td nowrap>2023-09-12</td></tr>
+<tr><td>Orkh</td><td>175</td><td>Old Turkic, Orkhon Runic</td><td>orkhon</td><td>Old_Turkic</td><td>5.2</td><td nowrap>2009-06-01</td></tr>
+<tr><td>Orya</td><td>327</td><td>Oriya (Odia)</td><td>oriyâ (odia)</td><td>Oriya</td><td>1.1</td><td nowrap>2016-12-05</td></tr>
+<tr><td>Osge</td><td>219</td><td>Osage</td><td>osage</td><td>Osage</td><td>9.0</td><td nowrap>2016-12-05</td></tr>
+<tr><td>Osma</td><td>260</td><td>Osmanya</td><td>osmanais</td><td>Osmanya</td><td>4.0</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Ougr</td><td>143</td><td>Old Uyghur</td><td>ancien ouïgour</td><td>Old_Uyghur</td><td>14.0</td><td nowrap>2021-01-25</td></tr>
+<tr><td>Palm</td><td>126</td><td>Palmyrene</td><td>palmyrénien</td><td>Palmyrene</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Pauc</td><td>263</td><td>Pau Cin Hau</td><td>paou chin haou</td><td>Pau_Cin_Hau</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Pcun</td><td>015</td><td>Proto-Cuneiform</td><td>proto-cunéiforme</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2021-01-25</td></tr>
+<tr><td>Pelm</td><td>016</td><td>Proto-Elamite</td><td>proto-élamite</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2021-01-25</td></tr>
+<tr><td>Perm</td><td>227</td><td>Old Permic</td><td>ancien permien</td><td>Old_Permic</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Phag</td><td>331</td><td>Phags-pa</td><td>’phags pa</td><td>Phags_Pa</td><td>5.0</td><td nowrap>2006-10-10</td></tr>
+<tr><td>Phli</td><td>131</td><td>Inscriptional Pahlavi</td><td>pehlevi des inscriptions</td><td>Inscriptional_Pahlavi</td><td>5.2</td><td nowrap>2009-06-01</td></tr>
+<tr><td>Phlp</td><td>132</td><td>Psalter Pahlavi</td><td>pehlevi des psautiers</td><td>Psalter_Pahlavi</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Phlv</td><td>133</td><td>Book Pahlavi</td><td>pehlevi des livres</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2007-07-15</td></tr>
+<tr><td>Phnx</td><td>115</td><td>Phoenician</td><td>phénicien</td><td>Phoenician</td><td>5.0</td><td nowrap>2006-10-10</td></tr>
+<tr><td>Plrd</td><td>282</td><td>Miao (Pollard)</td><td>miao (Pollard)</td><td>Miao</td><td>6.1</td><td nowrap>2012-02-06</td></tr>
+<tr><td>Piqd</td><td>293</td><td>Klingon (KLI pIqaD)</td><td>klingon (pIqaD du KLI)</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2015-12-16</td></tr>
+<tr><td>Prti</td><td>130</td><td>Inscriptional Parthian</td><td>parthe des inscriptions</td><td>Inscriptional_Parthian</td><td>5.2</td><td nowrap>2009-06-01</td></tr>
+<tr><td>Psin</td><td>103</td><td>Proto-Sinaitic</td><td>proto-sinaïtique</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2021-01-25</td></tr>
+<tr><td>Qaaa</td><td>900</td><td>Reserved for private use (start)</td><td>réservé à l’usage privé (début)</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2004-05-29</td></tr>
+<tr><td>Qabx</td><td>949</td><td>Reserved for private use (end)</td><td>réservé à l’usage privé (fin)</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2004-05-29</td></tr>
+<tr><td>Ranj</td><td>303</td><td>Ranjana</td><td>ranjana</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2021-01-25</td></tr>
+<tr><td>Rjng</td><td>363</td><td>Rejang (Redjang, Kaganga)</td><td>redjang (kaganga)</td><td>Rejang</td><td>5.1</td><td nowrap>2009-02-23</td></tr>
+<tr><td>Rohg</td><td>167</td><td>Hanifi Rohingya</td><td>hanifi rohingya</td><td>Hanifi_Rohingya</td><td>11.0</td><td nowrap>2017-11-21</td></tr>
+<tr><td>Roro</td><td>620</td><td>Rongorongo</td><td>rongorongo</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Runr</td><td>211</td><td>Runic</td><td>runique</td><td>Runic</td><td>3.0</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Samr</td><td>123</td><td>Samaritan</td><td>samaritain</td><td>Samaritan</td><td>5.2</td><td nowrap>2009-06-01</td></tr>
+<tr><td>Sara</td><td>292</td><td>Sarati</td><td>sarati</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2004-05-29</td></tr>
+<tr><td>Sarb</td><td>105</td><td>Old South Arabian</td><td>sud-arabique, himyarite</td><td>Old_South_Arabian</td><td>5.2</td><td nowrap>2009-06-01</td></tr>
+<tr><td>Saur</td><td>344</td><td>Saurashtra</td><td>saurachtra</td><td>Saurashtra</td><td>5.1</td><td nowrap>2007-07-02</td></tr>
+<tr><td>Sgnw</td><td>095</td><td>SignWriting</td><td>SignÉcriture, SignWriting</td><td>SignWriting</td><td>8.0</td><td nowrap>2015-07-07</td></tr>
+<tr><td>Shaw</td><td>281</td><td>Shavian (Shaw)</td><td>shavien (Shaw)</td><td>Shavian</td><td>4.0</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Shrd</td><td>319</td><td>Sharada, Śāradā</td><td>charada, shard</td><td>Sharada</td><td>6.1</td><td nowrap>2012-02-06</td></tr>
+<tr><td>Shui</td><td>530</td><td>Shuishu</td><td>shuishu</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2017-07-26</td></tr>
+<tr><td>Sidd</td><td>302</td><td>Siddham, Siddhaṃ, Siddhamātṛkā</td><td>siddham</td><td>Siddham</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Sidt</td><td>180</td><td>Sidetic</td><td>sidétique</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2023-09-12</td></tr>
+<tr><td>Sind</td><td>318</td><td>Khudawadi, Sindhi</td><td>khoudawadî, sindhî</td><td>Khudawadi</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Sinh</td><td>348</td><td>Sinhala</td><td>singhalais</td><td>Sinhala</td><td>3.0</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Sogd</td><td>141</td><td>Sogdian</td><td>sogdien</td><td>Sogdian</td><td>11.0</td><td nowrap>2017-11-21</td></tr>
+<tr><td>Sogo</td><td>142</td><td>Old Sogdian</td><td>ancien sogdien</td><td>Old_Sogdian</td><td>11.0</td><td nowrap>2017-11-21</td></tr>
+<tr><td>Sora</td><td>398</td><td>Sora Sompeng</td><td>sora sompeng</td><td>Sora_Sompeng</td><td>6.1</td><td nowrap>2012-02-06</td></tr>
+<tr><td>Soyo</td><td>329</td><td>Soyombo</td><td>soyombo</td><td>Soyombo</td><td>10.0</td><td nowrap>2017-07-26</td></tr>
+<tr><td>Sund</td><td>362</td><td>Sundanese</td><td>sundanais</td><td>Sundanese</td><td>5.1</td><td nowrap>2007-07-02</td></tr>
+<tr><td>Sunu</td><td>274</td><td>Sunuwar</td><td>sunuwar</td><td>Sunuwar</td><td>16.0</td><td nowrap>2021-12-03</td></tr>
+<tr><td>Sylo</td><td>316</td><td>Syloti Nagri</td><td>sylotî nâgrî</td><td>Syloti_Nagri</td><td>4.1</td><td nowrap>2006-06-21</td></tr>
+<tr><td>Syrc</td><td>135</td><td>Syriac</td><td>syriaque</td><td>Syriac</td><td>3.0</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Syre</td><td>138</td><td>Syriac (Estrangelo variant)</td><td>syriaque (variante estranghélo)</td><td>&nbsp;</td><td>3.0</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Syrj</td><td>137</td><td>Syriac (Western variant)</td><td>syriaque (variante occidentale)</td><td>&nbsp;</td><td>3.0</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Syrn</td><td>136</td><td>Syriac (Eastern variant)</td><td>syriaque (variante orientale)</td><td>&nbsp;</td><td>3.0</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Tagb</td><td>373</td><td>Tagbanwa</td><td>tagbanoua</td><td>Tagbanwa</td><td>3.2</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Takr</td><td>321</td><td>Takri, Ṭākrī, Ṭāṅkrī</td><td>tâkrî</td><td>Takri</td><td>6.1</td><td nowrap>2012-02-06</td></tr>
+<tr><td>Tale</td><td>353</td><td>Tai Le</td><td>taï-le</td><td>Tai_Le</td><td>4.0</td><td nowrap>2004-10-25</td></tr>
+<tr><td>Talu</td><td>354</td><td>New Tai Lue</td><td>nouveau taï-lue</td><td>New_Tai_Lue</td><td>4.1</td><td nowrap>2006-06-21</td></tr>
+<tr><td>Taml</td><td>346</td><td>Tamil</td><td>tamoul</td><td>Tamil</td><td>1.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Tang</td><td>520</td><td>Tangut</td><td>tangoute</td><td>Tangut</td><td>9.0</td><td nowrap>2016-12-05</td></tr>
+<tr><td>Tavt</td><td>359</td><td>Tai Viet</td><td>taï viêt</td><td>Tai_Viet</td><td>5.2</td><td nowrap>2009-06-01</td></tr>
+<tr><td>Tayo</td><td>380</td><td>Tai Yo</td><td>taï yo</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2023-09-12</td></tr>
+<tr><td>Telu</td><td>340</td><td>Telugu</td><td>télougou</td><td>Telugu</td><td>1.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Teng</td><td>290</td><td>Tengwar</td><td>tengwar</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Tfng</td><td>120</td><td>Tifinagh (Berber)</td><td>tifinagh (berbère)</td><td>Tifinagh</td><td>4.1</td><td nowrap>2006-06-21</td></tr>
+<tr><td>Tglg</td><td>370</td><td>Tagalog (Baybayin, Alibata)</td><td>tagal (baybayin, alibata)</td><td>Tagalog</td><td>3.2</td><td nowrap>2009-02-23</td></tr>
+<tr><td>Thaa</td><td>170</td><td>Thaana</td><td>thâna</td><td>Thaana</td><td>3.0</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Thai</td><td>352</td><td>Thai</td><td>thaï</td><td>Thai</td><td>1.1</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Tibt</td><td>330</td><td>Tibetan</td><td>tibétain</td><td>Tibetan</td><td>2.0</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Tirh</td><td>326</td><td>Tirhuta</td><td>tirhouta</td><td>Tirhuta</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Tnsa</td><td>275</td><td>Tangsa</td><td>tangsa</td><td>Tangsa</td><td>14.0</td><td nowrap>2021-02-17</td></tr>
+<tr><td>Todr</td><td>229</td><td>Todhri</td><td>todhri</td><td>Todhri</td><td>16.0</td><td nowrap>2023-09-12</td></tr>
+<tr><td>Tols</td><td>299</td><td>Tolong Siki</td><td>tolong siki</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2023-09-12</td></tr>
+<tr><td>Toto</td><td>294</td><td>Toto</td><td>toto</td><td>Toto</td><td>14.0</td><td nowrap>2020-04-16</td></tr>
+<tr><td>Tutg</td><td>341</td><td>Tulu-Tigalari</td><td>tulu-tigalari</td><td>Tulu_Tigalari</td><td>16.0</td><td nowrap>2023-09-12</td></tr>
+<tr><td>Ugar</td><td>040</td><td>Ugaritic</td><td>ougaritique</td><td>Ugaritic</td><td>4.0</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Vaii</td><td>470</td><td>Vai</td><td>vaï</td><td>Vai</td><td>5.1</td><td nowrap>2007-07-02</td></tr>
+<tr><td>Visp</td><td>280</td><td>Visible Speech</td><td>parole visible</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Vith</td><td>228</td><td>Vithkuqi</td><td>vithkuqi</td><td>Vithkuqi</td><td>14.0</td><td nowrap>2021-02-17</td></tr>
+<tr><td>Wara</td><td>262</td><td>Warang Citi (Varang Kshiti)</td><td>warang citi</td><td>Warang_Citi</td><td>7.0</td><td nowrap>2014-11-15</td></tr>
+<tr><td>Wcho</td><td>283</td><td>Wancho</td><td>wantcho</td><td>Wancho</td><td>12.0</td><td nowrap>2017-07-26</td></tr>
+<tr><td>Wole</td><td>480</td><td>Woleai</td><td>woléaï</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2010-12-21</td></tr>
+<tr><td>Xpeo</td><td>030</td><td>Old Persian</td><td>cunéiforme persépolitain</td><td>Old_Persian</td><td>4.1</td><td nowrap>2006-06-21</td></tr>
+<tr><td>Xsux</td><td>020</td><td>Cuneiform, Sumero-Akkadian</td><td>cunéiforme suméro-akkadien</td><td>Cuneiform</td><td>5.0</td><td nowrap>2006-10-10</td></tr>
+<tr><td>Yezi</td><td>192</td><td>Yezidi</td><td>yézidi</td><td>Yezidi</td><td>13.0</td><td nowrap>2019-08-19</td></tr>
+<tr><td>Yiii</td><td>460</td><td>Yi</td><td>yi</td><td>Yi</td><td>3.0</td><td nowrap>2004-05-01</td></tr>
+<tr><td>Zanb</td><td>339</td><td>Zanabazar Square (Zanabazarin Dörböljin Useg, Xewtee Dörböljin Bicig, Horizontal Square Script)</td><td>zanabazar quadratique</td><td>Zanabazar_Square</td><td>10.0</td><td nowrap>2017-07-26</td></tr>
+<tr><td>Zinh</td><td>994</td><td>Code for inherited script</td><td>codet pour écriture héritée</td><td>Inherited</td><td>&nbsp;</td><td nowrap>2009-02-23</td></tr>
+<tr><td>Zmth</td><td>995</td><td>Mathematical notation</td><td>notation mathématique</td><td>&nbsp;</td><td>3.2</td><td nowrap>2007-11-26</td></tr>
+<tr><td>Zsye</td><td>993</td><td>Symbols (Emoji variant)</td><td>symboles (variante émoji)</td><td>&nbsp;</td><td>6.0</td><td nowrap>2015-12-16</td></tr>
+<tr><td>Zsym</td><td>996</td><td>Symbols</td><td>symboles</td><td>&nbsp;</td><td>1.1</td><td nowrap>2007-11-26</td></tr>
+<tr><td>Zxxx</td><td>997</td><td>Code for unwritten documents</td><td>codet pour les documents non écrits</td><td>&nbsp;</td><td>&nbsp;</td><td nowrap>2011-06-21</td></tr>
+<tr><td>Zyyy</td><td>998</td><td>Code for undetermined script</td><td>codet pour écriture indéterminée</td><td>Common</td><td>&nbsp;</td><td nowrap>2004-05-29</td></tr>
+<tr><td>Zzzz</td><td>999</td><td>Code for uncoded script</td><td>codet pour écriture non codée</td><td>Unknown</td><td>&nbsp;</td><td nowrap>2006-10-10</td></tr>
+
+<tr><th class="hilite">Code</th><th>N°</th><th>English Name</th><th>Nom français</th><th><a href="https://www.unicode.org/Public/UCD/latest/ucd/PropertyValueAliases.txt">Alias</a></th><th>Age</th><th>Date</th></tr>
+	</table>
+</div>
+
+				</blockquote>
+				<p>&nbsp;</p>
+				<hr width=50%>
+				<div align="center">
+
+<p><font size="2"> © 2004–2025 ISO, Unicode, Inc. All Rights Reserved</font></p>
+				</div>
+<!-- Termination of "contents" table cell -->
+				</td>
+			</tr>
+		</table>
+<!-- Termination of table cell for main content pane -->
+		</td>
+<!-- Termination of full page table row-->
+	</tr>
+</table>
+</body>
+
+</html>

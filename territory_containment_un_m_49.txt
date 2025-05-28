@@ -1,0 +1,1801 @@
+<!doctype HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BPN1D3SEJM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BPN1D3SEJM');
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Territory Containment (UN M.49)</title>
+<link rel="stylesheet" type="text/css"
+	href="https://www.unicode.org/webscripts/standard_styles.css">
+<link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+
+<body>
+	<table width="100%" cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td colspan="2">
+				<table width="100%" border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td class="icon"><a href="http://www.unicode.org/"> <img
+								border="0" src="http://www.unicode.org/webscripts/logo60s2.gif"
+								align="middle" alt="[Unicode]" width="34" height="33"></a>&nbsp;&nbsp;
+							<a class="bar"
+							href="http://www.unicode.org/cldr/comparison_charts.html"><font
+								size="3">CLDR Charts</font></a></td>
+						<td class="bar"><a href="http://www.unicode.org" class="bar">Home</a>
+							| <a href="http://www.unicode.org/sitemap/" class="bar">Site
+								Map</a> | <a href="http://www.unicode.org/search/" class="bar">Search</a></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" class="gray">&nbsp;</td>
+		</tr>
+	</table>
+	<div class="body">
+		<div align="center">
+			<table style="width:100%">
+				<tr>
+					<td style="text-align: left" nowrap width="25%"><iframe scrolling="no" class="versionDate" src="include-version.html"></iframe></td>
+					<td style="text-align: center" nowrap width="50%"><h1 align="center">Territory Containment (UN M.49)</h1></td>
+					<td style="text-align: right" nowrap width="25%"><iframe scrolling="no" class="versionDate" src="include-date.html"></iframe></td>
+				</tr>
+				<tr><td style="text-align: center" colSpan="3"><a class="upLink" href="index.html">Index</a></td></tr>
+			</table>
+		</div>
+<!--
+		<div align="center">
+			<table style="margin: 1em">
+				<tr>
+					<td align="left" nowrap width="20%">CLDR Version <span class='version'>%version%</span></td>
+					<td style="text-align: center" nowrap width="50%"><b><font
+							size="4"> <a href="index.html">Index</a></font></b></td>
+					<td style="text-align: right" nowrap width="20%">%date%</td>
+				</tr>
+			</table>
+		</div>
+		 -->
+<!-- begin main body-->
+<p align="left">
+						The <b>Territory Containment</b> table shows the organization of
+						territories and regions according to <a href="http://unstats.un.org/unsd/methods/m49/m49regin.htm">UN
+							M.49</a>, starting with the World. (CLDR supplements this table with
+						the QO code for outlying areas that would not otherwise be
+						included.) As the last column, the timezone IDs for that country
+						are listed.
+					</p>
+					<ul>
+						<li><b>Reporting Defects:</b> If you find errors or omissions
+							in this data, please report the information with a <a target="_blank" href="http://cldr.unicode.org/index/bug-reports#TOC-Filing-a-Ticket">
+								bug report</a>. However, such reports should be limited to cases
+							where the information here deviates from <a href="http://unstats.un.org/unsd/methods/m49/m49regin.htm">UN
+								M.49</a>.</li>
+						<li><b>XML Source:</b> <a href="https://github.com/unicode-org/cldr/tree/main/common/supplemental/supplementalData.xml">
+								supplementalData.xml</a> (see the &lt;territoryContainment&gt; and
+							&lt;timezoneData&gt; elements)</li>
+					</ul><table>
+  <tr>
+	<th class='source'>World</th>
+	<th class='source'>Continent</th>
+	<th class='source'>Subcontinent</th>
+	<th class='source'>Country (Territory)</th>
+	<th class='source'>Time Zone</th></tr>
+  <tr>
+	<td class='z0' rowSpan='433'>world	[001]</td>
+	<td class='z1' rowSpan='63'>Africa	[002]</td>
+	<td class='z2' rowSpan='22'>Eastern Africa	[014]</td>
+	<td class='z3'>British Indian Ocean Territory	[IO]</td>
+	<td class='z4'>Indian/Chagos</td></tr>
+  <tr>
+	<td class='z3'>Burundi	[BI]</td>
+	<td class='z4'>Africa/Bujumbura</td></tr>
+  <tr>
+	<td class='z3'>Comoros	[KM]</td>
+	<td class='z4'>Indian/Comoro</td></tr>
+  <tr>
+	<td class='z3'>Djibouti	[DJ]</td>
+	<td class='z4'>Africa/Djibouti</td></tr>
+  <tr>
+	<td class='z3'>Eritrea	[ER]</td>
+	<td class='z4'>Africa/Asmera</td></tr>
+  <tr>
+	<td class='z3'>Ethiopia	[ET]</td>
+	<td class='z4'>Africa/Addis_Ababa</td></tr>
+  <tr>
+	<td class='z3'>French Southern Territories	[TF]</td>
+	<td class='z4'>Indian/Kerguelen</td></tr>
+  <tr>
+	<td class='z3'>Kenya	[KE]</td>
+	<td class='z4'>Africa/Nairobi</td></tr>
+  <tr>
+	<td class='z3'>Madagascar	[MG]</td>
+	<td class='z4'>Indian/Antananarivo</td></tr>
+  <tr>
+	<td class='z3'>Malawi	[MW]</td>
+	<td class='z4'>Africa/Blantyre</td></tr>
+  <tr>
+	<td class='z3'>Mauritius	[MU]</td>
+	<td class='z4'>Indian/Mauritius</td></tr>
+  <tr>
+	<td class='z3'>Mayotte	[YT]</td>
+	<td class='z4'>Indian/Mayotte</td></tr>
+  <tr>
+	<td class='z3'>Mozambique	[MZ]</td>
+	<td class='z4'>Africa/Maputo</td></tr>
+  <tr>
+	<td class='z3'>Réunion	[RE]</td>
+	<td class='z4'>Indian/Reunion</td></tr>
+  <tr>
+	<td class='z3'>Rwanda	[RW]</td>
+	<td class='z4'>Africa/Kigali</td></tr>
+  <tr>
+	<td class='z3'>Seychelles	[SC]</td>
+	<td class='z4'>Indian/Mahe</td></tr>
+  <tr>
+	<td class='z3'>Somalia	[SO]</td>
+	<td class='z4'>Africa/Mogadishu</td></tr>
+  <tr>
+	<td class='z3'>South Sudan	[SS]</td>
+	<td class='z4'>Africa/Juba</td></tr>
+  <tr>
+	<td class='z3'>Tanzania	[TZ]</td>
+	<td class='z4'>Africa/Dar_es_Salaam</td></tr>
+  <tr>
+	<td class='z3'>Uganda	[UG]</td>
+	<td class='z4'>Africa/Kampala</td></tr>
+  <tr>
+	<td class='z3'>Zambia	[ZM]</td>
+	<td class='z4'>Africa/Lusaka</td></tr>
+  <tr>
+	<td class='z3'>Zimbabwe	[ZW]</td>
+	<td class='z4'>Africa/Harare</td></tr>
+  <tr>
+	<td class='z2' rowSpan='10'>Middle Africa	[017]</td>
+	<td class='z3'>Angola	[AO]</td>
+	<td class='z4'>Africa/Luanda</td></tr>
+  <tr>
+	<td class='z3'>Cameroon	[CM]</td>
+	<td class='z4'>Africa/Douala</td></tr>
+  <tr>
+	<td class='z3'>Central African Republic	[CF]</td>
+	<td class='z4'>Africa/Bangui</td></tr>
+  <tr>
+	<td class='z3'>Chad	[TD]</td>
+	<td class='z4'>Africa/Ndjamena</td></tr>
+  <tr>
+	<td class='z3'>Congo - Brazzaville	[CG]</td>
+	<td class='z4'>Africa/Brazzaville</td></tr>
+  <tr>
+	<td class='z3' rowSpan='2'>Congo - Kinshasa	[CD]</td>
+	<td class='z4'>Africa/Kinshasa</td></tr>
+  <tr>
+	<td class='z4'>Africa/Lubumbashi</td></tr>
+  <tr>
+	<td class='z3'>Equatorial Guinea	[GQ]</td>
+	<td class='z4'>Africa/Malabo</td></tr>
+  <tr>
+	<td class='z3'>Gabon	[GA]</td>
+	<td class='z4'>Africa/Libreville</td></tr>
+  <tr>
+	<td class='z3'>São Tomé & Príncipe	[ST]</td>
+	<td class='z4'>Africa/Sao_Tome</td></tr>
+  <tr>
+	<td class='z2' rowSpan='9'>Northern Africa	[015]</td>
+	<td class='z3'>Algeria	[DZ]</td>
+	<td class='z4'>Africa/Algiers</td></tr>
+  <tr>
+	<td class='z3'>Canary Islands	[IC]</td>
+	<td class='z4' rowSpan='2'>???</td></tr>
+  <tr>
+	<td class='z3'>Ceuta & Melilla	[EA]</td></tr>
+  <tr>
+	<td class='z3'>Egypt	[EG]</td>
+	<td class='z4'>Africa/Cairo</td></tr>
+  <tr>
+	<td class='z3'>Libya	[LY]</td>
+	<td class='z4'>Africa/Tripoli</td></tr>
+  <tr>
+	<td class='z3'>Morocco	[MA]</td>
+	<td class='z4'>Africa/Casablanca</td></tr>
+  <tr>
+	<td class='z3'>Sudan	[SD]</td>
+	<td class='z4'>Africa/Khartoum</td></tr>
+  <tr>
+	<td class='z3'>Tunisia	[TN]</td>
+	<td class='z4'>Africa/Tunis</td></tr>
+  <tr>
+	<td class='z3'>Western Sahara	[EH]</td>
+	<td class='z4'>Africa/El_Aaiun</td></tr>
+  <tr>
+	<td class='z2' rowSpan='5'>Southern Africa	[018]</td>
+	<td class='z3'>Botswana	[BW]</td>
+	<td class='z4'>Africa/Gaborone</td></tr>
+  <tr>
+	<td class='z3'>Eswatini	[SZ]</td>
+	<td class='z4'>Africa/Mbabane</td></tr>
+  <tr>
+	<td class='z3'>Lesotho	[LS]</td>
+	<td class='z4'>Africa/Maseru</td></tr>
+  <tr>
+	<td class='z3'>Namibia	[NA]</td>
+	<td class='z4'>Africa/Windhoek</td></tr>
+  <tr>
+	<td class='z3'>South Africa	[ZA]</td>
+	<td class='z4'>Africa/Johannesburg</td></tr>
+  <tr>
+	<td class='z2' rowSpan='17'>Western Africa	[011]</td>
+	<td class='z3'>Benin	[BJ]</td>
+	<td class='z4'>Africa/Porto-Novo</td></tr>
+  <tr>
+	<td class='z3'>Burkina Faso	[BF]</td>
+	<td class='z4'>Africa/Ouagadougou</td></tr>
+  <tr>
+	<td class='z3'>Cape Verde	[CV]</td>
+	<td class='z4'>Atlantic/Cape_Verde</td></tr>
+  <tr>
+	<td class='z3'>Côte d’Ivoire	[CI]</td>
+	<td class='z4'>Africa/Abidjan</td></tr>
+  <tr>
+	<td class='z3'>Gambia	[GM]</td>
+	<td class='z4'>Africa/Banjul</td></tr>
+  <tr>
+	<td class='z3'>Ghana	[GH]</td>
+	<td class='z4'>Africa/Accra</td></tr>
+  <tr>
+	<td class='z3'>Guinea	[GN]</td>
+	<td class='z4'>Africa/Conakry</td></tr>
+  <tr>
+	<td class='z3'>Guinea-Bissau	[GW]</td>
+	<td class='z4'>Africa/Bissau</td></tr>
+  <tr>
+	<td class='z3'>Liberia	[LR]</td>
+	<td class='z4'>Africa/Monrovia</td></tr>
+  <tr>
+	<td class='z3'>Mali	[ML]</td>
+	<td class='z4'>Africa/Bamako</td></tr>
+  <tr>
+	<td class='z3'>Mauritania	[MR]</td>
+	<td class='z4'>Africa/Nouakchott</td></tr>
+  <tr>
+	<td class='z3'>Niger	[NE]</td>
+	<td class='z4'>Africa/Niamey</td></tr>
+  <tr>
+	<td class='z3'>Nigeria	[NG]</td>
+	<td class='z4'>Africa/Lagos</td></tr>
+  <tr>
+	<td class='z3'>Senegal	[SN]</td>
+	<td class='z4'>Africa/Dakar</td></tr>
+  <tr>
+	<td class='z3'>Sierra Leone	[SL]</td>
+	<td class='z4'>Africa/Freetown</td></tr>
+  <tr>
+	<td class='z3'>St. Helena	[SH]</td>
+	<td class='z4'>Atlantic/St_Helena</td></tr>
+  <tr>
+	<td class='z3'>Togo	[TG]</td>
+	<td class='z4'>Africa/Lome</td></tr>
+  <tr>
+	<td class='z1' rowSpan='154'>Americas	[019]</td>
+	<td class='z2' rowSpan='28'>Caribbean	[029]</td>
+	<td class='z3'>Anguilla	[AI]</td>
+	<td class='z4'>America/Anguilla</td></tr>
+  <tr>
+	<td class='z3'>Antigua & Barbuda	[AG]</td>
+	<td class='z4'>America/Antigua</td></tr>
+  <tr>
+	<td class='z3'>Aruba	[AW]</td>
+	<td class='z4'>America/Aruba</td></tr>
+  <tr>
+	<td class='z3'>Bahamas	[BS]</td>
+	<td class='z4'>America/Nassau</td></tr>
+  <tr>
+	<td class='z3'>Barbados	[BB]</td>
+	<td class='z4'>America/Barbados</td></tr>
+  <tr>
+	<td class='z3'>British Virgin Islands	[VG]</td>
+	<td class='z4'>America/Tortola</td></tr>
+  <tr>
+	<td class='z3'>Caribbean Netherlands	[BQ]</td>
+	<td class='z4'>America/Kralendijk</td></tr>
+  <tr>
+	<td class='z3'>Cayman Islands	[KY]</td>
+	<td class='z4'>America/Cayman</td></tr>
+  <tr>
+	<td class='z3'>Cuba	[CU]</td>
+	<td class='z4'>America/Havana</td></tr>
+  <tr>
+	<td class='z3'>Curaçao	[CW]</td>
+	<td class='z4'>America/Curacao</td></tr>
+  <tr>
+	<td class='z3'>Dominica	[DM]</td>
+	<td class='z4'>America/Dominica</td></tr>
+  <tr>
+	<td class='z3'>Dominican Republic	[DO]</td>
+	<td class='z4'>America/Santo_Domingo</td></tr>
+  <tr>
+	<td class='z3'>Grenada	[GD]</td>
+	<td class='z4'>America/Grenada</td></tr>
+  <tr>
+	<td class='z3'>Guadeloupe	[GP]</td>
+	<td class='z4'>America/Guadeloupe</td></tr>
+  <tr>
+	<td class='z3'>Haiti	[HT]</td>
+	<td class='z4'>America/Port-au-Prince</td></tr>
+  <tr>
+	<td class='z3'>Jamaica	[JM]</td>
+	<td class='z4'>America/Jamaica</td></tr>
+  <tr>
+	<td class='z3'>Martinique	[MQ]</td>
+	<td class='z4'>America/Martinique</td></tr>
+  <tr>
+	<td class='z3'>Montserrat	[MS]</td>
+	<td class='z4'>America/Montserrat</td></tr>
+  <tr>
+	<td class='z3'>Puerto Rico	[PR]</td>
+	<td class='z4'>America/Puerto_Rico</td></tr>
+  <tr>
+	<td class='z3'>Sint Maarten	[SX]</td>
+	<td class='z4'>America/Lower_Princes</td></tr>
+  <tr>
+	<td class='z3'>St. Barthélemy	[BL]</td>
+	<td class='z4'>America/St_Barthelemy</td></tr>
+  <tr>
+	<td class='z3'>St. Kitts & Nevis	[KN]</td>
+	<td class='z4'>America/St_Kitts</td></tr>
+  <tr>
+	<td class='z3'>St. Lucia	[LC]</td>
+	<td class='z4'>America/St_Lucia</td></tr>
+  <tr>
+	<td class='z3'>St. Martin	[MF]</td>
+	<td class='z4'>America/Marigot</td></tr>
+  <tr>
+	<td class='z3'>St. Vincent & Grenadines	[VC]</td>
+	<td class='z4'>America/St_Vincent</td></tr>
+  <tr>
+	<td class='z3'>Trinidad & Tobago	[TT]</td>
+	<td class='z4'>America/Port_of_Spain</td></tr>
+  <tr>
+	<td class='z3'>Turks & Caicos Islands	[TC]</td>
+	<td class='z4'>America/Grand_Turk</td></tr>
+  <tr>
+	<td class='z3'>U.S. Virgin Islands	[VI]</td>
+	<td class='z4'>America/St_Thomas</td></tr>
+  <tr>
+	<td class='z2' rowSpan='19'>Central America	[013]</td>
+	<td class='z3'>Belize	[BZ]</td>
+	<td class='z4'>America/Belize</td></tr>
+  <tr>
+	<td class='z3'>Costa Rica	[CR]</td>
+	<td class='z4'>America/Costa_Rica</td></tr>
+  <tr>
+	<td class='z3'>El Salvador	[SV]</td>
+	<td class='z4'>America/El_Salvador</td></tr>
+  <tr>
+	<td class='z3'>Guatemala	[GT]</td>
+	<td class='z4'>America/Guatemala</td></tr>
+  <tr>
+	<td class='z3'>Honduras	[HN]</td>
+	<td class='z4'>America/Tegucigalpa</td></tr>
+  <tr>
+	<td class='z3' rowSpan='12'>Mexico	[MX]</td>
+	<td class='z4'>America/Bahia_Banderas</td></tr>
+  <tr>
+	<td class='z4'>America/Cancun</td></tr>
+  <tr>
+	<td class='z4'>America/Chihuahua</td></tr>
+  <tr>
+	<td class='z4'>America/Ciudad_Juarez</td></tr>
+  <tr>
+	<td class='z4'>America/Hermosillo</td></tr>
+  <tr>
+	<td class='z4'>America/Matamoros</td></tr>
+  <tr>
+	<td class='z4'>America/Mazatlan</td></tr>
+  <tr>
+	<td class='z4'>America/Merida</td></tr>
+  <tr>
+	<td class='z4'>America/Mexico_City</td></tr>
+  <tr>
+	<td class='z4'>America/Monterrey</td></tr>
+  <tr>
+	<td class='z4'>America/Ojinaga</td></tr>
+  <tr>
+	<td class='z4'>America/Tijuana</td></tr>
+  <tr>
+	<td class='z3'>Nicaragua	[NI]</td>
+	<td class='z4'>America/Managua</td></tr>
+  <tr>
+	<td class='z3'>Panama	[PA]</td>
+	<td class='z4'>America/Panama</td></tr>
+  <tr>
+	<td class='z2' rowSpan='62'>Northern America	[021]</td>
+	<td class='z3'>Bermuda	[BM]</td>
+	<td class='z4'>Atlantic/Bermuda</td></tr>
+  <tr>
+	<td class='z3' rowSpan='27'>Canada	[CA]</td>
+	<td class='z4'>America/Blanc-Sablon</td></tr>
+  <tr>
+	<td class='z4'>America/Cambridge_Bay</td></tr>
+  <tr>
+	<td class='z4'>America/Coral_Harbour</td></tr>
+  <tr>
+	<td class='z4'>America/Creston</td></tr>
+  <tr>
+	<td class='z4'>America/Dawson</td></tr>
+  <tr>
+	<td class='z4'>America/Dawson_Creek</td></tr>
+  <tr>
+	<td class='z4'>America/Edmonton</td></tr>
+  <tr>
+	<td class='z4'>America/Fort_Nelson</td></tr>
+  <tr>
+	<td class='z4'>America/Glace_Bay</td></tr>
+  <tr>
+	<td class='z4'>America/Goose_Bay</td></tr>
+  <tr>
+	<td class='z4'>America/Halifax</td></tr>
+  <tr>
+	<td class='z4'>America/Inuvik</td></tr>
+  <tr>
+	<td class='z4'>America/Iqaluit</td></tr>
+  <tr>
+	<td class='z4'>America/Moncton</td></tr>
+  <tr>
+	<td class='z4'>America/Nipigon</td></tr>
+  <tr>
+	<td class='z4'>America/Pangnirtung</td></tr>
+  <tr>
+	<td class='z4'>America/Rainy_River</td></tr>
+  <tr>
+	<td class='z4'>America/Rankin_Inlet</td></tr>
+  <tr>
+	<td class='z4'>America/Regina</td></tr>
+  <tr>
+	<td class='z4'>America/Resolute</td></tr>
+  <tr>
+	<td class='z4'>America/St_Johns</td></tr>
+  <tr>
+	<td class='z4'>America/Swift_Current</td></tr>
+  <tr>
+	<td class='z4'>America/Thunder_Bay</td></tr>
+  <tr>
+	<td class='z4'>America/Toronto</td></tr>
+  <tr>
+	<td class='z4'>America/Vancouver</td></tr>
+  <tr>
+	<td class='z4'>America/Whitehorse</td></tr>
+  <tr>
+	<td class='z4'>America/Winnipeg</td></tr>
+  <tr>
+	<td class='z3' rowSpan='4'>Greenland	[GL]</td>
+	<td class='z4'>America/Danmarkshavn</td></tr>
+  <tr>
+	<td class='z4'>America/Godthab</td></tr>
+  <tr>
+	<td class='z4'>America/Scoresbysund</td></tr>
+  <tr>
+	<td class='z4'>America/Thule</td></tr>
+  <tr>
+	<td class='z3'>St. Pierre & Miquelon	[PM]</td>
+	<td class='z4'>America/Miquelon</td></tr>
+  <tr>
+	<td class='z3' rowSpan='29'>United States	[US]</td>
+	<td class='z4'>America/Adak</td></tr>
+  <tr>
+	<td class='z4'>America/Anchorage</td></tr>
+  <tr>
+	<td class='z4'>America/Boise</td></tr>
+  <tr>
+	<td class='z4'>America/Chicago</td></tr>
+  <tr>
+	<td class='z4'>America/Denver</td></tr>
+  <tr>
+	<td class='z4'>America/Detroit</td></tr>
+  <tr>
+	<td class='z4'>America/Indiana/Knox</td></tr>
+  <tr>
+	<td class='z4'>America/Indiana/Marengo</td></tr>
+  <tr>
+	<td class='z4'>America/Indiana/Petersburg</td></tr>
+  <tr>
+	<td class='z4'>America/Indiana/Tell_City</td></tr>
+  <tr>
+	<td class='z4'>America/Indiana/Vevay</td></tr>
+  <tr>
+	<td class='z4'>America/Indiana/Vincennes</td></tr>
+  <tr>
+	<td class='z4'>America/Indiana/Winamac</td></tr>
+  <tr>
+	<td class='z4'>America/Indianapolis</td></tr>
+  <tr>
+	<td class='z4'>America/Juneau</td></tr>
+  <tr>
+	<td class='z4'>America/Kentucky/Monticello</td></tr>
+  <tr>
+	<td class='z4'>America/Los_Angeles</td></tr>
+  <tr>
+	<td class='z4'>America/Louisville</td></tr>
+  <tr>
+	<td class='z4'>America/Menominee</td></tr>
+  <tr>
+	<td class='z4'>America/Metlakatla</td></tr>
+  <tr>
+	<td class='z4'>America/New_York</td></tr>
+  <tr>
+	<td class='z4'>America/Nome</td></tr>
+  <tr>
+	<td class='z4'>America/North_Dakota/Beulah</td></tr>
+  <tr>
+	<td class='z4'>America/North_Dakota/Center</td></tr>
+  <tr>
+	<td class='z4'>America/North_Dakota/New_Salem</td></tr>
+  <tr>
+	<td class='z4'>America/Phoenix</td></tr>
+  <tr>
+	<td class='z4'>America/Sitka</td></tr>
+  <tr>
+	<td class='z4'>America/Yakutat</td></tr>
+  <tr>
+	<td class='z4'>Pacific/Johnston</td></tr>
+  <tr>
+	<td class='z2' rowSpan='45'>South America	[005]</td>
+	<td class='z3' rowSpan='12'>Argentina	[AR]</td>
+	<td class='z4'>America/Argentina/La_Rioja</td></tr>
+  <tr>
+	<td class='z4'>America/Argentina/Rio_Gallegos</td></tr>
+  <tr>
+	<td class='z4'>America/Argentina/Salta</td></tr>
+  <tr>
+	<td class='z4'>America/Argentina/San_Juan</td></tr>
+  <tr>
+	<td class='z4'>America/Argentina/San_Luis</td></tr>
+  <tr>
+	<td class='z4'>America/Argentina/Tucuman</td></tr>
+  <tr>
+	<td class='z4'>America/Argentina/Ushuaia</td></tr>
+  <tr>
+	<td class='z4'>America/Buenos_Aires</td></tr>
+  <tr>
+	<td class='z4'>America/Catamarca</td></tr>
+  <tr>
+	<td class='z4'>America/Cordoba</td></tr>
+  <tr>
+	<td class='z4'>America/Jujuy</td></tr>
+  <tr>
+	<td class='z4'>America/Mendoza</td></tr>
+  <tr>
+	<td class='z3'>Bolivia	[BO]</td>
+	<td class='z4'>America/La_Paz</td></tr>
+  <tr>
+	<td class='z3'>Bouvet Island	[BV]</td>
+	<td class='z4'>???</td></tr>
+  <tr>
+	<td class='z3' rowSpan='16'>Brazil	[BR]</td>
+	<td class='z4'>America/Araguaina</td></tr>
+  <tr>
+	<td class='z4'>America/Bahia</td></tr>
+  <tr>
+	<td class='z4'>America/Belem</td></tr>
+  <tr>
+	<td class='z4'>America/Boa_Vista</td></tr>
+  <tr>
+	<td class='z4'>America/Campo_Grande</td></tr>
+  <tr>
+	<td class='z4'>America/Cuiaba</td></tr>
+  <tr>
+	<td class='z4'>America/Eirunepe</td></tr>
+  <tr>
+	<td class='z4'>America/Fortaleza</td></tr>
+  <tr>
+	<td class='z4'>America/Maceio</td></tr>
+  <tr>
+	<td class='z4'>America/Manaus</td></tr>
+  <tr>
+	<td class='z4'>America/Noronha</td></tr>
+  <tr>
+	<td class='z4'>America/Porto_Velho</td></tr>
+  <tr>
+	<td class='z4'>America/Recife</td></tr>
+  <tr>
+	<td class='z4'>America/Rio_Branco</td></tr>
+  <tr>
+	<td class='z4'>America/Santarem</td></tr>
+  <tr>
+	<td class='z4'>America/Sao_Paulo</td></tr>
+  <tr>
+	<td class='z3' rowSpan='3'>Chile	[CL]</td>
+	<td class='z4'>America/Punta_Arenas</td></tr>
+  <tr>
+	<td class='z4'>America/Santiago</td></tr>
+  <tr>
+	<td class='z4'>Pacific/Easter</td></tr>
+  <tr>
+	<td class='z3'>Colombia	[CO]</td>
+	<td class='z4'>America/Bogota</td></tr>
+  <tr>
+	<td class='z3' rowSpan='2'>Ecuador	[EC]</td>
+	<td class='z4'>America/Guayaquil</td></tr>
+  <tr>
+	<td class='z4'>Pacific/Galapagos</td></tr>
+  <tr>
+	<td class='z3'>Falkland Islands	[FK]</td>
+	<td class='z4'>Atlantic/Stanley</td></tr>
+  <tr>
+	<td class='z3'>French Guiana	[GF]</td>
+	<td class='z4'>America/Cayenne</td></tr>
+  <tr>
+	<td class='z3'>Guyana	[GY]</td>
+	<td class='z4'>America/Guyana</td></tr>
+  <tr>
+	<td class='z3'>Paraguay	[PY]</td>
+	<td class='z4'>America/Asuncion</td></tr>
+  <tr>
+	<td class='z3'>Peru	[PE]</td>
+	<td class='z4'>America/Lima</td></tr>
+  <tr>
+	<td class='z3'>South Georgia & South Sandwich Islands	[GS]</td>
+	<td class='z4'>Atlantic/South_Georgia</td></tr>
+  <tr>
+	<td class='z3'>Suriname	[SR]</td>
+	<td class='z4'>America/Paramaribo</td></tr>
+  <tr>
+	<td class='z3'>Uruguay	[UY]</td>
+	<td class='z4'>America/Montevideo</td></tr>
+  <tr>
+	<td class='z3'>Venezuela	[VE]</td>
+	<td class='z4'>America/Caracas</td></tr>
+  <tr>
+	<td class='z1' rowSpan='66'>Asia	[142]</td>
+	<td class='z2' rowSpan='12'>Central Asia	[143]</td>
+	<td class='z3' rowSpan='7'>Kazakhstan	[KZ]</td>
+	<td class='z4'>Asia/Almaty</td></tr>
+  <tr>
+	<td class='z4'>Asia/Aqtau</td></tr>
+  <tr>
+	<td class='z4'>Asia/Aqtobe</td></tr>
+  <tr>
+	<td class='z4'>Asia/Atyrau</td></tr>
+  <tr>
+	<td class='z4'>Asia/Oral</td></tr>
+  <tr>
+	<td class='z4'>Asia/Qostanay</td></tr>
+  <tr>
+	<td class='z4'>Asia/Qyzylorda</td></tr>
+  <tr>
+	<td class='z3'>Kyrgyzstan	[KG]</td>
+	<td class='z4'>Asia/Bishkek</td></tr>
+  <tr>
+	<td class='z3'>Tajikistan	[TJ]</td>
+	<td class='z4'>Asia/Dushanbe</td></tr>
+  <tr>
+	<td class='z3'>Turkmenistan	[TM]</td>
+	<td class='z4'>Asia/Ashgabat</td></tr>
+  <tr>
+	<td class='z3' rowSpan='2'>Uzbekistan	[UZ]</td>
+	<td class='z4'>Asia/Samarkand</td></tr>
+  <tr>
+	<td class='z4'>Asia/Tashkent</td></tr>
+  <tr>
+	<td class='z2' rowSpan='10'>Eastern Asia	[030]</td>
+	<td class='z3' rowSpan='2'>China	[CN]</td>
+	<td class='z4'>Asia/Shanghai</td></tr>
+  <tr>
+	<td class='z4'>Asia/Urumqi</td></tr>
+  <tr>
+	<td class='z3'>Hong Kong SAR China	[HK]</td>
+	<td class='z4'>Asia/Hong_Kong</td></tr>
+  <tr>
+	<td class='z3'>Japan	[JP]</td>
+	<td class='z4'>Asia/Tokyo</td></tr>
+  <tr>
+	<td class='z3'>Macao SAR China	[MO]</td>
+	<td class='z4'>Asia/Macau</td></tr>
+  <tr>
+	<td class='z3' rowSpan='2'>Mongolia	[MN]</td>
+	<td class='z4'>Asia/Hovd</td></tr>
+  <tr>
+	<td class='z4'>Asia/Ulaanbaatar</td></tr>
+  <tr>
+	<td class='z3'>North Korea	[KP]</td>
+	<td class='z4'>Asia/Pyongyang</td></tr>
+  <tr>
+	<td class='z3'>South Korea	[KR]</td>
+	<td class='z4'>Asia/Seoul</td></tr>
+  <tr>
+	<td class='z3'>Taiwan	[TW]</td>
+	<td class='z4'>Asia/Taipei</td></tr>
+  <tr>
+	<td class='z2' rowSpan='15'>Southeast Asia	[035]</td>
+	<td class='z3'>Brunei	[BN]</td>
+	<td class='z4'>Asia/Brunei</td></tr>
+  <tr>
+	<td class='z3'>Cambodia	[KH]</td>
+	<td class='z4'>Asia/Phnom_Penh</td></tr>
+  <tr>
+	<td class='z3' rowSpan='4'>Indonesia	[ID]</td>
+	<td class='z4'>Asia/Jakarta</td></tr>
+  <tr>
+	<td class='z4'>Asia/Jayapura</td></tr>
+  <tr>
+	<td class='z4'>Asia/Makassar</td></tr>
+  <tr>
+	<td class='z4'>Asia/Pontianak</td></tr>
+  <tr>
+	<td class='z3'>Laos	[LA]</td>
+	<td class='z4'>Asia/Vientiane</td></tr>
+  <tr>
+	<td class='z3' rowSpan='2'>Malaysia	[MY]</td>
+	<td class='z4'>Asia/Kuala_Lumpur</td></tr>
+  <tr>
+	<td class='z4'>Asia/Kuching</td></tr>
+  <tr>
+	<td class='z3'>Myanmar (Burma)	[MM]</td>
+	<td class='z4'>Asia/Rangoon</td></tr>
+  <tr>
+	<td class='z3'>Philippines	[PH]</td>
+	<td class='z4'>Asia/Manila</td></tr>
+  <tr>
+	<td class='z3'>Singapore	[SG]</td>
+	<td class='z4'>Asia/Singapore</td></tr>
+  <tr>
+	<td class='z3'>Thailand	[TH]</td>
+	<td class='z4'>Asia/Bangkok</td></tr>
+  <tr>
+	<td class='z3'>Timor-Leste	[TL]</td>
+	<td class='z4'>Asia/Dili</td></tr>
+  <tr>
+	<td class='z3'>Vietnam	[VN]</td>
+	<td class='z4'>Asia/Saigon</td></tr>
+  <tr>
+	<td class='z2' rowSpan='9'>Southern Asia	[034]</td>
+	<td class='z3'>Afghanistan	[AF]</td>
+	<td class='z4'>Asia/Kabul</td></tr>
+  <tr>
+	<td class='z3'>Bangladesh	[BD]</td>
+	<td class='z4'>Asia/Dhaka</td></tr>
+  <tr>
+	<td class='z3'>Bhutan	[BT]</td>
+	<td class='z4'>Asia/Thimphu</td></tr>
+  <tr>
+	<td class='z3'>India	[IN]</td>
+	<td class='z4'>Asia/Calcutta</td></tr>
+  <tr>
+	<td class='z3'>Iran	[IR]</td>
+	<td class='z4'>Asia/Tehran</td></tr>
+  <tr>
+	<td class='z3'>Maldives	[MV]</td>
+	<td class='z4'>Indian/Maldives</td></tr>
+  <tr>
+	<td class='z3'>Nepal	[NP]</td>
+	<td class='z4'>Asia/Katmandu</td></tr>
+  <tr>
+	<td class='z3'>Pakistan	[PK]</td>
+	<td class='z4'>Asia/Karachi</td></tr>
+  <tr>
+	<td class='z3'>Sri Lanka	[LK]</td>
+	<td class='z4'>Asia/Colombo</td></tr>
+  <tr>
+	<td class='z2' rowSpan='20'>Western Asia	[145]</td>
+	<td class='z3'>Armenia	[AM]</td>
+	<td class='z4'>Asia/Yerevan</td></tr>
+  <tr>
+	<td class='z3'>Azerbaijan	[AZ]</td>
+	<td class='z4'>Asia/Baku</td></tr>
+  <tr>
+	<td class='z3'>Bahrain	[BH]</td>
+	<td class='z4'>Asia/Bahrain</td></tr>
+  <tr>
+	<td class='z3' rowSpan='2'>Cyprus	[CY]</td>
+	<td class='z4'>Asia/Famagusta</td></tr>
+  <tr>
+	<td class='z4'>Asia/Nicosia</td></tr>
+  <tr>
+	<td class='z3'>Georgia	[GE]</td>
+	<td class='z4'>Asia/Tbilisi</td></tr>
+  <tr>
+	<td class='z3'>Iraq	[IQ]</td>
+	<td class='z4'>Asia/Baghdad</td></tr>
+  <tr>
+	<td class='z3'>Israel	[IL]</td>
+	<td class='z4'>Asia/Jerusalem</td></tr>
+  <tr>
+	<td class='z3'>Jordan	[JO]</td>
+	<td class='z4'>Asia/Amman</td></tr>
+  <tr>
+	<td class='z3'>Kuwait	[KW]</td>
+	<td class='z4'>Asia/Kuwait</td></tr>
+  <tr>
+	<td class='z3'>Lebanon	[LB]</td>
+	<td class='z4'>Asia/Beirut</td></tr>
+  <tr>
+	<td class='z3'>Oman	[OM]</td>
+	<td class='z4'>Asia/Muscat</td></tr>
+  <tr>
+	<td class='z3' rowSpan='2'>Palestinian Territories	[PS]</td>
+	<td class='z4'>Asia/Gaza</td></tr>
+  <tr>
+	<td class='z4'>Asia/Hebron</td></tr>
+  <tr>
+	<td class='z3'>Qatar	[QA]</td>
+	<td class='z4'>Asia/Qatar</td></tr>
+  <tr>
+	<td class='z3'>Saudi Arabia	[SA]</td>
+	<td class='z4'>Asia/Riyadh</td></tr>
+  <tr>
+	<td class='z3'>Syria	[SY]</td>
+	<td class='z4'>Asia/Damascus</td></tr>
+  <tr>
+	<td class='z3'>Türkiye	[TR]</td>
+	<td class='z4'>Europe/Istanbul</td></tr>
+  <tr>
+	<td class='z3'>United Arab Emirates	[AE]</td>
+	<td class='z4'>Asia/Dubai</td></tr>
+  <tr>
+	<td class='z3'>Yemen	[YE]</td>
+	<td class='z4'>Asia/Aden</td></tr>
+  <tr>
+	<td class='z1' rowSpan='86'>Europe	[150]</td>
+	<td class='z2' rowSpan='38'>Eastern Europe	[151]</td>
+	<td class='z3'>Belarus	[BY]</td>
+	<td class='z4'>Europe/Minsk</td></tr>
+  <tr>
+	<td class='z3'>Bulgaria	[BG]</td>
+	<td class='z4'>Europe/Sofia</td></tr>
+  <tr>
+	<td class='z3'>Czechia	[CZ]</td>
+	<td class='z4'>Europe/Prague</td></tr>
+  <tr>
+	<td class='z3'>Hungary	[HU]</td>
+	<td class='z4'>Europe/Budapest</td></tr>
+  <tr>
+	<td class='z3'>Moldova	[MD]</td>
+	<td class='z4'>Europe/Chisinau</td></tr>
+  <tr>
+	<td class='z3'>Poland	[PL]</td>
+	<td class='z4'>Europe/Warsaw</td></tr>
+  <tr>
+	<td class='z3'>Romania	[RO]</td>
+	<td class='z4'>Europe/Bucharest</td></tr>
+  <tr>
+	<td class='z3' rowSpan='26'>Russia	[RU]</td>
+	<td class='z4'>Asia/Anadyr</td></tr>
+  <tr>
+	<td class='z4'>Asia/Barnaul</td></tr>
+  <tr>
+	<td class='z4'>Asia/Chita</td></tr>
+  <tr>
+	<td class='z4'>Asia/Irkutsk</td></tr>
+  <tr>
+	<td class='z4'>Asia/Kamchatka</td></tr>
+  <tr>
+	<td class='z4'>Asia/Khandyga</td></tr>
+  <tr>
+	<td class='z4'>Asia/Krasnoyarsk</td></tr>
+  <tr>
+	<td class='z4'>Asia/Magadan</td></tr>
+  <tr>
+	<td class='z4'>Asia/Novokuznetsk</td></tr>
+  <tr>
+	<td class='z4'>Asia/Novosibirsk</td></tr>
+  <tr>
+	<td class='z4'>Asia/Omsk</td></tr>
+  <tr>
+	<td class='z4'>Asia/Sakhalin</td></tr>
+  <tr>
+	<td class='z4'>Asia/Srednekolymsk</td></tr>
+  <tr>
+	<td class='z4'>Asia/Tomsk</td></tr>
+  <tr>
+	<td class='z4'>Asia/Ust-Nera</td></tr>
+  <tr>
+	<td class='z4'>Asia/Vladivostok</td></tr>
+  <tr>
+	<td class='z4'>Asia/Yakutsk</td></tr>
+  <tr>
+	<td class='z4'>Asia/Yekaterinburg</td></tr>
+  <tr>
+	<td class='z4'>Europe/Astrakhan</td></tr>
+  <tr>
+	<td class='z4'>Europe/Kaliningrad</td></tr>
+  <tr>
+	<td class='z4'>Europe/Kirov</td></tr>
+  <tr>
+	<td class='z4'>Europe/Moscow</td></tr>
+  <tr>
+	<td class='z4'>Europe/Samara</td></tr>
+  <tr>
+	<td class='z4'>Europe/Saratov</td></tr>
+  <tr>
+	<td class='z4'>Europe/Ulyanovsk</td></tr>
+  <tr>
+	<td class='z4'>Europe/Volgograd</td></tr>
+  <tr>
+	<td class='z3'>Slovakia	[SK]</td>
+	<td class='z4'>Europe/Bratislava</td></tr>
+  <tr>
+	<td class='z3' rowSpan='4'>Ukraine	[UA]</td>
+	<td class='z4'>Europe/Kiev</td></tr>
+  <tr>
+	<td class='z4'>Europe/Simferopol</td></tr>
+  <tr>
+	<td class='z4'>Europe/Uzhgorod</td></tr>
+  <tr>
+	<td class='z4'>Europe/Zaporozhye</td></tr>
+  <tr>
+	<td class='z2' rowSpan='17'>Northern Europe	[154]</td>
+	<td class='z3'>Åland Islands	[AX]</td>
+	<td class='z4'>Europe/Mariehamn</td></tr>
+  <tr>
+	<td class='z3'>Denmark	[DK]</td>
+	<td class='z4'>Europe/Copenhagen</td></tr>
+  <tr>
+	<td class='z3'>Estonia	[EE]</td>
+	<td class='z4'>Europe/Tallinn</td></tr>
+  <tr>
+	<td class='z3'>Faroe Islands	[FO]</td>
+	<td class='z4'>Atlantic/Faeroe</td></tr>
+  <tr>
+	<td class='z3'>Finland	[FI]</td>
+	<td class='z4'>Europe/Helsinki</td></tr>
+  <tr>
+	<td class='z3'>Guernsey	[GG]</td>
+	<td class='z4'>Europe/Guernsey</td></tr>
+  <tr>
+	<td class='z3'>Iceland	[IS]</td>
+	<td class='z4'>Atlantic/Reykjavik</td></tr>
+  <tr>
+	<td class='z3'>Ireland	[IE]</td>
+	<td class='z4'>Europe/Dublin</td></tr>
+  <tr>
+	<td class='z3'>Isle of Man	[IM]</td>
+	<td class='z4'>Europe/Isle_of_Man</td></tr>
+  <tr>
+	<td class='z3'>Jersey	[JE]</td>
+	<td class='z4'>Europe/Jersey</td></tr>
+  <tr>
+	<td class='z3'>Latvia	[LV]</td>
+	<td class='z4'>Europe/Riga</td></tr>
+  <tr>
+	<td class='z3'>Lithuania	[LT]</td>
+	<td class='z4'>Europe/Vilnius</td></tr>
+  <tr>
+	<td class='z3'>Norway	[NO]</td>
+	<td class='z4'>Europe/Oslo</td></tr>
+  <tr>
+	<td class='z3'>Sark	[CQ]</td>
+	<td class='z4'>???</td></tr>
+  <tr>
+	<td class='z3'>Svalbard & Jan Mayen	[SJ]</td>
+	<td class='z4'>Arctic/Longyearbyen</td></tr>
+  <tr>
+	<td class='z3'>Sweden	[SE]</td>
+	<td class='z4'>Europe/Stockholm</td></tr>
+  <tr>
+	<td class='z3'>United Kingdom	[GB]</td>
+	<td class='z4'>Europe/London</td></tr>
+  <tr>
+	<td class='z2' rowSpan='21'>Southern Europe	[039]</td>
+	<td class='z3'>Albania	[AL]</td>
+	<td class='z4'>Europe/Tirane</td></tr>
+  <tr>
+	<td class='z3'>Andorra	[AD]</td>
+	<td class='z4'>Europe/Andorra</td></tr>
+  <tr>
+	<td class='z3'>Bosnia & Herzegovina	[BA]</td>
+	<td class='z4'>Europe/Sarajevo</td></tr>
+  <tr>
+	<td class='z3'>Croatia	[HR]</td>
+	<td class='z4'>Europe/Zagreb</td></tr>
+  <tr>
+	<td class='z3'>Gibraltar	[GI]</td>
+	<td class='z4'>Europe/Gibraltar</td></tr>
+  <tr>
+	<td class='z3'>Greece	[GR]</td>
+	<td class='z4'>Europe/Athens</td></tr>
+  <tr>
+	<td class='z3'>Italy	[IT]</td>
+	<td class='z4'>Europe/Rome</td></tr>
+  <tr>
+	<td class='z3'>Kosovo	[XK]</td>
+	<td class='z4'>???</td></tr>
+  <tr>
+	<td class='z3'>Malta	[MT]</td>
+	<td class='z4'>Europe/Malta</td></tr>
+  <tr>
+	<td class='z3'>Montenegro	[ME]</td>
+	<td class='z4'>Europe/Podgorica</td></tr>
+  <tr>
+	<td class='z3'>North Macedonia	[MK]</td>
+	<td class='z4'>Europe/Skopje</td></tr>
+  <tr>
+	<td class='z3' rowSpan='3'>Portugal	[PT]</td>
+	<td class='z4'>Atlantic/Azores</td></tr>
+  <tr>
+	<td class='z4'>Atlantic/Madeira</td></tr>
+  <tr>
+	<td class='z4'>Europe/Lisbon</td></tr>
+  <tr>
+	<td class='z3'>San Marino	[SM]</td>
+	<td class='z4'>Europe/San_Marino</td></tr>
+  <tr>
+	<td class='z3'>Serbia	[RS]</td>
+	<td class='z4'>Europe/Belgrade</td></tr>
+  <tr>
+	<td class='z3'>Slovenia	[SI]</td>
+	<td class='z4'>Europe/Ljubljana</td></tr>
+  <tr>
+	<td class='z3' rowSpan='3'>Spain	[ES]</td>
+	<td class='z4'>Africa/Ceuta</td></tr>
+  <tr>
+	<td class='z4'>Atlantic/Canary</td></tr>
+  <tr>
+	<td class='z4'>Europe/Madrid</td></tr>
+  <tr>
+	<td class='z3'>Vatican City	[VA]</td>
+	<td class='z4'>Europe/Vatican</td></tr>
+  <tr>
+	<td class='z2' rowSpan='10'>Western Europe	[155]</td>
+	<td class='z3'>Austria	[AT]</td>
+	<td class='z4'>Europe/Vienna</td></tr>
+  <tr>
+	<td class='z3'>Belgium	[BE]</td>
+	<td class='z4'>Europe/Brussels</td></tr>
+  <tr>
+	<td class='z3'>France	[FR]</td>
+	<td class='z4'>Europe/Paris</td></tr>
+  <tr>
+	<td class='z3' rowSpan='2'>Germany	[DE]</td>
+	<td class='z4'>Europe/Berlin</td></tr>
+  <tr>
+	<td class='z4'>Europe/Busingen</td></tr>
+  <tr>
+	<td class='z3'>Liechtenstein	[LI]</td>
+	<td class='z4'>Europe/Vaduz</td></tr>
+  <tr>
+	<td class='z3'>Luxembourg	[LU]</td>
+	<td class='z4'>Europe/Luxembourg</td></tr>
+  <tr>
+	<td class='z3'>Monaco	[MC]</td>
+	<td class='z4'>Europe/Monaco</td></tr>
+  <tr>
+	<td class='z3'>Netherlands	[NL]</td>
+	<td class='z4'>Europe/Amsterdam</td></tr>
+  <tr>
+	<td class='z3'>Switzerland	[CH]</td>
+	<td class='z4'>Europe/Zurich</td></tr>
+  <tr>
+	<td class='z1' rowSpan='64'>Oceania	[009]</td>
+	<td class='z2' rowSpan='18'>Australasia	[053]</td>
+	<td class='z3' rowSpan='12'>Australia	[AU]</td>
+	<td class='z4'>Antarctica/Macquarie</td></tr>
+  <tr>
+	<td class='z4'>Australia/Adelaide</td></tr>
+  <tr>
+	<td class='z4'>Australia/Brisbane</td></tr>
+  <tr>
+	<td class='z4'>Australia/Broken_Hill</td></tr>
+  <tr>
+	<td class='z4'>Australia/Darwin</td></tr>
+  <tr>
+	<td class='z4'>Australia/Eucla</td></tr>
+  <tr>
+	<td class='z4'>Australia/Hobart</td></tr>
+  <tr>
+	<td class='z4'>Australia/Lindeman</td></tr>
+  <tr>
+	<td class='z4'>Australia/Lord_Howe</td></tr>
+  <tr>
+	<td class='z4'>Australia/Melbourne</td></tr>
+  <tr>
+	<td class='z4'>Australia/Perth</td></tr>
+  <tr>
+	<td class='z4'>Australia/Sydney</td></tr>
+  <tr>
+	<td class='z3'>Christmas Island	[CX]</td>
+	<td class='z4'>Indian/Christmas</td></tr>
+  <tr>
+	<td class='z3'>Cocos (Keeling) Islands	[CC]</td>
+	<td class='z4'>Indian/Cocos</td></tr>
+  <tr>
+	<td class='z3'>Heard & McDonald Islands	[HM]</td>
+	<td class='z4'>???</td></tr>
+  <tr>
+	<td class='z3' rowSpan='2'>New Zealand	[NZ]</td>
+	<td class='z4'>Pacific/Auckland</td></tr>
+  <tr>
+	<td class='z4'>Pacific/Chatham</td></tr>
+  <tr>
+	<td class='z3'>Norfolk Island	[NF]</td>
+	<td class='z4'>Pacific/Norfolk</td></tr>
+  <tr>
+	<td class='z2' rowSpan='6'>Melanesia	[054]</td>
+	<td class='z3'>Fiji	[FJ]</td>
+	<td class='z4'>Pacific/Fiji</td></tr>
+  <tr>
+	<td class='z3'>New Caledonia	[NC]</td>
+	<td class='z4'>Pacific/Noumea</td></tr>
+  <tr>
+	<td class='z3' rowSpan='2'>Papua New Guinea	[PG]</td>
+	<td class='z4'>Pacific/Bougainville</td></tr>
+  <tr>
+	<td class='z4'>Pacific/Port_Moresby</td></tr>
+  <tr>
+	<td class='z3'>Solomon Islands	[SB]</td>
+	<td class='z4'>Pacific/Guadalcanal</td></tr>
+  <tr>
+	<td class='z3'>Vanuatu	[VU]</td>
+	<td class='z4'>Pacific/Efate</td></tr>
+  <tr>
+	<td class='z2' rowSpan='14'>Micronesian Region	[057]</td>
+	<td class='z3'>Guam	[GU]</td>
+	<td class='z4'>Pacific/Guam</td></tr>
+  <tr>
+	<td class='z3' rowSpan='3'>Kiribati	[KI]</td>
+	<td class='z4'>Pacific/Kanton</td></tr>
+  <tr>
+	<td class='z4'>Pacific/Kiritimati</td></tr>
+  <tr>
+	<td class='z4'>Pacific/Tarawa</td></tr>
+  <tr>
+	<td class='z3' rowSpan='2'>Marshall Islands	[MH]</td>
+	<td class='z4'>Pacific/Kwajalein</td></tr>
+  <tr>
+	<td class='z4'>Pacific/Majuro</td></tr>
+  <tr>
+	<td class='z3' rowSpan='3'>Micronesia	[FM]</td>
+	<td class='z4'>Pacific/Kosrae</td></tr>
+  <tr>
+	<td class='z4'>Pacific/Ponape</td></tr>
+  <tr>
+	<td class='z4'>Pacific/Truk</td></tr>
+  <tr>
+	<td class='z3'>Nauru	[NR]</td>
+	<td class='z4'>Pacific/Nauru</td></tr>
+  <tr>
+	<td class='z3'>Northern Mariana Islands	[MP]</td>
+	<td class='z4'>Pacific/Saipan</td></tr>
+  <tr>
+	<td class='z3'>Palau	[PW]</td>
+	<td class='z4'>Pacific/Palau</td></tr>
+  <tr>
+	<td class='z3' rowSpan='2'>U.S. Outlying Islands	[UM]</td>
+	<td class='z4'>Pacific/Midway</td></tr>
+  <tr>
+	<td class='z4'>Pacific/Wake</td></tr>
+  <tr>
+	<td class='z2' rowSpan='14'>Outlying Oceania	[QO]</td>
+	<td class='z3' rowSpan='10'>Antarctica	[AQ]</td>
+	<td class='z4'>Antarctica/Casey</td></tr>
+  <tr>
+	<td class='z4'>Antarctica/Davis</td></tr>
+  <tr>
+	<td class='z4'>Antarctica/DumontDUrville</td></tr>
+  <tr>
+	<td class='z4'>Antarctica/Mawson</td></tr>
+  <tr>
+	<td class='z4'>Antarctica/McMurdo</td></tr>
+  <tr>
+	<td class='z4'>Antarctica/Palmer</td></tr>
+  <tr>
+	<td class='z4'>Antarctica/Rothera</td></tr>
+  <tr>
+	<td class='z4'>Antarctica/Syowa</td></tr>
+  <tr>
+	<td class='z4'>Antarctica/Troll</td></tr>
+  <tr>
+	<td class='z4'>Antarctica/Vostok</td></tr>
+  <tr>
+	<td class='z3'>Ascension Island	[AC]</td>
+	<td class='z4' rowSpan='4'>???</td></tr>
+  <tr>
+	<td class='z3'>Clipperton Island	[CP]</td></tr>
+  <tr>
+	<td class='z3'>Diego Garcia	[DG]</td></tr>
+  <tr>
+	<td class='z3'>Tristan da Cunha	[TA]</td></tr>
+  <tr>
+	<td class='z2' rowSpan='12'>Polynesia	[061]</td>
+	<td class='z3'>American Samoa	[AS]</td>
+	<td class='z4'>Pacific/Pago_Pago</td></tr>
+  <tr>
+	<td class='z3'>Cook Islands	[CK]</td>
+	<td class='z4'>Pacific/Rarotonga</td></tr>
+  <tr>
+	<td class='z3' rowSpan='3'>French Polynesia	[PF]</td>
+	<td class='z4'>Pacific/Gambier</td></tr>
+  <tr>
+	<td class='z4'>Pacific/Marquesas</td></tr>
+  <tr>
+	<td class='z4'>Pacific/Tahiti</td></tr>
+  <tr>
+	<td class='z3'>Niue	[NU]</td>
+	<td class='z4'>Pacific/Niue</td></tr>
+  <tr>
+	<td class='z3'>Pitcairn Islands	[PN]</td>
+	<td class='z4'>Pacific/Pitcairn</td></tr>
+  <tr>
+	<td class='z3'>Samoa	[WS]</td>
+	<td class='z4'>Pacific/Apia</td></tr>
+  <tr>
+	<td class='z3'>Tokelau	[TK]</td>
+	<td class='z4'>Pacific/Fakaofo</td></tr>
+  <tr>
+	<td class='z3'>Tonga	[TO]</td>
+	<td class='z4'>Pacific/Tongatapu</td></tr>
+  <tr>
+	<td class='z3'>Tuvalu	[TV]</td>
+	<td class='z4'>Pacific/Funafuti</td></tr>
+  <tr>
+	<td class='z3'>Wallis & Futuna	[WF]</td>
+	<td class='z4'>Pacific/Wallis</td></tr>
+</table>
+<h2>Groupings</h2>
+<table>
+  <tr>
+	<th class='source'>Grouping</th>
+	<th class='source'>Contained Regions</th></tr>
+  <tr>
+	<td class='z0' rowSpan='27'>European Union	[EU]</td>
+	<td class='z4'>Austria	[AT]</td></tr>
+  <tr>
+	<td class='z4'>Belgium	[BE]</td></tr>
+  <tr>
+	<td class='z4'>Bulgaria	[BG]</td></tr>
+  <tr>
+	<td class='z4'>Croatia	[HR]</td></tr>
+  <tr>
+	<td class='z4'>Cyprus	[CY]</td></tr>
+  <tr>
+	<td class='z4'>Czechia	[CZ]</td></tr>
+  <tr>
+	<td class='z4'>Denmark	[DK]</td></tr>
+  <tr>
+	<td class='z4'>Estonia	[EE]</td></tr>
+  <tr>
+	<td class='z4'>Finland	[FI]</td></tr>
+  <tr>
+	<td class='z4'>France	[FR]</td></tr>
+  <tr>
+	<td class='z4'>Germany	[DE]</td></tr>
+  <tr>
+	<td class='z4'>Greece	[GR]</td></tr>
+  <tr>
+	<td class='z4'>Hungary	[HU]</td></tr>
+  <tr>
+	<td class='z4'>Ireland	[IE]</td></tr>
+  <tr>
+	<td class='z4'>Italy	[IT]</td></tr>
+  <tr>
+	<td class='z4'>Latvia	[LV]</td></tr>
+  <tr>
+	<td class='z4'>Lithuania	[LT]</td></tr>
+  <tr>
+	<td class='z4'>Luxembourg	[LU]</td></tr>
+  <tr>
+	<td class='z4'>Malta	[MT]</td></tr>
+  <tr>
+	<td class='z4'>Netherlands	[NL]</td></tr>
+  <tr>
+	<td class='z4'>Poland	[PL]</td></tr>
+  <tr>
+	<td class='z4'>Portugal	[PT]</td></tr>
+  <tr>
+	<td class='z4'>Romania	[RO]</td></tr>
+  <tr>
+	<td class='z4'>Slovakia	[SK]</td></tr>
+  <tr>
+	<td class='z4'>Slovenia	[SI]</td></tr>
+  <tr>
+	<td class='z4'>Spain	[ES]</td></tr>
+  <tr>
+	<td class='z4'>Sweden	[SE]</td></tr>
+  <tr>
+	<td class='z0' rowSpan='19'>Eurozone	[EZ]</td>
+	<td class='z4'>Austria	[AT]</td></tr>
+  <tr>
+	<td class='z4'>Belgium	[BE]</td></tr>
+  <tr>
+	<td class='z4'>Cyprus	[CY]</td></tr>
+  <tr>
+	<td class='z4'>Estonia	[EE]</td></tr>
+  <tr>
+	<td class='z4'>Finland	[FI]</td></tr>
+  <tr>
+	<td class='z4'>France	[FR]</td></tr>
+  <tr>
+	<td class='z4'>Germany	[DE]</td></tr>
+  <tr>
+	<td class='z4'>Greece	[GR]</td></tr>
+  <tr>
+	<td class='z4'>Ireland	[IE]</td></tr>
+  <tr>
+	<td class='z4'>Italy	[IT]</td></tr>
+  <tr>
+	<td class='z4'>Latvia	[LV]</td></tr>
+  <tr>
+	<td class='z4'>Lithuania	[LT]</td></tr>
+  <tr>
+	<td class='z4'>Luxembourg	[LU]</td></tr>
+  <tr>
+	<td class='z4'>Malta	[MT]</td></tr>
+  <tr>
+	<td class='z4'>Netherlands	[NL]</td></tr>
+  <tr>
+	<td class='z4'>Portugal	[PT]</td></tr>
+  <tr>
+	<td class='z4'>Slovakia	[SK]</td></tr>
+  <tr>
+	<td class='z4'>Slovenia	[SI]</td></tr>
+  <tr>
+	<td class='z4'>Spain	[ES]</td></tr>
+  <tr>
+	<td class='z0' rowSpan='3'>Latin America	[419]</td>
+	<td class='z4'>Caribbean	[029]</td></tr>
+  <tr>
+	<td class='z4'>Central America	[013]</td></tr>
+  <tr>
+	<td class='z4'>South America	[005]</td></tr>
+  <tr>
+	<td class='z0' rowSpan='3'>North America	[003]</td>
+	<td class='z4'>Caribbean	[029]</td></tr>
+  <tr>
+	<td class='z4'>Central America	[013]</td></tr>
+  <tr>
+	<td class='z4'>Northern America	[021]</td></tr>
+  <tr>
+	<td class='z0' rowSpan='4'>Sub-Saharan Africa	[202]</td>
+	<td class='z4'>Eastern Africa	[014]</td></tr>
+  <tr>
+	<td class='z4'>Middle Africa	[017]</td></tr>
+  <tr>
+	<td class='z4'>Southern Africa	[018]</td></tr>
+  <tr>
+	<td class='z4'>Western Africa	[011]</td></tr>
+  <tr>
+	<td class='z0' rowSpan='193'>United Nations	[UN]</td>
+	<td class='z4'>Afghanistan	[AF]</td></tr>
+  <tr>
+	<td class='z4'>Albania	[AL]</td></tr>
+  <tr>
+	<td class='z4'>Algeria	[DZ]</td></tr>
+  <tr>
+	<td class='z4'>Andorra	[AD]</td></tr>
+  <tr>
+	<td class='z4'>Angola	[AO]</td></tr>
+  <tr>
+	<td class='z4'>Antigua & Barbuda	[AG]</td></tr>
+  <tr>
+	<td class='z4'>Argentina	[AR]</td></tr>
+  <tr>
+	<td class='z4'>Armenia	[AM]</td></tr>
+  <tr>
+	<td class='z4'>Australia	[AU]</td></tr>
+  <tr>
+	<td class='z4'>Austria	[AT]</td></tr>
+  <tr>
+	<td class='z4'>Azerbaijan	[AZ]</td></tr>
+  <tr>
+	<td class='z4'>Bahamas	[BS]</td></tr>
+  <tr>
+	<td class='z4'>Bahrain	[BH]</td></tr>
+  <tr>
+	<td class='z4'>Bangladesh	[BD]</td></tr>
+  <tr>
+	<td class='z4'>Barbados	[BB]</td></tr>
+  <tr>
+	<td class='z4'>Belarus	[BY]</td></tr>
+  <tr>
+	<td class='z4'>Belgium	[BE]</td></tr>
+  <tr>
+	<td class='z4'>Belize	[BZ]</td></tr>
+  <tr>
+	<td class='z4'>Benin	[BJ]</td></tr>
+  <tr>
+	<td class='z4'>Bhutan	[BT]</td></tr>
+  <tr>
+	<td class='z4'>Bolivia	[BO]</td></tr>
+  <tr>
+	<td class='z4'>Bosnia & Herzegovina	[BA]</td></tr>
+  <tr>
+	<td class='z4'>Botswana	[BW]</td></tr>
+  <tr>
+	<td class='z4'>Brazil	[BR]</td></tr>
+  <tr>
+	<td class='z4'>Brunei	[BN]</td></tr>
+  <tr>
+	<td class='z4'>Bulgaria	[BG]</td></tr>
+  <tr>
+	<td class='z4'>Burkina Faso	[BF]</td></tr>
+  <tr>
+	<td class='z4'>Burundi	[BI]</td></tr>
+  <tr>
+	<td class='z4'>Cambodia	[KH]</td></tr>
+  <tr>
+	<td class='z4'>Cameroon	[CM]</td></tr>
+  <tr>
+	<td class='z4'>Canada	[CA]</td></tr>
+  <tr>
+	<td class='z4'>Cape Verde	[CV]</td></tr>
+  <tr>
+	<td class='z4'>Central African Republic	[CF]</td></tr>
+  <tr>
+	<td class='z4'>Chad	[TD]</td></tr>
+  <tr>
+	<td class='z4'>Chile	[CL]</td></tr>
+  <tr>
+	<td class='z4'>China	[CN]</td></tr>
+  <tr>
+	<td class='z4'>Colombia	[CO]</td></tr>
+  <tr>
+	<td class='z4'>Comoros	[KM]</td></tr>
+  <tr>
+	<td class='z4'>Congo - Brazzaville	[CG]</td></tr>
+  <tr>
+	<td class='z4'>Congo - Kinshasa	[CD]</td></tr>
+  <tr>
+	<td class='z4'>Costa Rica	[CR]</td></tr>
+  <tr>
+	<td class='z4'>Côte d’Ivoire	[CI]</td></tr>
+  <tr>
+	<td class='z4'>Croatia	[HR]</td></tr>
+  <tr>
+	<td class='z4'>Cuba	[CU]</td></tr>
+  <tr>
+	<td class='z4'>Cyprus	[CY]</td></tr>
+  <tr>
+	<td class='z4'>Czechia	[CZ]</td></tr>
+  <tr>
+	<td class='z4'>Denmark	[DK]</td></tr>
+  <tr>
+	<td class='z4'>Djibouti	[DJ]</td></tr>
+  <tr>
+	<td class='z4'>Dominica	[DM]</td></tr>
+  <tr>
+	<td class='z4'>Dominican Republic	[DO]</td></tr>
+  <tr>
+	<td class='z4'>Ecuador	[EC]</td></tr>
+  <tr>
+	<td class='z4'>Egypt	[EG]</td></tr>
+  <tr>
+	<td class='z4'>El Salvador	[SV]</td></tr>
+  <tr>
+	<td class='z4'>Equatorial Guinea	[GQ]</td></tr>
+  <tr>
+	<td class='z4'>Eritrea	[ER]</td></tr>
+  <tr>
+	<td class='z4'>Estonia	[EE]</td></tr>
+  <tr>
+	<td class='z4'>Eswatini	[SZ]</td></tr>
+  <tr>
+	<td class='z4'>Ethiopia	[ET]</td></tr>
+  <tr>
+	<td class='z4'>Fiji	[FJ]</td></tr>
+  <tr>
+	<td class='z4'>Finland	[FI]</td></tr>
+  <tr>
+	<td class='z4'>France	[FR]</td></tr>
+  <tr>
+	<td class='z4'>Gabon	[GA]</td></tr>
+  <tr>
+	<td class='z4'>Gambia	[GM]</td></tr>
+  <tr>
+	<td class='z4'>Georgia	[GE]</td></tr>
+  <tr>
+	<td class='z4'>Germany	[DE]</td></tr>
+  <tr>
+	<td class='z4'>Ghana	[GH]</td></tr>
+  <tr>
+	<td class='z4'>Greece	[GR]</td></tr>
+  <tr>
+	<td class='z4'>Grenada	[GD]</td></tr>
+  <tr>
+	<td class='z4'>Guatemala	[GT]</td></tr>
+  <tr>
+	<td class='z4'>Guinea	[GN]</td></tr>
+  <tr>
+	<td class='z4'>Guinea-Bissau	[GW]</td></tr>
+  <tr>
+	<td class='z4'>Guyana	[GY]</td></tr>
+  <tr>
+	<td class='z4'>Haiti	[HT]</td></tr>
+  <tr>
+	<td class='z4'>Honduras	[HN]</td></tr>
+  <tr>
+	<td class='z4'>Hungary	[HU]</td></tr>
+  <tr>
+	<td class='z4'>Iceland	[IS]</td></tr>
+  <tr>
+	<td class='z4'>India	[IN]</td></tr>
+  <tr>
+	<td class='z4'>Indonesia	[ID]</td></tr>
+  <tr>
+	<td class='z4'>Iran	[IR]</td></tr>
+  <tr>
+	<td class='z4'>Iraq	[IQ]</td></tr>
+  <tr>
+	<td class='z4'>Ireland	[IE]</td></tr>
+  <tr>
+	<td class='z4'>Israel	[IL]</td></tr>
+  <tr>
+	<td class='z4'>Italy	[IT]</td></tr>
+  <tr>
+	<td class='z4'>Jamaica	[JM]</td></tr>
+  <tr>
+	<td class='z4'>Japan	[JP]</td></tr>
+  <tr>
+	<td class='z4'>Jordan	[JO]</td></tr>
+  <tr>
+	<td class='z4'>Kazakhstan	[KZ]</td></tr>
+  <tr>
+	<td class='z4'>Kenya	[KE]</td></tr>
+  <tr>
+	<td class='z4'>Kiribati	[KI]</td></tr>
+  <tr>
+	<td class='z4'>Kuwait	[KW]</td></tr>
+  <tr>
+	<td class='z4'>Kyrgyzstan	[KG]</td></tr>
+  <tr>
+	<td class='z4'>Laos	[LA]</td></tr>
+  <tr>
+	<td class='z4'>Latvia	[LV]</td></tr>
+  <tr>
+	<td class='z4'>Lebanon	[LB]</td></tr>
+  <tr>
+	<td class='z4'>Lesotho	[LS]</td></tr>
+  <tr>
+	<td class='z4'>Liberia	[LR]</td></tr>
+  <tr>
+	<td class='z4'>Libya	[LY]</td></tr>
+  <tr>
+	<td class='z4'>Liechtenstein	[LI]</td></tr>
+  <tr>
+	<td class='z4'>Lithuania	[LT]</td></tr>
+  <tr>
+	<td class='z4'>Luxembourg	[LU]</td></tr>
+  <tr>
+	<td class='z4'>Madagascar	[MG]</td></tr>
+  <tr>
+	<td class='z4'>Malawi	[MW]</td></tr>
+  <tr>
+	<td class='z4'>Malaysia	[MY]</td></tr>
+  <tr>
+	<td class='z4'>Maldives	[MV]</td></tr>
+  <tr>
+	<td class='z4'>Mali	[ML]</td></tr>
+  <tr>
+	<td class='z4'>Malta	[MT]</td></tr>
+  <tr>
+	<td class='z4'>Marshall Islands	[MH]</td></tr>
+  <tr>
+	<td class='z4'>Mauritania	[MR]</td></tr>
+  <tr>
+	<td class='z4'>Mauritius	[MU]</td></tr>
+  <tr>
+	<td class='z4'>Mexico	[MX]</td></tr>
+  <tr>
+	<td class='z4'>Micronesia	[FM]</td></tr>
+  <tr>
+	<td class='z4'>Moldova	[MD]</td></tr>
+  <tr>
+	<td class='z4'>Monaco	[MC]</td></tr>
+  <tr>
+	<td class='z4'>Mongolia	[MN]</td></tr>
+  <tr>
+	<td class='z4'>Montenegro	[ME]</td></tr>
+  <tr>
+	<td class='z4'>Morocco	[MA]</td></tr>
+  <tr>
+	<td class='z4'>Mozambique	[MZ]</td></tr>
+  <tr>
+	<td class='z4'>Myanmar (Burma)	[MM]</td></tr>
+  <tr>
+	<td class='z4'>Namibia	[NA]</td></tr>
+  <tr>
+	<td class='z4'>Nauru	[NR]</td></tr>
+  <tr>
+	<td class='z4'>Nepal	[NP]</td></tr>
+  <tr>
+	<td class='z4'>Netherlands	[NL]</td></tr>
+  <tr>
+	<td class='z4'>New Zealand	[NZ]</td></tr>
+  <tr>
+	<td class='z4'>Nicaragua	[NI]</td></tr>
+  <tr>
+	<td class='z4'>Niger	[NE]</td></tr>
+  <tr>
+	<td class='z4'>Nigeria	[NG]</td></tr>
+  <tr>
+	<td class='z4'>North Korea	[KP]</td></tr>
+  <tr>
+	<td class='z4'>North Macedonia	[MK]</td></tr>
+  <tr>
+	<td class='z4'>Norway	[NO]</td></tr>
+  <tr>
+	<td class='z4'>Oman	[OM]</td></tr>
+  <tr>
+	<td class='z4'>Pakistan	[PK]</td></tr>
+  <tr>
+	<td class='z4'>Palau	[PW]</td></tr>
+  <tr>
+	<td class='z4'>Panama	[PA]</td></tr>
+  <tr>
+	<td class='z4'>Papua New Guinea	[PG]</td></tr>
+  <tr>
+	<td class='z4'>Paraguay	[PY]</td></tr>
+  <tr>
+	<td class='z4'>Peru	[PE]</td></tr>
+  <tr>
+	<td class='z4'>Philippines	[PH]</td></tr>
+  <tr>
+	<td class='z4'>Poland	[PL]</td></tr>
+  <tr>
+	<td class='z4'>Portugal	[PT]</td></tr>
+  <tr>
+	<td class='z4'>Qatar	[QA]</td></tr>
+  <tr>
+	<td class='z4'>Romania	[RO]</td></tr>
+  <tr>
+	<td class='z4'>Russia	[RU]</td></tr>
+  <tr>
+	<td class='z4'>Rwanda	[RW]</td></tr>
+  <tr>
+	<td class='z4'>Samoa	[WS]</td></tr>
+  <tr>
+	<td class='z4'>San Marino	[SM]</td></tr>
+  <tr>
+	<td class='z4'>São Tomé & Príncipe	[ST]</td></tr>
+  <tr>
+	<td class='z4'>Saudi Arabia	[SA]</td></tr>
+  <tr>
+	<td class='z4'>Senegal	[SN]</td></tr>
+  <tr>
+	<td class='z4'>Serbia	[RS]</td></tr>
+  <tr>
+	<td class='z4'>Seychelles	[SC]</td></tr>
+  <tr>
+	<td class='z4'>Sierra Leone	[SL]</td></tr>
+  <tr>
+	<td class='z4'>Singapore	[SG]</td></tr>
+  <tr>
+	<td class='z4'>Slovakia	[SK]</td></tr>
+  <tr>
+	<td class='z4'>Slovenia	[SI]</td></tr>
+  <tr>
+	<td class='z4'>Solomon Islands	[SB]</td></tr>
+  <tr>
+	<td class='z4'>Somalia	[SO]</td></tr>
+  <tr>
+	<td class='z4'>South Africa	[ZA]</td></tr>
+  <tr>
+	<td class='z4'>South Korea	[KR]</td></tr>
+  <tr>
+	<td class='z4'>South Sudan	[SS]</td></tr>
+  <tr>
+	<td class='z4'>Spain	[ES]</td></tr>
+  <tr>
+	<td class='z4'>Sri Lanka	[LK]</td></tr>
+  <tr>
+	<td class='z4'>St. Kitts & Nevis	[KN]</td></tr>
+  <tr>
+	<td class='z4'>St. Lucia	[LC]</td></tr>
+  <tr>
+	<td class='z4'>St. Vincent & Grenadines	[VC]</td></tr>
+  <tr>
+	<td class='z4'>Sudan	[SD]</td></tr>
+  <tr>
+	<td class='z4'>Suriname	[SR]</td></tr>
+  <tr>
+	<td class='z4'>Sweden	[SE]</td></tr>
+  <tr>
+	<td class='z4'>Switzerland	[CH]</td></tr>
+  <tr>
+	<td class='z4'>Syria	[SY]</td></tr>
+  <tr>
+	<td class='z4'>Tajikistan	[TJ]</td></tr>
+  <tr>
+	<td class='z4'>Tanzania	[TZ]</td></tr>
+  <tr>
+	<td class='z4'>Thailand	[TH]</td></tr>
+  <tr>
+	<td class='z4'>Timor-Leste	[TL]</td></tr>
+  <tr>
+	<td class='z4'>Togo	[TG]</td></tr>
+  <tr>
+	<td class='z4'>Tonga	[TO]</td></tr>
+  <tr>
+	<td class='z4'>Trinidad & Tobago	[TT]</td></tr>
+  <tr>
+	<td class='z4'>Tunisia	[TN]</td></tr>
+  <tr>
+	<td class='z4'>Türkiye	[TR]</td></tr>
+  <tr>
+	<td class='z4'>Turkmenistan	[TM]</td></tr>
+  <tr>
+	<td class='z4'>Tuvalu	[TV]</td></tr>
+  <tr>
+	<td class='z4'>Uganda	[UG]</td></tr>
+  <tr>
+	<td class='z4'>Ukraine	[UA]</td></tr>
+  <tr>
+	<td class='z4'>United Arab Emirates	[AE]</td></tr>
+  <tr>
+	<td class='z4'>United Kingdom	[GB]</td></tr>
+  <tr>
+	<td class='z4'>United States	[US]</td></tr>
+  <tr>
+	<td class='z4'>Uruguay	[UY]</td></tr>
+  <tr>
+	<td class='z4'>Uzbekistan	[UZ]</td></tr>
+  <tr>
+	<td class='z4'>Vanuatu	[VU]</td></tr>
+  <tr>
+	<td class='z4'>Venezuela	[VE]</td></tr>
+  <tr>
+	<td class='z4'>Vietnam	[VN]</td></tr>
+  <tr>
+	<td class='z4'>Yemen	[YE]</td></tr>
+  <tr>
+	<td class='z4'>Zambia	[ZM]</td></tr>
+  <tr>
+	<td class='z4'>Zimbabwe	[ZW]</td></tr>
+</table>
+<h2>Deprecated</h2>
+<table>
+  <tr>
+	<th class='source'>Container</th>
+	<th class='source'>Deprecated Region</th></tr>
+  <tr>
+	<td class='z0'>Caribbean	[029]</td>
+	<td class='z4'>Netherlands Antilles	[AN]</td></tr>
+  <tr>
+	<td class='z0'>Eastern Europe	[151]</td>
+	<td class='z4'>Union of Soviet Socialist Republics	[SU]</td></tr>
+  <tr>
+	<td class='z0'>Middle Africa	[017]</td>
+	<td class='z4'>Zaire	[ZR]</td></tr>
+  <tr>
+	<td class='z0' rowSpan='2'>Southeast Asia	[035]</td>
+	<td class='z4'>Burma	[BU]</td></tr>
+  <tr>
+	<td class='z4'>East Timor	[TP]</td></tr>
+  <tr>
+	<td class='z0' rowSpan='2'>Southern Europe	[039]</td>
+	<td class='z4'>Serbia and Montenegro	[CS]</td></tr>
+  <tr>
+	<td class='z4'>Yugoslavia	[YU]</td></tr>
+  <tr>
+	<td class='z0' rowSpan='2'>Western Asia	[145]</td>
+	<td class='z4'>Democratic Yemen	[YD]</td></tr>
+  <tr>
+	<td class='z4'>Neutral Zone	[NT]</td></tr>
+  <tr>
+	<td class='z0' rowSpan='2'>Western Europe	[155]</td>
+	<td class='z4'>German Democratic Republic	[DD]</td></tr>
+  <tr>
+	<td class='z4'>Metropolitan France	[FX]</td></tr>
+  <tr>
+	<td class='z0'>world	[001]</td>
+	<td class='z4'>QU</td></tr>
+</table>
+
+<!-- end main body -->
+	</div>
+	<div style='text-align: center; margin-top:2em; margin-bottom: 60em;'><br>
+		<a href='https://www.unicode.org/copyright.html'>
+			<img src='https://www.unicode.org/img/hb_notice.gif' style='border-style: none; width: 216px; height:50px;'
+				alt='Access to Copyright and terms of use'>
+		</a>
+	</div>
+
+</body>
+</html>
