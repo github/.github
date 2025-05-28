@@ -1,0 +1,944 @@
+# Translation of Wikibase Quality Constraints - User interface to S'gaw Karen (စှီၤ)
+# Exported from translatewiki.net
+#
+# Author: SawJaemin
+msgid ""
+msgstr ""
+""
+"PO-Revision-Date: 2025-03-28 00:00:15+0000\n"
+"POT-Creation-Date: 2025-03-28 00:00:15+0000\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ksw\n"
+"Project-Id-Version: Wikibase Quality Constraints - User interface\n"
+"Report-Msgid-Bugs-To: translatewiki.net\n"
+"X-Translation-Project: translatewiki.net <https://translatewiki.net>\n"
+"X-Generator: MediaWiki 1.44.0-alpha; Translate 2025-03-15\n"
+"X-Language-Code: ksw\n"
+"X-Message-Group: ext-wikibasequalityconstraints-user\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. [Wiki] {{doc-special|ConstraintReport}}
+msgctxt "wbqc-constraintreport"
+msgid "Constraint report"
+msgstr ""
+
+#. [Wiki] {{desc|name=Wikibase Quality Constraints|url=https://www.mediawiki.org/wiki/Extension:WikibaseQualityConstraints}}
+msgctxt "wbqc-desc"
+msgid "Checks constraints on both items and properties and displays the results on a special page"
+msgstr ""
+
+#. [Wiki] Explanation (part one), what this special page does and how it gets its data.
+msgctxt "wbqc-constraintreport-explanation-part-one"
+msgid "This special page performs constraint checks on any entity you want. The entities are fetched from the live system, so every constraint violation you fix there will be instantly removed from this list."
+msgstr ""
+
+#. [Wiki] Explanation (part two), what this special page does and how it gets its data.
+msgctxt "wbqc-constraintreport-explanation-part-two"
+msgid "The constraints are parsed from statements on properties each time those statements are edited, usually within a few minutes."
+msgstr ""
+
+#. [Wiki] Header of the section of the entity id form.
+msgctxt "wbqc-constraintreport-form-section"
+msgid "Check constraints for entity"
+msgstr ""
+
+#. [Wiki] Label of the button, that starts the check.
+#. [Wiki] {{Identical|Check}}
+msgctxt "wbqc-constraintreport-form-submit-label"
+msgid "Check"
+msgstr ""
+
+#. [Wiki] Label for the entity id input field.
+msgctxt "wbqc-constraintreport-form-entityid-label"
+msgid "Entity ID:"
+msgstr ""
+
+#. [Wiki] Entity id placeholder for the input field.
+msgctxt "wbqc-constraintreport-form-entityid-placeholder"
+msgid "Qxx or Pxx"
+msgstr ""
+
+#. [Wiki] Result headline. Label of checked entity is appended to this.
+msgctxt "wbqc-constraintreport-result-headline"
+msgid "Result for"
+msgstr ""
+
+#. [Wiki] Text to display when the entered entity id is invalid.
+msgctxt "wbqc-constraintreport-invalid-entity-id"
+msgid "Invalid entity ID."
+msgstr ""
+
+#. [Wiki] Text to display when the requested entity does not exist.
+msgctxt "wbqc-constraintreport-not-existent-entity"
+msgid "Entity does not exist."
+msgstr ""
+
+#. [Wiki] Message that appears, when there are no constraints defined for the given entity.
+msgctxt "wbqc-constraintreport-empty-result"
+msgid "There are no constraints defined on this entity."
+msgstr ""
+
+#. [Wiki] Status for claims that are violated against a constraint.
+msgctxt "wbqc-constraintreport-status-violation"
+msgid "Violation"
+msgstr ""
+
+#. [Wiki] Status for claims that comply with a constraint
+msgctxt "wbqc-constraintreport-status-compliance"
+msgid "Compliance"
+msgstr ""
+
+#. [Wiki] Status for claims that were marked as a exception
+msgctxt "wbqc-constraintreport-status-exception"
+msgid "Exception"
+msgstr ""
+
+#. [Wiki] Status for constraints which cannot be checked yet.
+#. [Wiki] {{Identical|Todo}}
+msgctxt "wbqc-constraintreport-status-todo"
+msgid "Todo"
+msgstr ""
+
+#. [Wiki] Status for constraints that have missing or invalid constraint parameters.
+msgctxt "wbqc-constraintreport-status-bad-parameters"
+msgid "Bad parameters"
+msgstr ""
+
+#. [Wiki] Status for constraint checks that have been skipped because the statement is deprecated.
+msgctxt "wbqc-constraintreport-status-deprecated"
+msgid "Deprecated"
+msgstr ""
+
+#. [Wiki] Status for statements that violate a non-mandatory constraint.
+#. [Wiki] {{Identical|Warning}}
+msgctxt "wbqc-constraintreport-status-warning"
+msgid "Warning"
+msgstr ""
+
+#. [Wiki] Status for statements that violate a suggestion constraint.
+msgctxt "wbqc-constraintreport-status-suggestion"
+msgid "Suggestion"
+msgstr ""
+
+#. [Wiki] Status for constraint checks that have been skipped because the kind of the snak to be checked (main snak, qualifier, or reference) is not within the scope of the constraint. This should follow the label of the “constraint scope” property ([[wikidata:Property:P4680|P4680 on Wikidata]]).
+msgctxt "wbqc-constraintreport-status-not-in-scope"
+msgid "Not in scope"
+msgstr ""
+
+#. [Wiki] Header of the column that tells whether the check found a violation or something else.
+#. [Wiki] {{Identical|Status}}
+msgctxt "wbqc-constraintreport-result-table-header-status"
+msgid "Status"
+msgstr ""
+
+#. [Wiki] Header of the column that shows the property of the constraint check. The constraint being checked is defined on this property.
+#. [Wiki] {{Identical|Property}}
+msgctxt "wbqc-constraintreport-result-table-header-property"
+msgid "Property"
+msgstr ""
+
+#. [Wiki] Header of the column that displays the message of a constraint check result.
+#. [Wiki] {{Identical|Message}}
+msgctxt "wbqc-constraintreport-result-table-header-message"
+msgid "Message"
+msgstr ""
+
+#. [Wiki] Header of the column that gives information about which constraint was checked.
+#. [Wiki] {{Identical|Constraint}}
+msgctxt "wbqc-constraintreport-result-table-header-constraint"
+msgid "Constraint"
+msgstr ""
+
+#. [Wiki] Text for the link to a claim group on the entity page.
+msgctxt "wbqc-constraintreport-result-link-to-claim"
+msgid "go to claim"
+msgstr ""
+
+#. [Wiki] Text for the link to a constraint on the property page.
+msgctxt "wbqc-constraintreport-result-link-to-constraint"
+msgid "go to constraint"
+msgstr ""
+
+#. [Wiki] Text that is displayed when there was no value for a parameter given.
+#. [Wiki] {{Identical|None}}
+msgctxt "wbqc-constraintreport-no-parameter"
+msgid "none"
+msgstr ""
+
+#. [Wiki] Headline of the constraint report popup section for violations of mandatory constraints. These issues/problems are more severe than violations of non-mandatory constraints, which have the heading {{msg-mw|wbqc-potentialissues-short}}.
+#. [Wiki] {{Identical|Issue}}
+msgctxt "wbqc-issues-short"
+msgid "Issues"
+msgstr ""
+
+#. [Wiki] Title for the icon shown on statements with mandatory constraint violations, usually displayed by the browser when the user hovers over the icon with the mouse cursor.
+msgctxt "wbqc-issues-long"
+msgid "This statement has some issues."
+msgstr ""
+
+#. [Wiki] Headline of the constraint report popup section for violations of non-mandatory constraints. Should be easy to understand for users, and convey that the reported violations are not always errors, but should be thought of as hints to the user that something might be wrong.
+msgctxt "wbqc-potentialissues-short"
+msgid "Potential issues"
+msgstr ""
+
+#. [Wiki] Title for the icon shown on statements with non-mandatory constraint violations, usually displayed by the browser when the user hovers over the icon with the mouse cursor.
+#. [Wiki] {{Related|wbqc-potentialissues-short}}
+#. [Wiki] {{Related|wbqc-issues-long}}
+msgctxt "wbqc-potentialissues-long"
+msgid "This statement has some potential issues."
+msgstr ""
+
+#. [Wiki] Headline of the constraint report popup section for violations of suggestion constraints. Should be easy to understand for users, and convey that the reported violations are just suggestions for improvements to the statement, not indications of problems.
+msgctxt "wbqc-suggestions-short"
+msgid "Suggestions"
+msgstr ""
+
+#. [Wiki] Title for the icon shown on statements with suggestion constraint violations, usually displayed by the browser when the user hovers over the icon with the mouse cursor.
+#. [Wiki] {{Related|wbqc-suggestions-short}}
+#. [Wiki] {{Related|wbqc-issues-long}}
+msgctxt "wbqc-suggestions-long"
+msgid "There are some suggestions for improving this statement."
+msgstr ""
+
+#. [Wiki] Headline of the constraint parameter report popup shown on constraint statements with invalid constraint parameters.
+msgctxt "wbqc-badparameters-short"
+msgid "Bad parameters"
+msgstr ""
+
+#. [Wiki] Title for the icon shown on constraint statements with invalid constraint parameters, usually displayed by the browser when the user hovers over the icon with the mouse cursor.
+#. [Wiki] {{Related|wbqc-badparameters-short}}
+msgctxt "wbqc-badparameters-long"
+msgid "This constraint statement has some invalid parameters."
+msgstr ""
+
+#. [Wiki] Headline of the section of the constraint parameter report popup that contains problems about the constraint parameters. The section is collapsed by default, since these problems are harder to understand and fix than normal constraint violations. The headline should convey that normal users are not expected to deal with these problems.
+#. [Wiki] 
+#. [Wiki] These problems are also displayed on property pages in a separate popup: see {{msg-mw|wbqc-badparameters-short}} / {{msg-mw|wbqc-badparameters-long}}.
+msgctxt "wbqc-parameterissues-short"
+msgid "Advanced issues"
+msgstr ""
+
+#. [Wiki] Longer explanation of the section of the constraint parameter report popup that contains problems about the constraint parameters.
+#. [Wiki] {{Related|wbqc-parameterissues-short}}
+msgctxt "wbqc-parameterissues-long"
+msgid "These issues are problems with the constraint definition on the property, not with this statement."
+msgstr ""
+
+#. [Wiki] Text for the help link shown next to the constraint type in a constraint violation report. The link leads to a help page on Wikidata about the constraint type.
+#. [Wiki] {{Identical|Help}}
+msgctxt "wbqc-constrainttypehelp-short"
+msgid "Help"
+msgstr "တၢ်မၤစၢၤ"
+
+#. [Wiki] Title for the help link shown next to the constraint type in a constraint violation report. The link leads to a help page on Wikidata about the constraint type.
+#. [Wiki] {{Related|wbqc-constrainttypehelp-short}}
+msgctxt "wbqc-constrainttypehelp-long"
+msgid "Help page for this constraint type"
+msgstr ""
+
+#. [Wiki] Text for the discussion link shown next to the constraint type in a constraint violation report. The link leads to the talk page of the property on which the constraint is defined.
+#. [Wiki] {{Identical|Discuss}}
+msgctxt "wbqc-constraintdiscuss-short"
+msgid "Discuss"
+msgstr ""
+
+#. [Wiki] Title for the discussion link shown next to the constraint type in a constraint violation report. The link leads to the talk page of the property on which the constraint is defined.
+#. [Wiki] {{Related|wbqc-constraintdiscuss-short}}
+msgctxt "wbqc-constraintdiscuss-long"
+msgid "Discussion page about this constraint"
+msgstr ""
+
+#. [Wiki] Generic message informing the user that a constraint check result might be outdated. There is no information on how old the cached result is; if more information is available, a more specific message is used.
+msgctxt "wbqc-cached-generic"
+msgid "This result is cached and might be out of date."
+msgstr ""
+
+#. [Wiki] Message informing the user that a constraint check result might be outdated by up to ''n'' minutes.
+#. [Wiki] {{Related|wbqc-cached-generic}}
+msgctxt "wbqc-cached-minutes"
+msgid "This result is cached and might be out of date by up to {{PLURAL:$1|1=one minute|$1&nbsp;minutes}}."
+msgstr ""
+
+#. [Wiki] Message informing the user that a constraint check result might be outdated by up to ''n'' hours.
+#. [Wiki] {{Related|Wbqc-cached}}
+msgctxt "wbqc-cached-hours"
+msgid "This result is cached and might be out of date by up to {{PLURAL:$1|1=one hour|$1&nbsp;hours}}."
+msgstr ""
+
+#. [Wiki] Message informing the user that a constraint check result might be outdated by up to ''n'' days.
+#. [Wiki] {{Related|wbqc-cached-minutes}}
+#. [Wiki] {{Related|wbqc-cached-generic}}
+msgctxt "wbqc-cached-days"
+msgid "This result is cached and might be out of date by up to {{PLURAL:$1|1=one day|$1&nbsp;days}}."
+msgstr ""
+
+#. [Wiki] The name of a data value type.
+#. [Wiki] {{related|Wbqc-dataValueType-wikibase}}
+msgctxt "wbqc-dataValueType-wikibase-entityid"
+msgid "Entity ID"
+msgstr ""
+
+#. [Wiki] Name of this subextension. Is shown in special page that lists all the violations.
+#. [Wiki] {{Identical|Constraint}}
+msgctxt "wbq-subextension-name-wbqc"
+msgid "Constraints"
+msgstr ""
+
+#. [Wiki] Header for section in violations special page that displays the parameters of the constraint.
+#. [Wiki] {{Identical|Parameter}}
+msgctxt "wbqc-violation-header-parameters"
+msgid "Parameters:"
+msgstr ""
+
+#. [Wiki] Type of violations this extension finds.
+#. [Wiki] {{Identical|Constraint}}
+msgctxt "wbqc-violations-group"
+msgid "Constraints"
+msgstr ""
+
+#. [Wiki] Generic message to tell that there was a violation.
+msgctxt "wbqc-violation-message"
+msgid "Constraint check has pointed out a violation. Please click on icon for further information."
+msgstr ""
+
+#. [Wiki] Message for when a check is yet to be implemented. Not actually a violation, more of a todo.
+msgctxt "wbqc-violation-message-not-yet-implemented"
+msgid "For technical reasons, the check for the constraint \"$1\" has not yet been implemented."
+msgstr ""
+
+#. [Wiki] Message for when a check is not possible due to security reasons. Not actually a violation, more of a todo.
+msgctxt "wbqc-violation-message-security-reason"
+msgid "For security reasons, it is not possible to check the \"$1\" constraint at the moment. We are working on a solution."
+msgstr ""
+
+#. [Wiki] Message for when a property needs a value of a specific type (like string or wikibase-entityid), but it doesn't.
+msgctxt "wbqc-violation-message-value-needed-of-type"
+msgid "Properties with constraint \"$1\" need to have values of type \"$2\"."
+msgstr ""
+
+#. [Wiki] Message for when a property needs a value of one of two specific types (like string or wikibase-entityid), but it doesn't.
+msgctxt "wbqc-violation-message-value-needed-of-types-2"
+msgid "Properties with constraint \"$1\" need to have values of type \"$2\" or \"$3\"."
+msgstr ""
+
+#. [Wiki] Message for when a constraint needs a specific parameter, but it's missing.
+msgctxt "wbqc-violation-message-parameter-needed"
+msgid "Properties with constraint \"$1\" need a parameter \"$2\"."
+msgstr ""
+
+#. [Wiki] Message for when a constraint needs three specific parameters, but some of them are missing.
+msgctxt "wbqc-violation-message-parameters-needed-3"
+msgid "Properties with constraint \"$1\" need parameters \"$2\", \"$3\", and \"$4\"."
+msgstr ""
+
+#. [Wiki] Message for when an entity is referenced, but it doesn't exist (any more).
+msgctxt "wbqc-violation-message-target-entity-must-exist"
+msgid "The target entity must exist."
+msgstr ""
+
+#. [Wiki] Message for when the property has an entity as its value, but it doesn't exist (any more).
+msgctxt "wbqc-violation-message-value-entity-must-exist"
+msgid "The value entity must exist."
+msgstr ""
+
+#. [Wiki] Message for when "no value" or "unknown value" has been entered as the value of a constraint parameter that must be an actual value. $1 contains the parameter.
+msgctxt "wbqc-violation-message-parameter-value"
+msgid "The parameter \"$1\" must have a custom value, not \"no value\" or \"unknown value\"."
+msgstr ""
+
+#. [Wiki] Message for when "unknown value" has been entered as the value of a constraint parameter that must be an actual value or "no value". $1 contains the parameter.
+#. [Wiki] {{Related|wbqc-violation-message-parameter-value}}
+msgctxt "wbqc-violation-message-parameter-value-or-novalue"
+msgid "The parameter \"$1\" must have a custom value or \"no value\", but never \"unknown value\"."
+msgstr ""
+
+#. [Wiki] Message for when the value of a constraint parameter must be an entity, but is some other kind of data value. $1 contains the parameter, $2 the value.
+msgctxt "wbqc-violation-message-parameter-entity"
+msgid "The value for the parameter \"$1\" must be an entity, not \"$2\"."
+msgstr ""
+
+#. [Wiki] Message for when the value of a constraint parameter must be an item, but is some other kind of entity. $1 contains the parameter, $2 the value.
+#. [Wiki] {{Related|wbqc-violation-message-parameter-entity}}
+msgctxt "wbqc-violation-message-parameter-item"
+msgid "The value for the parameter \"$1\" must be an item, not \"$2\"."
+msgstr ""
+
+#. [Wiki] Message for when the value of a constraint parameter must be a property, but is some other kind of entity. $1 contains the parameter, $2 the value.
+#. [Wiki] {{Related|wbqc-violation-message-parameter-entity}}
+msgctxt "wbqc-violation-message-parameter-property"
+msgid "The value for the parameter \"$1\" must be a property, not \"$2\"."
+msgstr ""
+
+#. [Wiki] Message for when the value of a constraint parameter must be a string, but is some other value type. $1 contains the parameter, $2 the value.
+msgctxt "wbqc-violation-message-parameter-string"
+msgid "The value for the parameter \"$1\" must be a string, not \"$2\"."
+msgstr ""
+
+#. [Wiki] Message for when the value of a constraint parameter must be a monolingual text, but is some other value type. Parameters:
+#. [Wiki] * $1 contains the parameter.
+#. [Wiki] * $2 contains the value.
+msgctxt "wbqc-violation-message-parameter-monolingualtext"
+msgid "The value for the parameter \"$1\" must be a monolingual text, not \"$2\"."
+msgstr ""
+
+#. [Wiki] Message for when a constraint parameter has multiple values but only supports one. $1 contains the parameter.
+msgctxt "wbqc-violation-message-parameter-single"
+msgid "The parameter \"$1\" must only have a single value."
+msgstr ""
+
+#. [Wiki] Message for when a constraint parameter has multiple values with the same language but only supports one value per language. (This is, in effect, used to construct a multilingual text from several monolingual texts.) Parameters:
+#. [Wiki] * $1 is the parameter.
+#. [Wiki] * $2 is the language name in the language itself (autonym), e. g. “English” or “français cadien” (without any quotation marks).
+#. [Wiki] * $3 is the language code, e. g. en or frc.
+#. [Wiki] {{Related|wbqc-violation-message-parameter-single}}
+msgctxt "wbqc-violation-message-parameter-single-per-language"
+msgid "The parameter \"$1\" must only have a single value per language, but has multiple values for $2 ($3)."
+msgstr ""
+
+#. [Wiki] Message for when a constraint parameter must be one of several values, but is something different. $1 contains the parameter, $2 the number of allowed values (possibly 1), $3 an HTML list of all allowed values, and $4, $5 etc. are the individual allowed values.
+#. [Wiki] {{Related|wbqc-violation-message-one-of}}
+msgctxt "wbqc-violation-message-parameter-oneof"
+msgid "The parameter \"$1\" must be {{PLURAL:$2|1=$4.|2=either $4 or $5.|one of the following:$3}}"
+msgstr ""
+
+#. [Wiki] Message for when a constraint parameter must be a valid regular expression, but has an error. $1 contains the parameter value.
+msgctxt "wbqc-violation-message-parameter-regex"
+msgid "$1 is not a valid regular expression."
+msgstr ""
+
+#. [Wiki] Message for when a constraint checker runs a SPARQL query but the SPARQL endpoint returns an error instead of query results.
+msgctxt "wbqc-violation-message-sparql-error"
+msgid "The SPARQL query resulted in an error."
+msgstr ""
+
+#. [Wiki] Message for when the constraint parameters of a constraint could not be imported, but the reason is unknown.n
+msgctxt "wbqc-violation-message-parameters-error-unknown"
+msgid "The parameters of this constraint could not be imported."
+msgstr ""
+
+#. [Wiki] Message for when the constraint parameters of a constraint could not be imported because they were too long to be stored in the database.
+msgctxt "wbqc-violation-message-parameters-error-toolong"
+msgid "The parameters of this constraint could not be imported because they were too long."
+msgstr ""
+
+#. [Wiki] Message for when a constraint specifies a scope that is not valid for this constraint type, such as a “constraint checked on qualifiers” scope on a “used as reference” constraint. Parameters:
+#. [Wiki] * $1 is the invalid scope.
+#. [Wiki] * $2 is the constraint type.
+#. [Wiki] * $3 is the number of valid scopes.
+#. [Wiki] * $4 is an HTML list of all valid scopes for this constraint type.
+#. [Wiki] * $5, $6 etc. are the individual valid scopes for this constraint type.
+#. [Wiki] This should follow the label of the “constraint scope” property ([[wikidata:Property:P4680|P4680 on Wikidata]]), similar to {{msg-mw|wbqc-constraintreport-status-not-in-scope}}.
+msgctxt "wbqc-violation-message-invalid-scope"
+msgid "$1 is not a valid scope for the constraint type $2; the only valid {{PLURAL:$3|scope|scopes}} for this constraint type {{PLURAL:$3|is $5.|2=are $5 and $6.|are: $4}}"
+msgstr ""
+
+#. [Wiki] Message for violation of Commons link constraint. When linked commons page does not exist.
+msgctxt "wbqc-violation-message-commons-link-no-existent"
+msgid "Commons link should exist."
+msgstr ""
+
+#. [Wiki] Message for violation of Commons link constraint. When link contains invalid characters.
+msgctxt "wbqc-violation-message-commons-link-not-well-formed"
+msgid "Commons link should be well-formed."
+msgstr ""
+
+#. [Wiki] Message for when the check for the Commons link constraint has not yet been implemented for a specific namespace.
+msgctxt "wbqc-violation-message-commons-link-check-for-namespace-not-yet-implemented"
+msgid "Check for namespace \"$1\" is not yet implemented."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Conflicts with” constraint, when there is a statement with a conflicting property. $1 contains the property of the current statement (which has the constraint), and $2 contains the conflicting property.
+msgctxt "wbqc-violation-message-conflicts-with-property"
+msgid "An entity should not have statements for both $1 and $2."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Conflicts with” constraint, when there is a conflicting statement. $1 contains the property of the current statement (which has the constriant), $2 contains the property of the conflicting statement, and $3 contains the value of the conflicting statement.
+#. [Wiki] {{Related|Wbqc-violation-message-conflicts-with-property}}
+msgctxt "wbqc-violation-message-conflicts-with-claim"
+msgid "An entity should not have a statement for $1 if it also has a statement for $2 with value $3."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Contemporary” constraint, when the linked entities are not contemporary. Parameters:
+#. [Wiki] * $1 is the subject entity.
+#. [Wiki] * $2 is the property of the statement with the constraint.
+#. [Wiki] * $3 is the value entity.
+#. [Wiki] * $4 is the end time value of the subject entity.
+#. [Wiki] * $5 is the start time value of the value entity.
+#. [Wiki] {{Related|Wbqc-violation-message-contemporary-subject-earlier}}
+msgctxt "wbqc-violation-message-contemporary-subject-earlier"
+msgid "The entities $1 and $3 should be contemporary to be linked through $2, but the latest end value of $1 is $4 and the earliest start value of $3 is $5."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Contemporary” constraint, when the linked entities are not contemporary. Parameters:
+#. [Wiki] * $1 is the subject entity.
+#. [Wiki] * $2 is the property of the statement with the constraint.
+#. [Wiki] * $3 is the value entity.
+#. [Wiki] * $4 is the end time value of the value entity.
+#. [Wiki] * $5 is the start time value of the subject entity.
+#. [Wiki] {{Related|Wbqc-violation-message-contemporary-subject-earlier}}
+msgctxt "wbqc-violation-message-contemporary-value-earlier"
+msgid "The entities $1 and $3 should be contemporary to be linked through $2, but the latest end value of $3 is $4 and the earliest start value of $1 is $5."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Diff within range” constraint, when the difference between two values is smaller or larger than allowed (for a range with both limits). Parameters:
+#. [Wiki] * $1 is the first property.
+#. [Wiki] * $2 is the value of the first property.
+#. [Wiki] * $3 is the second property.
+#. [Wiki] * $4 is the value of the second property.
+#. [Wiki] * $5 is the lower bound of the range (inclusive).
+#. [Wiki] * $6 is the upper bound of the range (inclusive).
+#. [Wiki] The “first property” is the one referenced in the constraint, and the “second property” is the one that the constraint is placed on. The difference is calculated as “second property” − “first property” ($4 − $2).
+msgctxt "wbqc-violation-message-diff-within-range"
+msgid "The difference between $3 ($4) and $1 ($2) should be between $5 and $6."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Diff within range” constraint, when the difference between two values is larger than allowed (for a range with an upper but no lower limit). Parameters:
+#. [Wiki] * $1 is the first property.
+#. [Wiki] * $2 is the value of the first property.
+#. [Wiki] * $3 is the second property.
+#. [Wiki] * $4 is the value of the second property.
+#. [Wiki] * $5 is the upper bound of the range (inclusive).
+#. [Wiki] The “first property” is the one referenced in the constraint, and the “second property” is the one that the constraint is placed on. The difference is calculated as “second property” − “first property” ($4 − $2).
+#. [Wiki] {{Related|wbqc-violation-message-diff-within-range}}
+msgctxt "wbqc-violation-message-diff-within-range-leftopen"
+msgid "The difference between $3 ($4) and $1 ($2) should be no more than $5."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Diff within range” constraint, when the difference between two values is larger than allowed (for a range with a lower but no upper limit). Parameters:
+#. [Wiki] * $1 is the first property.
+#. [Wiki] * $2 is the value of the first property.
+#. [Wiki] * $3 is the second property.
+#. [Wiki] * $4 is the value of the second property.
+#. [Wiki] * $5 is the lower bound of the range (inclusive).
+#. [Wiki] The “first property” is the one referenced in the constraint, and the “second property” is the one that the constraint is placed on. The difference is calculated as “second property” − “first property” ($4 − $2).
+#. [Wiki] {{Related|wbqc-violation-message-diff-within-range}}
+msgctxt "wbqc-violation-message-diff-within-range-rightopen"
+msgid "The difference between $3 ($4) and $1 ($2) should be no less than $5."
+msgstr ""
+
+#. [Wiki] Message for violation of Diff within range constraint. When this and the given property differ in value type.
+msgctxt "wbqc-violation-message-diff-within-range-must-have-equal-types"
+msgid "The property defined in the parameters must have a value of the same type as this property."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Format” constraint, when the value of a statement does not match a certain pattern (“regex” is short for “regular expression”). Parameters:
+#. [Wiki] * $1 is the property of the statement that has the constraint.
+#. [Wiki] * $2 is the text value of the statement.
+#. [Wiki] * $3 is the regex.
+#. [Wiki] This message is only used if no syntax clarification for the regex has been provided; if a syntax clarification is available, {{msg-mw|wbqc-violation-message-format-clarification}} is used instead.
+msgctxt "wbqc-violation-message-format"
+msgid "The value for $1 ($2) should match the regex $3."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Format” constraint, when the value of a statement does not match a certain pattern (“regex” is short for “regular expression”). Parameters:
+#. [Wiki] * $1 is the property of the statement that has the constraint.
+#. [Wiki] * $2 is the text value of the statement.
+#. [Wiki] * $3 is the regex.
+#. [Wiki] * $4 is a human-readable explanation of the regex in the user’s language or a fallback language (possibly English).
+#. [Wiki] {{Related|wbqc-violation-message-format}}
+msgctxt "wbqc-violation-message-format-clarification"
+msgid "The value for $1 ($2) should match “$4” (regex: $3)."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Inverse” constraint, when the inverse statement of a statement does not exist. $1, $2 and $3 contain the expected subject entity, property, and target entity of the missing inverse statement.
+msgctxt "wbqc-violation-message-inverse"
+msgid "$1 should also have the inverse statement $2 $3."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Item” constraint, when the subject entity of a statement is missing another statement. Parameters:
+#. [Wiki] * $1 is the property of the statement that has the constraint.
+#. [Wiki] * $2 is the property of the missing statement.
+#. [Wiki] * $3 is the number of values permitted for the missing statement (or 0, in which case the constraint only specifies that there should be a statement but not the values it should have).
+#. [Wiki] * $4 is an HTML list of all values permitted for the missing statement.
+#. [Wiki] * $5, $6 etc. are the individual values permitted for the missing statement.
+#. [Wiki] {{Related|wbqc-violation-message-target-required-claim}}
+msgctxt "wbqc-violation-message-item"
+msgid "An entity with $1 should also have {{PLURAL:$3|0=a statement $2.|1=a statement $2 $5.|a statement for $2 with one of the following values:$4}}"
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Mandatory qualifier” constraint, when a mandatory qualifier is missing on a statement. Parameters:
+#. [Wiki] * $1 is the property of the statement.
+#. [Wiki] * $2 is the missing qualifier.
+msgctxt "wbqc-violation-message-mandatory-qualifier"
+msgid "This $1 statement is missing a qualifier $2."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “multi value” constraint, when only one value exists. Parameters:
+#. [Wiki] * $1 is the property of the statement.
+msgctxt "wbqc-violation-message-multi-value"
+msgid "This property should contain multiple values."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “multi value” constraint, when only one value with the same set of qualifiers exists. Parameters:
+#. [Wiki] * $1 is the property of the statement.
+#. [Wiki] * $2 is the number of separator properties.
+#. [Wiki] * $3 is an HTML list of all separator properties.
+#. [Wiki] * $4, $5 etc. are the individual separator properties.
+msgctxt "wbqc-violation-message-multi-value-separators"
+msgid "This property should contain multiple values with the same {{PLURAL:$2|1=$4 qualifier.|set of qualifiers for these properties: $3}}"
+msgstr ""
+
+#. [Wiki] Message for a violation of the “One of” constraint, when the value is not one of the allowed values. Parameters:
+#. [Wiki] * $1 is the property that has the constraint.
+#. [Wiki] * $2 is the number of allowed values (note that certain constraints have only a single allowed value).
+#. [Wiki] * $3 is an HTML list of all allowed values.
+#. [Wiki] * $4, $5 etc. are the individual allowed values.
+msgctxt "wbqc-violation-message-one-of"
+msgid "The value for $1 should be {{PLURAL:$2|1=$4.|2=either $4 or $5.|one of the following:$3}}"
+msgstr ""
+
+#. [Wiki] Message for violation of Qualifier constraint. When the property is used in a claim.
+msgctxt "wbqc-violation-message-qualifier"
+msgid "The property should only be used as a qualifier."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Qualifiers” constraint, when a statement has a qualifier but the property has no permitted qualifiers. This is a special case of {{msg-mw|wbqc-violation-message-qualifiers}}. Parameters:
+#. [Wiki] * $1 is the qualifier property that is not permitted.
+#. [Wiki] {{Related|wbqc-violation-message-qualifiers}}
+msgctxt "wbqc-violation-message-no-qualifiers"
+msgid "$1 statements should not have any qualifiers."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Qualifiers” constraint, when a statement has a qualifier that is not permitted. Parameters:
+#. [Wiki] * $1 is the property of the statement.
+#. [Wiki] * $2 is the qualifier property that is not permitted.
+#. [Wiki] * $3 is the number of permitted qualifiers. (This number is always greater than zero, since the special case of no permitted qualifiers is handled by the separate message {{msg-mw|wbqc-violation-message-no-qualifiers}}.)
+#. [Wiki] * $4 is an HTML list of all permitted qualifiers.
+#. [Wiki] * $5, $6 etc. are the individual permitted qualifiers.
+#. [Wiki] {{Related|wbqc-violation-message-no-qualifiers}}
+msgctxt "wbqc-violation-message-qualifiers"
+msgid "$2 is not a valid qualifier for $1 – the only valid {{PLURAL:$3|1=qualifier is $5.|2=qualifiers are $5 and $6.|qualifiers are:$4}}"
+msgstr ""
+
+#. [Wiki] Message for when a constraint needs two specific parameters to form a range, but one or both of them are missing. Parameters:
+#. [Wiki] * $1 is the data type ("quantity" or "time").
+#. [Wiki] * $2 is the parameter needed for the lower boundary.
+#. [Wiki] * $3 is the parameter needed for the upper boundary.
+#. [Wiki] * $4 is the constraint type name ("Range" or "Diff within range").
+msgctxt "wbqc-violation-message-range-parameters-needed"
+msgid "Properties with values of type \"$1\" with constraint \"$4\" need the parameters \"$2\" and \"$3\"."
+msgstr ""
+
+#. [Wiki] Message for when a constraint has two parameters to form a range, and one of the parameters has the unit “year” and the other one has a different unit (e. g. “seconds”). Because years cannot be losslessly converted to other time units (due to leap years), this is not allowed: either both range endpoints should have the unit “year”, or both should have a different unit.
+msgctxt "wbqc-violation-message-range-parameters-one-year"
+msgid "Endpoints of a time-unit range must either both or neither have the unit \"year\" because years cannot be converted losslessly to seconds."
+msgstr ""
+
+#. [Wiki] Message for when the valid range defined by two constraint parameters is empty because the two parameters contain the same value. Special cases of this message are ranges open on both sides (no lower and no upper boundary), or ranges where both endpoints are the special value “now”. Parameters: 
+#. [Wiki] * $1 is the parameter for the lower boundary of the range.
+#. [Wiki] * $2 is the parameter for the upper boundary of the range.
+msgctxt "wbqc-violation-message-range-parameters-same"
+msgid "The start ($1) and end point ($2) of a range must not be the same."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Range” constraint, when the value of a statement is smaller or larger than allowed (for a quantity range with both limits). Parameters:
+#. [Wiki] * $1 is the property of the statement.
+#. [Wiki] * $2 is the value of the statement.
+#. [Wiki] * $3 is the lower bound of the range (inclusive).
+#. [Wiki] * $4 is the upper bound of the range (inclusive).
+msgctxt "wbqc-violation-message-range-quantity-closed"
+msgid "The value for $1 ($2) should be between $3 and $4."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Range” constraint, when the value of a statement is larger than allowed (for a quantity range with an upper but no lower limit). Parameters:
+#. [Wiki] * $1 is the property of the statement.
+#. [Wiki] * $2 is the value of the statement.
+#. [Wiki] * $3 is the upper bound of the range (inclusive).
+msgctxt "wbqc-violation-message-range-quantity-leftopen"
+msgid "The value for $1 ($2) should be no more than $3."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Range” constraint, when the value of a statement is smaller than allowed (for a quantity range with a lower but no upper limit). Parameters:
+#. [Wiki] * $1 is the property of the statement.
+#. [Wiki] * $2 is the value of the statement.
+#. [Wiki] * $3 is the lower bound of the range (inclusive).
+msgctxt "wbqc-violation-message-range-quantity-rightopen"
+msgid "The value for $1 ($2) should be no less than $3."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Range” constraint, when the value of a statement is earlier or later than allowed (for a time range with both limits). Parameters:
+#. [Wiki] * $1 is the property of the statement.
+#. [Wiki] * $2 is the value of the statement.
+#. [Wiki] * $3 is the lower bound of the range (inclusive).
+#. [Wiki] * $4 is the upper bound of the range (inclusive).
+msgctxt "wbqc-violation-message-range-time-closed"
+msgid "The value for $1 ($2) should be between $3 and $4."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Range” constraint, when the value of a statement is earlier or later than allowed (for a time range with both limits, where the lower (left) limit is the current day). Parameters:
+#. [Wiki] * $1 is the property of the statement.
+#. [Wiki] * $2 is the value of the statement.
+#. [Wiki] * $3 is the upper bound of the range (inclusive).
+msgctxt "wbqc-violation-message-range-time-closed-leftnow"
+msgid "The value for $1 ($2) should be in the future, but not after $3."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Range” constraint, when the value of a statement is earlier or later than allowed (for a time range with both limits, where the upper (right) limit is the current day). Parameters:
+#. [Wiki] * $1 is the property of the statement.
+#. [Wiki] * $2 is the value of the statement.
+#. [Wiki] * $3 is the lower bound of the range (inclusive).
+msgctxt "wbqc-violation-message-range-time-closed-rightnow"
+msgid "The value for $1 ($2) should be in the past, but not before $3."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Range” constraint, when the value of a statement is later than allowed (for a time range with an upper but no lower limit). Parameters:
+#. [Wiki] * $1 is the property of the statement.
+#. [Wiki] * $2 is the value of the statement.
+#. [Wiki] * $3 is the upper bound of the range (inclusive).
+msgctxt "wbqc-violation-message-range-time-leftopen"
+msgid "The value for $1 ($2) should not be after $3."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Range” constraint, when the value of a statement is later than allowed (for a time range with no lower limit and the current day as the upper limit). Parameters:
+#. [Wiki] * $1 is the property of the statement.
+#. [Wiki] * $2 is the value of the statement.
+#. [Wiki] {{Related|wbqc-violation-message-range-time-leftopen}}
+#. [Wiki] {{Related|wbqc-violation-message-range-time-rightopen-leftnow}}
+msgctxt "wbqc-violation-message-range-time-leftopen-rightnow"
+msgid "The value for $1 ($2) should not be in the future."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Range” constraint, when the value of a statement is earlier than allowed (for a time range with a lower but no upper limit). Parameters:
+#. [Wiki] * $1 is the property of the statement.
+#. [Wiki] * $2 is the value of the statement.
+#. [Wiki] * $3 is the lower bound of the range (inclusive).
+msgctxt "wbqc-violation-message-range-time-rightopen"
+msgid "The value for $1 ($2) should not be before $3."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Range” constraint, when the value of a statement is earlier than allowed (for a time range with no upper limit and the current day as the lower limit). Parameters:
+#. [Wiki] * $1 is the property of the statement.
+#. [Wiki] * $2 is the value of the statement.
+#. [Wiki] {{Related|wbqc-violation-message-range-time-rightopen}}
+#. [Wiki] {{Related|wbqc-violation-message-range-time-leftopen-rightnow}}
+msgctxt "wbqc-violation-message-range-time-rightopen-leftnow"
+msgid "The value for $1 ($2) should not be in the past."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “single value” constraint, when more than one value exists. Parameters:
+#. [Wiki] * $1 is the property of the statement.
+msgctxt "wbqc-violation-message-single-value"
+msgid "This property should only contain a single value."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “single value” constraint, when more than one value with the same set of qualifiers exists. Parameters:
+#. [Wiki] * $1 is the property of the statement.
+#. [Wiki] * $2 is the number of separator properties.
+#. [Wiki] * $3 is an HTML list of all separator properties.
+#. [Wiki] * $4, $5 etc. are the individual separator properties.
+msgctxt "wbqc-violation-message-single-value-separators"
+msgid "This property should only have a single value with the same {{PLURAL:$2|1=$4 qualifier.|set of qualifiers for these properties: $3}}"
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Single best value” constraint, when there are multiple statements and none of them have preferred rank.
+msgctxt "wbqc-violation-message-single-best-value-no-preferred"
+msgid "This property should contain a single “best” value. Of the current multiple values, one should be marked with “preferred” rank."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Single best value” constraint, when there are multiple statements with the same set of qualifiers and none of them have preferred rank. Parameters:
+#. [Wiki] * $1 is the property of the statement.
+#. [Wiki] * $2 is the number of separator properties.
+#. [Wiki] * $3 is an HTML list of all separator properties.
+#. [Wiki] * $4, $5 etc. are the individual separator properties.
+msgctxt "wbqc-violation-message-single-best-value-no-preferred-separators"
+msgid "This property should contain a single “best” value with the same {{PLURAL:$2|1=$4 qualifier.|set of qualifiers for these properties: $3}} Of the current multiple values, one should be marked with “preferred” rank."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Single best value” constraint, when there are multiple statements with preferred rank.
+msgctxt "wbqc-violation-message-single-best-value-multi-preferred"
+msgid "This property should contain a single “best” value. There should not be more than one value with “preferred” rank."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Single best value” constraint, when there are multiple statements with the same set of qualifiers and with preferred rank. Parameters:
+#. [Wiki] * $1 is the property of the statement.
+#. [Wiki] * $2 is the number of separator properties.
+#. [Wiki] * $3 is an HTML list of all separator properties.
+#. [Wiki] * $4, $5 etc. are the individual separator properties.
+msgctxt "wbqc-violation-message-single-best-value-multi-preferred-separators"
+msgid "This property should contain a single “best” value with the same {{PLURAL:$2|1=$4 qualifier.|set of qualifiers for these properties: $3}} There should not be more than one value with “preferred” rank."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Symmetric” constraint, when the symmetric statement of a statement does not exist. $1, $2 and $3 contain the expected subject entity, property, and target entity of the missing symmetric statement.
+msgctxt "wbqc-violation-message-symmetric"
+msgid "$1 should also have the symmetric statement $2 $3."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Type” constraint, when the subject of a statement should be an instance of a certain type but isn't. $1 is the property of the statement, $2 is the subject of the statement, $3 is the number of classes, $4 is an HTML list of all classes, and $5, $6 etc. are the individual classes.
+#. [Wiki] {{Related|wbqc-violation-message-type-instance}}
+msgctxt "wbqc-violation-message-type-instance"
+msgid "Entities using the $1 property should be instances of {{PLURAL:$3|1=$5|2=$5 or $6|one of the following classes}} (or of {{PLURAL:$3|1=a subclass of it|2=a subclass of them|one of their subclasses}}), but $2 currently {{PLURAL:$3|1=isn't.|2=isn't.|isn't: $4}}"
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Type” constraint, when the subject of a statement should be a subclass of a certain type but isn't. $1 is the property of the statement, $2 is the subject of the statement, $3 is the number of classes, $4 is an HTML list of all classes, and $5, $6 etc. are the individual classes.
+#. [Wiki] {{Related|wbqc-violation-message-type-instance}}
+msgctxt "wbqc-violation-message-type-subclass"
+msgid "Entities using the $1 property should be subclasses of {{PLURAL:$3|1=$5|2=$5 or $6|one of the following classes}} (or of {{PLURAL:$3|1=a subclass of it|2=a subclass of them|one of their subclasses}}), but $2 currently {{PLURAL:$3|1=isn't.|2=isn't.|isn't: $4}}"
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Type” constraint, when the subject of a statement should be an instance or a subclass of a certain type but isn't. $1 is the property of the statement, $2 is the subject of the statement, $3 is the number of classes, $4 is an HTML list of all classes, and $5, $6 etc. are the individual classes.
+#. [Wiki] {{Related|wbqc-violation-message-type-instance}}
+msgctxt "wbqc-violation-message-type-instanceOrSubclass"
+msgid "Entities using the $1 property should be instances or subclasses of {{PLURAL:$3|1=$5|2=$5 or $6|one of the following classes}} (or of {{PLURAL:$3|1=a subclass of it|2=a subclass of them|one of their subclasses}}), but $2 currently {{PLURAL:$3|1=isn't.|2=isn't.|isn't: $4}}"
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Value type” constraint, when the value of a statement should be an instance of a certain type but isn't. $1 is the property of the statement, $2 is the value of the statement, $3 is the number of classes, $4 is an HTML list of all classes, and $5, $6 etc. are the individual classes.
+#. [Wiki] {{Related|wbqc-violation-message-valueType-instance}}
+msgctxt "wbqc-violation-message-valueType-instance"
+msgid "Values of $1 statements should be instances of {{PLURAL:$3|1=$5|2=$5 or $6|one of the following classes}} (or of {{PLURAL:$3|1=a subclass of it|2=a subclass of them|one of their subclasses}}), but $2 currently {{PLURAL:$3|1=isn't.|2=isn't.|isn't: $4}}"
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Value type” constraint, when the value of a statement should be a subclass of a certain type but isn't. $1 is the property of the statement, $2 is the value of the statement, $3 is the number of classes, $4 is an HTML list of all classes, and $5, $6 etc. are the individual classes.
+#. [Wiki] {{Related|wbqc-violation-message-valueType-instance}}
+msgctxt "wbqc-violation-message-valueType-subclass"
+msgid "Values of $1 statements should be subclasses of {{PLURAL:$3|1=$5|2=$5 or $6|one of the following classes}} (or of {{PLURAL:$3|1=a subclass of it|2=a subclass of them|one of their subclasses}}), but $2 currently {{PLURAL:$3|1=isn't.|2=isn't.|isn't: $4}}"
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Value type” constraint, when the value of a statement should be an instance or a subclass of a certain type but isn't. $1 is the property of the statement, $2 is the value of the statement, $3 is the number of classes, $4 is an HTML list of all classes, and $5, $6 etc. are the individual classes.
+#. [Wiki] {{Related|wbqc-violation-message-valueType-instance}}
+msgctxt "wbqc-violation-message-valueType-instanceOrSubclass"
+msgid "Values of $1 statements should be instances or subclasses of {{PLURAL:$3|1=$5|2=$5 or $6|one of the following classes}} (or of {{PLURAL:$3|1=a subclass of it|2=a subclass of them|one of their subclasses}}), but $2 currently {{PLURAL:$3|1=isn't.|2=isn't.|isn't: $4}}"
+msgstr ""
+
+#. [Wiki] Message for a violation of the “Target required claim” constraint, when the target entity of a statement is missing an expected statement. Parameters:
+#. [Wiki] * $1 is the subject entity of the missing statement, i. e. the target entity of the statement that has the constraint.
+#. [Wiki] * $2 is the property of the missing statement.
+#. [Wiki] * $3 is the number of values permitted for the missing statement (or 0, in which case the constraint only specifies that there should be a statement but not the values it should have).
+#. [Wiki] * $4 is an HTML list of all values permitted for the missing statement.
+#. [Wiki] * $5, $6 etc. are the individual values permitted for the missing statement.
+#. [Wiki] {{Related|wbqc-violation-message-item}}
+msgctxt "wbqc-violation-message-target-required-claim"
+msgid "$1 should have {{PLURAL:$3|0=a statement $2.|1=a statement $2 $5.|a statement for $2 with one of the following values:$4}}"
+msgstr ""
+
+#. [Wiki] Message for violation of the Unique Value constraint, when other items are found. Parameters:
+#. [Wiki] * $1 is the number of other items with the same value.
+#. [Wiki] * $2 is an HTML list of all other items found with the same value.
+#. [Wiki] * $3, $4 etc. are the individual other items with the same value.
+msgctxt "wbqc-violation-message-unique-value"
+msgid "This property's value should not be present on any other item, but is also present on {{PLURAL:$1|1=$3.|2=$3 and $4.|the following items: $2}}"
+msgstr ""
+
+#. [Wiki] Message for a violation of the “used for values only” constraint, when a property intended for the main value only was used in a qualifier or reference.
+#. [Wiki] {{Related|Wbqc-violation-message-valueOnly}}
+msgctxt "wbqc-violation-message-valueOnly"
+msgid "This property should only be used for the main value of a statement, not for qualifiers or references."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “used as reference” constraint, when a property intended for references only was used for the main value or in a qualifier.
+#. [Wiki] {{Related|Wbqc-violation-message-valueOnly}}
+msgctxt "wbqc-violation-message-reference"
+msgid "The property should only be used in references, not for the main value of a statement or for a qualifier."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “no bounds” constraint, when a property intended to have unbounded quantities as its value. Parameters:
+#. [Wiki] * $1 is the property which has the constraint.
+msgctxt "wbqc-violation-message-noBounds"
+msgid "Values for $1 should not have any bounds."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “allowed units” constraint, when a property should not be used with any units but the value has a unit. Parameters:
+#. [Wiki] * $1 is the property ID of the property to which the constraint applies.
+#. [Wiki] {{Related|Wbqc-violation-message-units-none}}
+msgctxt "wbqc-violation-message-units-none"
+msgid "The value for $1 should not have a unit."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “allowed units” constraint, when a property should be used with a certain set of units but the value has a different unit or is unitless. Parameters:
+#. [Wiki] * $1 is the property ID of the property to which the constraint applies.
+#. [Wiki] * $2 is the number of allowed units.
+#. [Wiki] * $3 is an HTML list of all allowed units.
+#. [Wiki] * $4, $5 etc. are the individual allowed units.
+#. [Wiki] {{Related|Wbqc-violation-message-units-none}}
+msgctxt "wbqc-violation-message-units"
+msgid "The value for $1 should have {{PLURAL:$2|1=the unit $4.|2=the unit $4 or $5.|one of the following units: $3}}"
+msgstr ""
+
+#. [Wiki] Message for a violation of the “allowed units” constraint, when a property should be used with a certain set of units (including “no value”, permitting unitless values) but the value has a different unit. Parameters:
+#. [Wiki] * $1 is the property ID of the property to which the constraint applies.
+#. [Wiki] * $2 is the number of allowed units.
+#. [Wiki] * $3 is an HTML list of all allowed units.
+#. [Wiki] * $4, $5 etc. are the individual allowed units.
+msgctxt "wbqc-violation-message-units-or-none"
+msgid "The value for $1 should have {{PLURAL:$2|1=the unit $4|2=the unit $4 or $5|one of the following units}} or be {{PLURAL:$2|1=unitless.|2=unitless.|unitless: $3}}"
+msgstr ""
+
+#. [Wiki] Message for a violation of the “entity type” constraint, when a property should only be used in limited number entity types and not all. Parameters:
+#. [Wiki] * $1 is the property which has the constraint.
+#. [Wiki] * $2 is the number of acceptable entity types.
+#. [Wiki] * $3 is an HTML list of all acceptable entity types.
+#. [Wiki] * $4, $5 etc. are the individual acceptable entity types.
+msgctxt "wbqc-violation-message-entityType"
+msgid "The property $1 should not be used on this type of entity, the only valid {{PLURAL:$2|1=entity type is $4.|2=entity types are $4 and $5.|entity types are: $3}}"
+msgstr ""
+
+#. [Wiki] Message for a violation of the “none of” constraint, when the value is one of the disallowed values. Parameters:
+#. [Wiki] * $1 is the property of the statement.
+#. [Wiki] * $2 the number of disallowed values (note that certain constraints might have only a single disallowed value).
+#. [Wiki] * $3 is an HTML list of all disallowed values.
+#. [Wiki] * $4, $5 etc. are the individual disallowed values.
+msgctxt "wbqc-violation-message-none-of"
+msgid "The value for $1 should not be {{PLURAL:$2|1=$4.|2=either $4 or $5.|one of the following:$3}}"
+msgstr ""
+
+#. [Wiki] Message for a violation of the “integer” constraint, when a property should have integer quantities as its value but the value is not integer. Parameters:
+#. [Wiki] * $1 is the property which has the constraint.
+#. [Wiki] * $2 is the value of the statement.
+msgctxt "wbqc-violation-message-integer"
+msgid "Values for $1 should be integer, but $2 has a fractional part."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “integer” constraint, when a property should have integer quantities as its value and the value is integer but its bounds are not (for example: 10±0.5). Parameters:
+#. [Wiki] * $1 is the property which has the constraint.
+#. [Wiki] * $2 is the value of the statement.
+msgctxt "wbqc-violation-message-integer-bounds"
+msgid "Values for $1 should be integer, but the bounds of $2 have a fractional part."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “citation needed” constraint, when a property intended to have at least one reference for its values. Parameters:
+#. [Wiki] * $1 is the property which has the constraint.
+msgctxt "wbqc-violation-message-citationNeeded"
+msgid "Statements for $1 should have at least one reference."
+msgstr ""
+
+#. [Wiki] Message for a violation of the “lexeme language” constraint, when property can be used only on lexemes with language set to a limited number of values. Parameters:
+#. [Wiki] * $1 is the property of the statement.
+#. [Wiki] * $2 the number of languages allowed.
+#. [Wiki] * $3 is an HTML list of all languages.
+#. [Wiki] * $4, $5 etc. are the individual languages.
+msgctxt "wbqc-violation-message-language"
+msgid "Statements for $1 should be only on Lexemes with language set to {{PLURAL:$2|1=$4.|2=either $4 or $5.|one of the following: $3}}"
+msgstr ""
+
+#. [Wiki] Message for a violation of the “label in language” constraint, when property can be used only on entities having label at least in those languages. Parameters:
+#. [Wiki] * $1 is the property of the statement.
+#. [Wiki] * $2 the number of languages required.
+#. [Wiki] * $3 is an HTML list of all languages.
+#. [Wiki] * $4, $5 etc. are the individual languages.
+msgctxt "wbqc-violation-message-label-lacking"
+msgid "Entities with statements for $1 should also have a label at least in {{PLURAL:$2|1=$4 language.|any of the following languages: $3}}"
+msgstr ""
+
+#. [Wiki] Message for a violation of the “property scope” constraint, when a property has been used in a location where it is not intended to be used.
+#. [Wiki] 
+#. [Wiki] There are three types of locations, each represented by an item:
+#. [Wiki] * the main value of a statement
+#. [Wiki] * the qualifiers of a statement
+#. [Wiki] * the references of a statement
+#. [Wiki] Please avoid phrasing the message in a way that depends on the labels of those items, since they may change in the future (i.&nbsp;e., don’t try to use them to build full sentences, even though the current labels might allow it).
+#. [Wiki] 
+#. [Wiki] Parameters:
+#. [Wiki] * $1 is the property that has been used in an unexpected location.
+#. [Wiki] * $2 is the location where the property was found.
+#. [Wiki] * $3 is the number of allowed locations for the property.
+#. [Wiki] * $4 is an HTML list of all allowed locations for the property.
+#. [Wiki] * $5, $6 etc. are the individual allowed locations for the property.
+msgctxt "wbqc-violation-message-property-scope"
+msgid "The property $1 should not be used in this location ($2). The only valid {{PLURAL:$3|location|locations}} for this property {{PLURAL:$3|is $5.|are: $4}}"
+msgstr ""
+
+#. [Wiki] Message for a constraint check result on an entity that has been marked as an exception to the constraint. This message only appears on [[Special:ConstraintReport]]; the gadget does not show exception reports.
+msgctxt "wbqc-violation-message-exception"
+msgid "This entity is a known exception for this constraint and has been marked as such."
+msgstr ""
+
