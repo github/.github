@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Simbad - Object view</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="SIMBAD's App (PWA): The SIMBAD astronomical database provides basic data, cross-identifications, bibliography and measurements for astronomical objects outside the solar system.">
+        
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link rel="stylesheet" href="//aladin.u-strasbg.fr/AladinLite/api/v2/latest/aladin.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/magd3.min.css"/>
+  
+        <!-- Favicon + PWA configuration -->
+        <!-- ...favicon -->
+        <link rel="shortcut icon" href="pwa/favicon.ico?v=69B5d09ldj">
+        <link rel="icon" type="image/png" sizes="32x32" href="pwa/favicon-32x32.png?v=69B5d09ldj">
+        <link rel="icon" type="image/png" sizes="16x16" href="pwa/favicon-16x16.png?v=69B5d09ldj">
+        <!-- ...web manifest (for PWA) -->
+        <link rel="manifest" href="pwa/manifest.json?v=69B5d09ldj">
+        <!-- ...address bar color theme -->
+        <meta name="theme-color" content="#00aba9">
+        <!-- ...Apple/iOS/Safari -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#00aba9">
+        <meta name="apple-mobile-web-app-title" content="Simbad">
+        <link rel="apple-touch-icon" sizes="180x180" href="pwa/apple-touch-icon.png?v=69B5d09ldj">
+        <link rel="mask-icon" href="pwa/safari-pinned-tab.svg?v=69B5d09ldj" color="#00aba9">
+        <!-- ...Microsoft -->
+        <meta name="msapplication-TileColor" content="#d0e7e7">
+        <meta name="msapplication-config" content="pwa/browserconfig.xml?v=69B5d09ldj">
+    </head>
+
+    <body>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper teal">
+                    <a href="#" data-target="links_bar" class="sidenav-trigger black-text"><i class="material-icons">more_vert</i></a>
+                    <a href="index.html" class="brand-logo" title="Go to home page of the Simbad's mobile version.">
+                        <img src="img/simbad.png" alt="Home">
+                    </a>
+                    <form action="javascript:search()">
+                        <div class="input-field search">
+                            <input id="object_name" type="search" required aria-label="Name or coordinates to search">
+                            <label class="label-icon" for="object_name"><i class="material-icons">search</i></label>
+                            <i class="material-icons clear">clear</i>
+                        </div>
+                    </form>
+                    <a id="simbadDesktopLink" href="//simbad.u-strasbg.fr/simbad" target="_blank" class="teal lighten-1 white-text" rel="noopener" title="See in desktop version of Simbad.">
+                        <i class="material-icons">queue_play_next</i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+
+        <ul id="links_bar" class="sidenav">
+            <li><a href="//cds.unistra.fr" target="_blank" rel="noopener" title="Go to the CDS Home Page."><img class="cds logo" src="//cds.unistra.fr/img/cds.png" /> CDS Home Page</a></li>
+            <li><a id="cdsquestion_link" href="mailto:cds-question@unistra.fr?subject=Simbad mobile" target="_blank" rel="noopener" title="Send an email to CDS."><i class="material-icons black-text">email</i> Contact CDS</a></li>
+            <li><a href="//www.facebook.com/CDSportal/" target="_blank" rel="noopener" title="Go to the Facebook page of CDS."><i class="facebook social-logo"></i> Facebook</a></li>
+            <li><a href="//twitter.com/CdSportal" target="_blank" rel="noopener" title="Go to the Twitter page of CDS."><i class="twitter social-logo"></i> Twitter</a></li>
+            <li><a href="//www.youtube.com/channel/UCUESQl7rNupLlV_VcceE0Ng" target="_blank" rel="noopener" title="Go to the Youtube channel of CDS."><i class="youtube social-logo"></i> Youtube</a></li>
+            <li><a href="//github.com/cds-astro" target="_blank" rel="noopener" title="Go to the GitHub repositories of CDS."><i class="github social-logo"></i> GitHub</a></li>
+        </ul>
+
+        <div class="loader">
+            <h4>Loading...</h4>
+            <div class="preloader-wrapper big active">
+                <div class="spinner-layer spinner-teal-only">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="invisible container" id="container">
+            <div id="tallbar" class="row center">
+                <h4>
+                    <span id="main_object_id"></span>
+                    <br/>
+                    <span id="typeG"></span>
+                </h4>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <div class="card teal">
+                        <div class="card-content white-text">
+                            <div class="card-title">
+                                Coordinates
+                                <a class="dropdown-trigger btn-small teal lighten-2 iconBtn uniqueResultDropContent" data-target="dropdown1"><i class="material-icons right">arrow_drop_down</i><span id="dropTriggerLabel">ICRS</span></a>
+                                <ul id="dropdown1" class="dropdown-content">
+                                    <li><a onclick="changeCoor('ICRS')">ICRS</a></li>
+                                    <li><a onclick="changeCoor('ICRSd')">ICRSd</a></li>
+                                    <li><a onclick="changeCoor('Gal')">Gal</a></li>
+                                </ul>
+                                <button id="copyCoord" class="adjusted iconBtn btn-small waves-effect teal lighten-2">
+                                    <i class="material-icons">content_copy</i>
+                                </button>
+                            </div>
+                            <div class="coordinates">
+                                <span id="ra"></span>
+                                <span id="dec"></span>
+                            </div>
+                            <div id="aladin-lite-div" class="uniqueAladin">
+                                <i class="material-icons goto">my_location</i>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="collapsible card-like teal white-text">
+                        <li>
+                            <div class="collapsible-header teal white-text">
+                                <i class="material-icons large closed">chevron_right</i>
+                                <i class="material-icons large opened">expand_more</i>
+                                <em>Search around...</em>
+                            </div>
+                            <div class="collapsible-body">
+                                <form action="javascript:searchAround()" class="formAround">
+                                    <div class="input-field inline">
+                                        <input type="number" placeholder="Radius" id="radius" min="0" max="300" value="5" step="5" aria-label="Search radius (in arcmin)">
+                                    </div>
+                                    <span class="white-text">arcmin</span>
+                                    <a class="btn waves-effect white teal-text" onclick="searchAround()">Search<i class="material-icons right">search</i></a>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m6" id="identifiersCol">
+                    <div class="card teal">
+                        <div class="card-content white-text">
+                            <span class="card-title">Other identifiers</span>
+                            <div class="row" id="filterRow">
+                                <div class="input-field col s12">
+                                    <input placeholder="Filter" id="identifierInput" type="text" class="white-text" aria-label="Identifiers filter">
+                                </div>
+                            </div>
+                            <ul id="identifiersUl">
+                            </ul>
+                            <div class="row center" id="idButtonDiv">
+                                <a class="waves-effect waves-light btn white teal-text" id="moreIdentifiersButton" onclick="onClickMoreIdentifier()"><i class="material-icons left">keyboard_arrow_down</i>More<span id="nbMoreId"></span></a>
+                                <a class="invisible waves-effect wavec-light btn white teal-text" id="lessIdentifiersButton" onclick="showLessIdentifiers()"><i class="material-icons left">keyboard_arrow_up</i>Less</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6" id="magCol">
+                    <div class="card teal">
+                        <div class="card-content white-text">
+                            <span class="card-title">Magnitudes</span>
+                            <div id="magd3"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6" id="otherInformations">
+                    <div class="card teal">
+                        <div class="card-content white-text" id="otherInfo">
+                            <span class="card-title">Other information</span>
+                                <div id="type"></div>
+                                <div id="radvel"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col center s12">
+                    <a class="btn btn-large waves-effect waves-light iconBtn" onclick="showBibliography()"><i class="material-icons left">bookmark</i>Go to bibliography...</a>
+                </div>
+            </div>
+        </div>
+
+        <!--JavaScript at end of body for optimized loading-->
+        <script src="js/polyfill_forEach.js"></script>
+        <script src="js/polyfill_map_filter_reduce.js"></script>
+        <script src="js/polyfill_promise.min.js"></script>
+        <script src="js/polyfill_fetch.js"></script>
+        <script src="js/materialize.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.12.1.min.js" charset="utf-8"></script>
+        <script src="js/clipboard.js"></script>
+        <script src="js/search.js"></script>
+        <script src="js/getParams.js"></script>
+        <script src="//aladin.u-strasbg.fr/AladinLite/api/v2/latest/aladin.min.js" charset="utf-8"></script>
+        <script src="js/d3.min.js"></script>
+        <script src="js/magd3.js"></script>
+        <script src="js/object.js"></script>
+
+    </body>
+</html>
+        

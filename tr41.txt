@@ -1,0 +1,1347 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="en-us">
+<title>UAX #41: Common References for UAXs</title>
+<link rel="stylesheet" type="text/css" href="https://www.unicode.org/reports/reports-v2.css">
+</head>
+
+<body>
+
+  <table class="header">
+    <tr>
+          <td class="icon" style="width:38px; height:35px">
+          <a href="http://www.unicode.org/">
+          <img border="0" src="https://www.unicode.org/webscripts/logo60s2.gif" align="middle" 
+          alt="[Unicode]" width="34" height="33"></a>
+          </td>
+
+          <td class="icon" style="vertical-align:middle">
+          <a class="bar"> </a>
+          <a class="bar" href="https://www.unicode.org/reports/"><font size="3">Technical Reports</font></a>
+          </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="gray">&nbsp;</td>
+    </tr>
+  </table>
+
+<div class="body">
+  <h2 class="uaxtitle">Unicode® Standard Annex #41</h2>
+  <h1>Common References for Unicode Standard Annexes</h1>
+  <table class="simple" width="90%">
+    <tr>
+      <td valign="top" width="20%">Version</td>
+      <td valign="top">Unicode 16.0.0</td>
+    </tr>
+    <tr>
+      <td valign="top">Editors</td>
+      <td valign="top">Ken Whistler, Rick McGowan</td>
+    </tr>
+    <tr>
+      <td valign="top">Date</td>
+      <td valign="top">2024-08-14</td>
+    </tr>
+    <tr>
+      <td valign="top">This Version</td>
+      <td valign="top">
+        <a href="https://www.unicode.org/reports/tr41/tr41-34.html">
+		https://www.unicode.org/reports/tr41/tr41-34.html</a></td>
+    </tr>
+    <tr>
+      <td valign="top">Previous Version</td>
+      <td valign="top">
+        <a href="https://www.unicode.org/reports/tr41/tr41-32.html">https://www.unicode.org/reports/tr41/tr41-32.html</a></td>
+    </tr>
+    <tr>
+      <td valign="top">Latest Version</td>
+      <td valign="top"><a href="https://www.unicode.org/reports/tr41/">https://www.unicode.org/reports/tr41/</a></td>
+    </tr>
+    <tr>
+      <td valign="top">Latest Proposed Update</td>
+      <td valign="top"><a href="https://www.unicode.org/reports/tr41/proposed.html">https://www.unicode.org/reports/tr41/proposed.html</a></td>
+    </tr>
+    <tr>
+      <td valign="top">Revision</td>
+      <td valign="top">34</td>
+    </tr>
+  </table>
+  <!-- BEGIN OF DOCUMENT FRONT MATTER -->
+  <h4 class="summary">Summary</h4>
+  <p><i>This annex presents a common set of references for the Unicode Standard Annexes.</i></p>
+  <h4 class="status">Status</h4>
+      <!-- NOT YET APPROVED 
+      <p class="changed"><i>This is a<b><font color="#ff3333"> draft </font></b>document which 
+        may be updated, replaced, or superseded by other documents at any time. 
+        Publication does not imply endorsement by the Unicode Consortium. This is 
+        not a stable document; it is inappropriate to cite this document as other 
+        than a work in progress.</i></p>
+       END NOT YET APPROVED -->
+      <!-- APPROVED -->
+      <p><i>This document has been reviewed by Unicode members and other 
+        interested parties, and has been approved for publication by the Unicode 
+        Consortium. This is a stable document and may be used as reference 
+        material or cited as a normative reference by other specifications.</i></p>
+      <!-- END APPROVED -->
+    <blockquote>
+      <p><i><b>A Unicode Standard Annex (UAX)</b> forms an integral part of the 
+      Unicode Standard, but is published online as a separate document. The 
+      Unicode Standard may require conformance to normative content in a Unicode 
+      Standard Annex, if so specified in the Conformance chapter of that version 
+      of the Unicode Standard. The version number of a UAX document corresponds 
+      to the version of the Unicode Standard of which it forms a part.</i></p>
+    </blockquote>
+  <p><i>Please submit corrigenda and other comments with the online reporting 
+  form [<a href="https://www.unicode.org/reporting.html">Feedback</a>]. 
+  For the latest version of the Unicode Standard, see [<a href="https://www.unicode.org/versions/latest/">Unicode</a>]. 
+  For a list of current Unicode Technical Reports, see [<a href="https://www.unicode.org/reports/">Reports</a>]. 
+  For more information about versions of the Unicode Standard, see [<a href="https://www.unicode.org/versions/">Versions</a>]. 
+  For any errata which may apply to this annex, see [<a href="https://www.unicode.org/errata/">Errata</a>].</i></p>
+  <hr>
+  <h4>Contents</h4>
+  <ul class="toc">
+    <li>1&nbsp; <a href="#UnicodePublications">References to Publications by the Unicode Consortium</a></li>
+    <li>2&nbsp; <a href="#OtherStandards">References to Other Standards</a></li>
+    <li>3&nbsp; <a href="#Other">Other References</a></li>
+  </ul>
+  <hr>
+
+  <br>
+  <h2>1 <a name="UnicodePublications" href="#UnicodePublications">References to Publications by the Unicode Consortium</a></h2>
+  <p>Publications may be listed more than once under different headings.</p>
+  <table class="ref" cellspacing="0" cellpadding="4">
+    <tr>
+      <td class="nb" valign="top" nowrap>[<a name="Blocks" href="#Blocks">Blocks</a>]</td>
+      <td class="nb" valign="top">
+        <i>Character Block Property Data File</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt">https://www.unicode.org/Public/UCD/latest/ucd/Blocks.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/Blocks.txt">https://www.unicode.org/Public/16.0.0/ucd/Blocks.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Charts" href="#Charts">Charts</a>]</td>
+      <td class="nb" valign="top">
+        <i>Character Code Charts</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/charts/">https://www.unicode.org/charts/</a><br>
+        Index of character names with links to the corresponding code charts:<br>
+        <a href="https://www.unicode.org/charts/charindex.html">https://www.unicode.org/charts/charindex.html</a>      
+      </td>
+    </tr>
+    <tr>
+    <td class="nb" valign="top">[<a name="Charts14" href="#Charts14">Charts14</a>]</td>
+      <td class="nb" valign="top">
+        <i>Charts for the Unicode Line Breaking Algorithm Test Files</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/LineBreakTest.html">https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/LineBreakTest.html</a> <br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/auxiliary/LineBreakTest.html">https://www.unicode.org/Public/16.0.0/ucd/auxiliary/LineBreakTest.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Charts15" href="#Charts15">Charts15</a>]</td>
+      <td class="nb" valign="top">
+        <i>Normalization Charts</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/charts/normalization/">https://www.unicode.org/charts/normalization/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Charts29" href="#Charts29">Charts29</a>]</td>
+      <td class="nb" valign="top">
+        <i>Charts for the Unicode Text Segmentation Test Files</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/GraphemeBreakTest.html">https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/GraphemeBreakTest.html</a><br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/WordBreakTest.html">https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/WordBreakTest.html</a><br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/SentenceBreakTest.html">https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/SentenceBreakTest.html</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/auxiliary/GraphemeBreakTest.html">https://www.unicode.org/Public/16.0.0/ucd/auxiliary/GraphemeBreakTest.html</a><br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/auxiliary/WordBreakTest.html">https://www.unicode.org/Public/16.0.0/ucd/auxiliary/WordBreakTest.html</a><br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/auxiliary/SentenceBreakTest.html">https://www.unicode.org/Public/16.0.0/ucd/auxiliary/SentenceBreakTest.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" nowrap>[<a name="CJKRadicals" href="#CJKRadicals">CJKRadicals</a>]</td>
+      <td class="nb" valign="top">
+        <i>CJK Radicals Data File</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/CJKRadicals.txt">https://www.unicode.org/Public/UCD/latest/ucd/CJKRadicals.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/CJKRadicals.txt">https://www.unicode.org/Public/16.0.0/ucd/CJKRadicals.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" nowrap>[<a name="CLDR" href="#CLDR">CLDR</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Common Locale Data Repository</i><br>
+        <a href="http://cldr.unicode.org/">http://cldr.unicode.org/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Code9" href="#Code9">Code9</a>]</td>
+      <td class="nb" valign="top">
+        <i>Reference Implementations of the Unicode Bidirectional Algorithm</i><br>
+        C reference code:<br>
+        <a href="https://www.unicode.org/Public/PROGRAMS/BidiReferenceC/">https://www.unicode.org/Public/PROGRAMS/BidiReferenceC/</a><br>
+        Java reference code:<br>
+        <a href="https://www.unicode.org/Public/PROGRAMS/BidiReferenceJava/">https://www.unicode.org/Public/PROGRAMS/BidiReferenceJava/</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Code14" href="#Code14">Code14</a>]</td>
+      <td class="nb" valign="top">
+        <i>Sample Implementation of the Unicode Line Breaking Algorithm</i><br>
+        <a href="https://www.unicode.org/Public/PROGRAMS/LineBreakSampleCpp/">https://www.unicode.org/Public/PROGRAMS/LineBreakSampleCpp/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Corrections" href="#Corrections">Corrections</a>]</td>
+      <td class="nb" valign="top">
+        <i>Normalization Corrections Data File</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/NormalizationCorrections.txt">https://www.unicode.org/Public/UCD/latest/ucd/NormalizationCorrections.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/NormalizationCorrections.txt">https://www.unicode.org/Public/16.0.0/ucd/NormalizationCorrections.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Corrigendum1" href="#Corrigendum1">Corrigendum1</a>]</td>
+      <td class="nb" valign="top">
+        <i>Corrigendum #1: UTF-8 Shortest Form</i><br>
+        <a href="https://www.unicode.org/versions/corrigendum1.html">https://www.unicode.org/versions/corrigendum1.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Corrigendum2" href="#Corrigendum2">Corrigendum2</a>]</td>
+      <td class="nb" valign="top">
+        <i>Corrigendum #2: Yod with Hiriq Normalization</i><br>
+        <a href="https://www.unicode.org/versions/corrigendum2.html">https://www.unicode.org/versions/corrigendum2.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Corrigendum3" href="#Corrigendum3">Corrigendum3</a>]</td>
+      <td class="nb" valign="top">
+        <i>Corrigendum #3: U+F951 Normalization</i><br>
+        <a href="https://www.unicode.org/versions/corrigendum3.html">https://www.unicode.org/versions/corrigendum3.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Corrigendum4" href="#Corrigendum4">Corrigendum4</a>]</td>
+      <td class="nb" valign="top">
+        <i>Corrigendum #4: Five CJK Canonical Mapping Errors</i><br>
+        <a href="https://www.unicode.org/versions/corrigendum4.html">https://www.unicode.org/versions/corrigendum4.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Corrigendum5" href="#Corrigendum5">Corrigendum5</a>]</td>
+      <td class="nb" valign="top">
+        <i>Corrigendum #5: Normalization Idempotency</i><br>
+        <a href="https://www.unicode.org/versions/corrigendum5.html">https://www.unicode.org/versions/corrigendum5.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Corrigendum6" href="#Corrigendum6">Corrigendum6</a>]</td>
+      <td class="nb" valign="top">
+        <i>Corrigendum #6: Bidi Mirroring</i><br>
+        <a href="https://www.unicode.org/versions/corrigendum6.html">https://www.unicode.org/versions/corrigendum6.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Corrigendum7" href="#Corrigendum7">Corrigendum7</a>]</td>
+      <td class="nb" valign="top">
+        <i>Corrigendum #7: UAX #14, Unicode Line Breaking Algorithm, rule LB8</i><br>
+        <a href="https://www.unicode.org/versions/corrigendum7.html">https://www.unicode.org/versions/corrigendum7.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Corrigendum8" href="#Corrigendum8">Corrigendum8</a>]</td>
+      <td class="nb" valign="top">
+        <i>Corrigendum #8: Bidi_Class Fix for U+070F Syriac Abbreviation Mark</i><br>
+        <a href="https://www.unicode.org/versions/corrigendum8.html">https://www.unicode.org/versions/corrigendum8.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Corrigendum9" href="#Corrigendum9">Corrigendum9</a>]</td>
+      <td class="nb" valign="top">
+        <i>Corrigendum #9: Clarification About Noncharacters</i><br>
+        <a href="https://www.unicode.org/versions/corrigendum9.html">https://www.unicode.org/versions/corrigendum9.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Data9" href="#Data9">Data9</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Bidirectional Algorithm Property Data Files</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/BidiMirroring.txt">https://www.unicode.org/Public/UCD/latest/ucd/BidiMirroring.txt</a><br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/BidiBrackets.txt">https://www.unicode.org/Public/UCD/latest/ucd/BidiBrackets.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/BidiMirroring.txt">https://www.unicode.org/Public/16.0.0/ucd/BidiMirroring.txt</a><br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/BidiBrackets.txt">https://www.unicode.org/Public/16.0.0/ucd/BidiBrackets.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Data11" href="#Data11">Data11</a>]</td>
+      <td class="nb" valign="top">
+        <i>East Asian Width Property Data File</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/EastAsianWidth.txt">https://www.unicode.org/Public/UCD/latest/ucd/EastAsianWidth.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/EastAsianWidth.txt">https://www.unicode.org/Public/16.0.0/ucd/EastAsianWidth.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Data14" href="#Data14">Data14</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Line Breaking Algorithm Property Data File</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/LineBreak.txt">https://www.unicode.org/Public/UCD/latest/ucd/LineBreak.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/LineBreak.txt">https://www.unicode.org/Public/16.0.0/ucd/LineBreak.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Data14Derived" href="#Data14Derived">Data14Derived</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Line Breaking Algorithm Derived Property Data File</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedLineBreak.txt">https://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedLineBreak.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/extracted/DerivedLineBreak.txt">https://www.unicode.org/Public/16.0.0/ucd/extracted/DerivedLineBreak.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" nowrap>[<a name="Data24" href="#Data24">Data24</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Script Property Data File</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/Scripts.txt">https://www.unicode.org/Public/UCD/latest/ucd/Scripts.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/Scripts.txt">https://www.unicode.org/Public/16.0.0/ucd/Scripts.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Data34" href="#Data34">Data34</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Named Character Sequences Data File</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/NamedSequences.txt">https://www.unicode.org/Public/UCD/latest/ucd/NamedSequences.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/NamedSequences.txt">https://www.unicode.org/Public/16.0.0/ucd/NamedSequences.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Data45" href="#Data45">Data45</a>]</td>
+      <td class="nb" valign="top">
+        <i>U-Source Ideographs Data File</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/USourceData.txt">https://www.unicode.org/Public/UCD/latest/ucd/USourceData.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/USourceData.txt">https://www.unicode.org/Public/16.0.0/ucd/USourceData.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Data50" href="#Data50">Data50</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Vertical Text Layout Property Data File</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/VerticalOrientation.txt">https://www.unicode.org/Public/UCD/latest/ucd/VerticalOrientation.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/VerticalOrientation.txt">https://www.unicode.org/Public/16.0.0/ucd/VerticalOrientation.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Data51" href="#Data51">Data51</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Emoji Data Files</i><br>
+        Latest Version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/emoji/emoji-data.txt">https://www.unicode.org/Public/UCD/latest/ucd/emoji/emoji-data.txt</a><br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/emoji/emoji-variation-sequences.txt">https://www.unicode.org/Public/UCD/latest/ucd/emoji/emoji-variation-sequences.txt</a><br>
+        <a href="https://www.unicode.org/Public/emoji/latest/emoji-sequences.txt">https://www.unicode.org/Public/emoji/latest/emoji-sequences.txt</a><br>
+        <a href="https://www.unicode.org/Public/emoji/latest/emoji-test.txt">https://www.unicode.org/Public/emoji/latest/emoji-test.txt</a><br>
+        <a href="https://www.unicode.org/Public/emoji/latest/emoji-zwj-sequences.txt">https://www.unicode.org/Public/emoji/latest/emoji-zwj-sequences.txt</a><br>
+
+        Version 16.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/emoji/emoji-data.txt">https://www.unicode.org/Public/16.0.0/ucd/emoji/emoji-data.txt</a><br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/emoji/emoji-variation-sequences.txt">https://www.unicode.org/Public/16.0.0/ucd/emoji/emoji-variation-sequences.txt</a><br>
+        <a href="https://www.unicode.org/Public/emoji/16.0/emoji-sequences.txt">https://www.unicode.org/Public/emoji/16.0/emoji-sequences.txt</a><br>
+        <a href="https://www.unicode.org/Public/emoji/16.0/emoji-test.txt">https://www.unicode.org/Public/emoji/16.0/emoji-test.txt</a><br>
+        <a href="https://www.unicode.org/Public/emoji/16.0/emoji-zwj-sequences.txt">https://www.unicode.org/Public/emoji/16.0/emoji-zwj-sequences.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="DataProv" href="#DataProv">DataProv</a>]</td>
+      <td class="nb" valign="top">
+        <i>Provisional Named Sequences Data File</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/NamedSequencesProv.txt">https://www.unicode.org/Public/UCD/latest/ucd/NamedSequencesProv.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/NamedSequencesProv.txt">https://www.unicode.org/Public/16.0.0/ucd/NamedSequencesProv.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Demo9" href="#Demo9">Demo9</a>]</td>
+      <td class="nb" valign="top">
+        <i>Online Demo of the Unicode Bidirectional Algorithm</i><br>
+        <a href="https://util.unicode.org/UnicodeJsps/bidi.jsp">https://util.unicode.org/UnicodeJsps/bidi.jsp</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Props" href="#Props">DerivedBIDI</a>]</td>
+      <td class="nb" valign="top">
+        <i>Derived Bidirectional Type Property Data File</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedBidiClass.txt">https://www.unicode.org/Public/UCD/latest/ucd/extracted/DerivedBidiClass.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/extracted/DerivedBidiClass.txt">https://www.unicode.org/Public/16.0.0/ucd/extracted/DerivedBidiClass.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="EquivalentUnifiedIdeograph" href="#EquivalentUnifiedIdeograph">EquivalentUnifiedIdeograph</a>]</td>
+      <td class="nb" valign="top">
+        <i>List of Unified Ideographs Equivalent to CJK Radicals or CJK Strokes</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/EquivalentUnifiedIdeograph.txt">https://www.unicode.org/Public/UCD/latest/ucd/EquivalentUnifiedIdeograph.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/EquivalentUnifiedIdeograph.txt">https://www.unicode.org/Public/16.0.0/ucd/EquivalentUnifiedIdeograph.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Errata" href="#Errata">Errata</a>]</td>
+      <td class="nb" valign="top">
+        <i>Updates and Errata</i><br>
+        <a href="https://www.unicode.org/errata">https://www.unicode.org/errata</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Exclusions" href="#Exclusions">Exclusions</a>]</td>
+      <td class="nb" valign="top">
+        <i>Composition Exclusion Table</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/CompositionExclusions.txt">https://www.unicode.org/Public/UCD/latest/ucd/CompositionExclusions.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/CompositionExclusions.txt">https://www.unicode.org/Public/16.0.0/ucd/CompositionExclusions.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="FAQ" href="#FAQ">FAQ</a>]</td>
+      <td class="nb" valign="top">
+        <i>Frequently Asked Questions</i><br>
+        Answers to common questions on technical issues:<br>
+        <a href="https://www.unicode.org/faq/">https://www.unicode.org/faq/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" nowrap>[<a name="Feedback" href="#Feedback">Feedback</a>]</td>
+      <td class="nb" valign="top"><i>Contact Form</i><br>
+        Error reporting and information requests:<br>
+        <a href="https://www.unicode.org/reporting.html">https://www.unicode.org/reporting.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Glossary" href="#Glossary">Glossary</a>]</td>
+      <td class="nb" valign="top">
+        <i>Glossary of Unicode Terms</i><br>
+        <a href="https://www.unicode.org/glossary/">https://www.unicode.org/glossary/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Glyphs45" href="#Glyphs45">Glyphs45</a>]</td>
+      <td class="nb" valign="top">
+        <i>U-Source Ideographs Glyph Table</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/USourceGlyphs.pdf">https://www.unicode.org/Public/UCD/latest/ucd/USourceGlyphs.pdf</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/USourceGlyphs.pdf">https://www.unicode.org/Public/16.0.0/ucd/USourceGlyphs.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="HangulST" href="#HangulST">HangulST</a>]</td>
+      <td class="nb" valign="top">
+        <i>Hangul Syllable Type Property Data File</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/HangulSyllableType.txt">https://www.unicode.org/Public/UCD/latest/ucd/HangulSyllableType.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/HangulSyllableType.txt">https://www.unicode.org/Public/16.0.0/ucd/HangulSyllableType.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="NormProps" href="#NormProps">NormProps</a>]</td>
+      <td class="nb" valign="top">
+        <i>Derived Normalization Properties Data File</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/DerivedNormalizationProps.txt">https://www.unicode.org/Public/UCD/latest/ucd/DerivedNormalizationProps.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/DerivedNormalizationProps.txt">https://www.unicode.org/Public/16.0.0/ucd/DerivedNormalizationProps.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Policies" href="#Policies">Policies</a>]</td>
+      <td class="nb" valign="top"><i>Unicode Consortium Policies</i><br>
+      <a href="https://www.unicode.org/policies/">https://www.unicode.org/policies/</a></td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Props0" href="#Props0">Props</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Text Segmentation Property Data Files</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/GraphemeBreakProperty.txt">https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/GraphemeBreakProperty.txt</a><br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/WordBreakProperty.txt">https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/WordBreakProperty.txt</a><br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/SentenceBreakProperty.txt">https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/SentenceBreakProperty.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/auxiliary/GraphemeBreakProperty.txt">https://www.unicode.org/Public/16.0.0/ucd/auxiliary/GraphemeBreakProperty.txt</a><br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/auxiliary/WordBreakProperty.txt">https://www.unicode.org/Public/16.0.0/ucd/auxiliary/WordBreakProperty.txt</a><br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/auxiliary/SentenceBreakProperty.txt">https://www.unicode.org/Public/16.0.0/ucd/auxiliary/SentenceBreakProperty.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" nowrap>[<a name="PropValue" href="#PropValue">PropValue</a>]</td>
+      <td class="nb" valign="top">
+        <i>Property Value Aliases Data File</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/PropertyValueAliases.txt">https://www.unicode.org/Public/UCD/latest/ucd/PropertyValueAliases.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/PropertyValueAliases.txt">https://www.unicode.org/Public/16.0.0/ucd/PropertyValueAliases.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Reports" href="#Reports">Reports</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Reports</i><br>
+        List of Unicode Standard Annexes, Technical Standards, and Technical Reports:<br>
+        <a href="https://www.unicode.org/reports/">https://www.unicode.org/reports/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" noWrap>[<a name="RSChart45" href="#RSChart45">RSChart45</a>]</td>
+      <td class="nb" valign="top">
+        <i>U-Source Radical-Stroke Index</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/USourceRSChart.pdf">https://www.unicode.org/Public/UCD/latest/ucd/USourceRSChart.pdf</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/USourceRSChart.pdf">https://www.unicode.org/Public/16.0.0/ucd/USourceRSChart.pdf</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Stability" href="#Stability">Stability</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Character Encoding Stability Policy</i><br>
+        <a href="https://www.unicode.org/policies/stability_policy.html">https://www.unicode.org/policies/stability_policy.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="StandardizedVariants" href="#StandardizedVariants">StandardizedVariants</a>]</td>
+      <td class="nb" valign="top">
+        <i>Standardized Variation Sequences Data File</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/StandardizedVariants.txt">https://www.unicode.org/Public/UCD/latest/ucd/StandardizedVariants.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/StandardizedVariants.txt">https://www.unicode.org/Public/16.0.0/ucd/StandardizedVariants.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Tests9" href="#Tests9">Tests9</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Bidirectional Algorithm Test Data File</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/BidiTest.txt">https://www.unicode.org/Public/UCD/latest/ucd/BidiTest.txt</a><br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/BidiCharacterTest.txt">https://www.unicode.org/Public/UCD/latest/ucd/BidiCharacterTest.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/BidiTest.txt">https://www.unicode.org/Public/16.0.0/ucd/BidiTest.txt</a><br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/BidiCharacterTest.txt">https://www.unicode.org/Public/16.0.0/ucd/BidiCharacterTest.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Tests14" href="#Tests14">Tests14</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Line Breaking Algorithm Test Data File</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/LineBreakTest.txt">https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/LineBreakTest.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/auxiliary/LineBreakTest.txt">https://www.unicode.org/Public/16.0.0/ucd/auxiliary/LineBreakTest.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Tests15" href="#Tests15">Tests15</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Normalization Forms Test Data File</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/NormalizationTest.txt">https://www.unicode.org/Public/UCD/latest/ucd/NormalizationTest.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/NormalizationTest.txt">https://www.unicode.org/Public/16.0.0/ucd/NormalizationTest.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Tests29" href="#Tests29">Tests29</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Text Segmentation Test Data Files</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/GraphemeBreakTest.txt">https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/GraphemeBreakTest.txt</a><br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/WordBreakTest.txt">https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/WordBreakTest.txt</a><br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/SentenceBreakTest.txt">https://www.unicode.org/Public/UCD/latest/ucd/auxiliary/SentenceBreakTest.txt</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/auxiliary/GraphemeBreakTest.txt">https://www.unicode.org/Public/16.0.0/ucd/auxiliary/GraphemeBreakTest.txt</a><br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/auxiliary/WordBreakTest.txt">https://www.unicode.org/Public/16.0.0/ucd/auxiliary/WordBreakTest.txt</a><br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/auxiliary/SentenceBreakTest.txt">https://www.unicode.org/Public/16.0.0/ucd/auxiliary/SentenceBreakTest.txt</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UAX9" href="#UAX9">UAX9</a>]</td>
+      <td class="nb" valign="top"><i>Unicode Standard Annex #9:</i> <i>Unicode Bidirectional Algorithm</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr9/">https://www.unicode.org/reports/tr9/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/reports/tr9/tr9-50.html">https://www.unicode.org/reports/tr9/tr9-50.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UAX11" href="#UAX11">UAX11</a>]</td>
+      <td class="nb" valign="top"><i>Unicode Standard Annex #11:</i> <i>East Asian Width</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr11/">https://www.unicode.org/reports/tr11/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/reports/tr11/tr11-43.html">
+	  https://www.unicode.org/reports/tr11/tr11-43.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UAX14" href="#UAX14">UAX14</a>]</td>
+      <td class="nb" valign="top"><i>Unicode Standard Annex #14:</i> <i>Unicode Line Breaking Algorithm</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr14/">https://www.unicode.org/reports/tr14/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/reports/tr14/tr14-53.html">
+	  https://www.unicode.org/reports/tr14/tr14-53.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UAX15" href="#UAX15">UAX15</a>]</td>
+      <td class="nb" valign="top"><i>Unicode Standard Annex #15:</i> <i>Unicode Normalization Forms</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr15/">https://www.unicode.org/reports/tr15/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/reports/tr15/tr15-56.html">
+	  https://www.unicode.org/reports/tr15/tr15-56.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UAX24" href="#UAX24">UAX24</a>]</td>
+      <td class="nb" valign="top"><i>Unicode Standard Annex #24:</i> <i>Unicode Script Property</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr24/">https://www.unicode.org/reports/tr24/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/reports/tr24/tr24-38.html">
+	  https://www.unicode.org/reports/tr24/tr24-38.html</a>
+      </td>
+    <tr>
+      <td class="nb" valign="top">[<a name="UAX29" href="#UAX29">UAX29</a>]</td>
+      <td class="nb" valign="top"><i>Unicode Standard Annex #29:</i> <i>Unicode Text Segmentation</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr29/">https://www.unicode.org/reports/tr29/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/reports/tr29/tr29-45.html">
+	  https://www.unicode.org/reports/tr29/tr29-45.html</a>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UAX31" href="#UAX31">UAX31</a>]</td>
+      <td class="nb" valign="top"><i>Unicode Standard Annex #31:</i> <i>Unicode Identifier and Pattern Syntax</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr31/">https://www.unicode.org/reports/tr31/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/reports/tr31/tr31-41.html">
+	  https://www.unicode.org/reports/tr31/tr31-41.html</a>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UAX34" href="#UAX34">UAX34</a>]</td>
+      <td class="nb" valign="top"><i>Unicode Standard Annex #34:</i> <i>Unicode Named Character Sequences</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr34/">https://www.unicode.org/reports/tr34/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/reports/tr34/tr34-31.html">
+	  https://www.unicode.org/reports/tr34/tr34-31.html</a>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UAX38" href="#UAX38">UAX38</a>]</td>
+      <td class="nb" valign="top"><i>Unicode Standard Annex #38:</i> <i>Unicode Han Database (Unihan)</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr38/">https://www.unicode.org/reports/tr38/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/reports/tr38/tr38-37.html">
+	  https://www.unicode.org/reports/tr38/tr38-37.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UAX41" href="#UAX41">UAX41</a>]</td>
+      <td class="nb" valign="top"><i>Unicode Standard Annex #41:</i> <i>Common References for Unicode Standard Annexes</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr41/">https://www.unicode.org/reports/tr41/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/reports/tr41/tr41-34.html">
+	  https://www.unicode.org/reports/tr41/tr41-34.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UAX42" href="#UAX42">UAX42</a>]</td>
+      <td class="nb" valign="top"><i>Unicode Standard Annex #42:</i> <i>Unicode Character Database in XML</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr42/">https://www.unicode.org/reports/tr42/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/reports/tr42/tr42-36.html">
+	  https://www.unicode.org/reports/tr42/tr42-36.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UAX44" href="#UAX44">UAX44</a>]</td>
+      <td class="nb" valign="top"><i>Unicode Standard Annex #44:</i> <i>Unicode Character Database</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr44/">https://www.unicode.org/reports/tr44/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/reports/tr44/tr44-34.html">
+	  https://www.unicode.org/reports/tr44/tr44-34.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UAX45" href="#UAX45">UAX45</a>]</td>
+      <td class="nb" valign="top"><i>Unicode Standard Annex #45:</i> <i>U-Source Ideographs</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr45/">https://www.unicode.org/reports/tr45/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/reports/tr45/tr45-30.html">
+	  https://www.unicode.org/reports/tr45/tr45-30.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top"><a name="UTR50"></a>[<a name="UAX50" href="#UAX50">UAX50</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Standard Annex #50: Unicode Vertical Text Layout</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr50/">https://www.unicode.org/reports/tr50/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/reports/tr50/tr50-31.html">
+		https://www.unicode.org/reports/tr50/tr50-31.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UAX53" href="#UAX53">UAX53</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Standard Annex #53: Unicode Arabic Mark Rendering</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr53/">https://www.unicode.org/reports/tr53/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/reports/tr53/tr53-10.html">
+    https://www.unicode.org/reports/tr53/tr53-10.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UAX57" href="#UAX57">UAX57</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Standard Annex #57: Unicode Egyptian Hieroglyph Database (Unikemet)</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr57/">https://www.unicode.org/reports/tr57/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/reports/tr57/tr57-3.html">
+    https://www.unicode.org/reports/tr57/tr57-3.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UCD" href="#UCD">UCD</a>]</td>
+      <td class="nb" valign="top">
+        <i>About the Unicode Character Database</i><br>
+        <a href="https://www.unicode.org/ucd/">https://www.unicode.org/ucd/</a><br>
+        For detailed documentation, see [<a href="#UAX44">UAX44</a>].
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode" href="#Unicode">Unicode</a>]</td>
+      <td class="nb" valign="top">
+        <i>The Unicode Standard</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/versions/latest/">https://www.unicode.org/versions/latest/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/versions/Unicode16.0.0/">https://www.unicode.org/versions/Unicode16.0.0/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode3.0" href="#Unicode3.0">Unicode3.0</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 3.0.0</i><br>
+        defined by: <i>The Unicode Standard, Version 3.0</i> (Reading, MA: Addison-Wesley, 2000. ISBN 0-201-61633-5),<br>
+        <a href="https://www.unicode.org/versions/Unicode3.0.0/">https://www.unicode.org/versions/Unicode3.0.0/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode3.1" href="#Unicode3.1">Unicode3.1</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 3.1.0</i>,<br>
+        defined by: <i>The Unicode Standard, Version 3.0</i> (Reading, MA: Addison-Wesley, 2000. ISBN 0-201-61633-5),<br>
+        as amended by the <i>Unicode Standard Annex #27: Unicode 3.1</i><br>
+        <a href="https://www.unicode.org/reports/tr27/">https://www.unicode.org/reports/tr27/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode3.2" href="#Unicode3.2">Unicode3.2</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 3.2.0</i>,<br>
+        defined by: <i>The Unicode Standard, Version 3.0</i> (Reading, MA: Addison-Wesley, 2000. ISBN 0-201-61633-5),<br>
+        as amended by the <i>Unicode Standard Annex #27: Unicode 3.1</i> and the <i>Unicode Standard Annex #28: Unicode 3.2</i><br>
+        <a href="https://www.unicode.org/reports/tr28/">https://www.unicode.org/reports/tr28/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode4.0" href="#Unicode4.0">Unicode4.0</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 4.0.0</i>,<br>
+        defined by: <i>The Unicode Standard, Version 4.0</i> (Boston, MA: Addison-Wesley, 2003. ISBN 0-321-18578-1),<br>
+        <a href="https://www.unicode.org/versions/Unicode4.0.0/">https://www.unicode.org/versions/Unicode4.0.0/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode4.0.1" href="#Unicode4.0.1">Unicode4.0.1</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 4.0.1</i>,<br>
+        defined by: <i>The Unicode Standard, Version 4.0</i> (Boston, MA: Addison-Wesley, 2003. ISBN 0-321-18578-1),<br>
+        as amended by <i>Unicode 4.0.1</i><br>
+        <a href="https://www.unicode.org/versions/Unicode4.0.1/">https://www.unicode.org/versions/Unicode4.0.1/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode4.1" href="#Unicode4.1">Unicode4.1</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 4.1.0</i>,<br>
+        defined by: <i>The Unicode Standard, Version 4.0</i> (Boston, MA: Addison-Wesley, 2003. ISBN 0-321-18578-1),<br>
+        as amended by <i>Unicode 4.0.1</i> and <i>Unicode 4.1.0</i><br>
+        <a href="https://www.unicode.org/versions/Unicode4.1.0/">https://www.unicode.org/versions/Unicode4.1.0/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode5.0" href="#Unicode5.0">Unicode5.0</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 5.0.0</i>,<br>
+        defined by: <i>The Unicode Standard, Version 5.0</i> (Boston, MA: Addison-Wesley, 2007. ISBN 0-321-48091-0),<br>
+        <a href="https://www.unicode.org/versions/Unicode5.0.0/">https://www.unicode.org/versions/Unicode5.0.0/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode5.1" href="#Unicode5.1">Unicode5.1</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 5.1.0</i>,<br>
+        defined by: <i>The Unicode Standard, Version 5.0</i> (Boston, MA: Addison-Wesley, 2007. ISBN 0-321-48091-0),<br>
+        as amended by <i>Unicode 5.1.0</i><br>
+        <a href="https://www.unicode.org/versions/Unicode5.1.0/">https://www.unicode.org/versions/Unicode5.1.0/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode5.2" href="#Unicode5.2">Unicode5.2</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 5.2.0</i>,<br>
+        defined by: <i>The Unicode Standard, Version 5.2</i> (Mountain View, CA: The Unicode Consortium, 2009. ISBN 978-1-936213-00-9),<br>
+        <a href="https://www.unicode.org/versions/Unicode5.2.0/">https://www.unicode.org/versions/Unicode5.2.0/</a>
+        </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode6.0" href="#Unicode6.0">Unicode6.0</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 6.0.0</i><br>
+        (Mountain View, CA: The Unicode Consortium, 2011. ISBN 978-1-936213-01-6)<br>
+        <a href="https://www.unicode.org/versions/Unicode6.0.0/">https://www.unicode.org/versions/Unicode6.0.0/</a></td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode6.1" href="#Unicode6.1">Unicode6.1</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 6.1.0</i><br>
+        (Mountain View, CA: The Unicode Consortium, 2012. ISBN 978-1-936213-02-3)<br>
+        <a href="https://www.unicode.org/versions/Unicode6.1.0/">https://www.unicode.org/versions/Unicode6.1.0/</a></td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode6.2" href="#Unicode6.2">Unicode6.2</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 6.2.0</i><br>
+        (Mountain View, CA: The Unicode Consortium, 2012. ISBN 978-1-936213-07-8)<br>
+        <a href="https://www.unicode.org/versions/Unicode6.2.0/">https://www.unicode.org/versions/Unicode6.2.0/</a></td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode6.3" href="#Unicode6.3">Unicode6.3</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 6.3.0</i><br>
+        (Mountain View, CA: The Unicode Consortium, 2013. ISBN 978-1-936213-08-5)<br>
+        <a href="https://www.unicode.org/versions/Unicode6.3.0/">https://www.unicode.org/versions/Unicode6.3.0/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode7.0" href="#Unicode7.0">Unicode7.0</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 7.0.0</i><br>
+        (Mountain View, CA: The Unicode Consortium, 2014. ISBN 978-1-936213-09-2)<br>
+        <a href="https://www.unicode.org/versions/Unicode7.0.0/">https://www.unicode.org/versions/Unicode7.0.0/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode8.0" href="#Unicode8.0">Unicode8.0</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 8.0.0</i><br>
+        (Mountain View, CA: The Unicode Consortium, 2015. ISBN 978-1-936213-10-8)<br>
+        <a href="https://www.unicode.org/versions/Unicode8.0.0/">https://www.unicode.org/versions/Unicode8.0.0/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode9.0" href="#Unicode9.0">Unicode9.0</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 9.0.0</i><br>
+        (Mountain View, CA: The Unicode Consortium, 2016. ISBN 978-1-936213-13-9)<br>
+        <a href="https://www.unicode.org/versions/Unicode9.0.0/">https://www.unicode.org/versions/Unicode9.0.0/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode10.0" href="#Unicode10.0">Unicode10.0</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 10.0.0</i><br>
+        (Mountain View, CA: The Unicode Consortium, 2017. ISBN 978-1-936213-16-0)<br>
+        <a href="https://www.unicode.org/versions/Unicode10.0.0/">https://www.unicode.org/versions/Unicode10.0.0/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode11.0" href="#Unicode11.0">Unicode11.0</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 11.0.0</i><br>
+        (Mountain View, CA: The Unicode Consortium, 2018. ISBN 978-1-936213-19-1)<br>
+        <a href="https://www.unicode.org/versions/Unicode11.0.0/">https://www.unicode.org/versions/Unicode11.0.0/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode12.0" href="#Unicode12.0">Unicode12.0</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 12.0.0</i><br>
+        (Mountain View, CA: The Unicode Consortium, 2019. ISBN 978-1-936213-22-1)<br>
+        <a href="https://www.unicode.org/versions/Unicode12.0.0/">https://www.unicode.org/versions/Unicode12.0.0/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode12.1" href="#Unicode12.1">Unicode12.1</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 12.1.0</i><br>
+        (Mountain View, CA: The Unicode Consortium, 2019. ISBN 978-1-936213-25-2)<br>
+        <a href="https://www.unicode.org/versions/Unicode12.1.0/">https://www.unicode.org/versions/Unicode12.1.0/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode13.0" href="#Unicode13.0">Unicode13.0</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 13.0.0</i><br>
+        (Mountain View, CA: The Unicode Consortium, 2020. ISBN 978-1-936213-26-9)<br>
+        <a href="https://www.unicode.org/versions/Unicode13.0.0/">https://www.unicode.org/versions/Unicode13.0.0/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode14.0" href="#Unicode14.0">Unicode14.0</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 14.0.0</i><br>
+        (Mountain View, CA: The Unicode Consortium, 2021. ISBN 978-1-936213-29-0)<br>
+        <a href="https://www.unicode.org/versions/Unicode14.0.0/">https://www.unicode.org/versions/Unicode14.0.0/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode15.0" href="#Unicode15.0">Unicode15.0</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 15.0.0</i><br>
+        (Mountain View, CA: The Unicode Consortium, 2022. ISBN 978-1-936213-32-0)<br>
+        <a href="https://www.unicode.org/versions/Unicode15.0.0/">https://www.unicode.org/versions/Unicode15.0.0/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode15.1" href="#Unicode15.1">Unicode15.1</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 15.1.0</i><br>
+        (South San Francisco, CA: The Unicode Consortium, 2023. ISBN 978-1-936213-33-7)<br>
+        <a href="https://www.unicode.org/versions/Unicode15.1.0/">https://www.unicode.org/versions/Unicode15.1.0/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unicode16.0" href="#Unicode16.0">Unicode16.0</a>]</td>
+      <td class="nb" valign="top">
+        The Unicode Consortium, <i>The Unicode Standard, Version 16.0.0</i><br>
+        (South San Francisco: The Unicode Consortium, 2024. ISBN 978-1-936213-34-4)<br>
+        <a href="https://www.unicode.org/versions/Unicode16.0.0/">https://www.unicode.org/versions/Unicode16.0.0/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Unihan" href="#Unihan">Unihan</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unihan Database</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip">https://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/Public/16.0.0/ucd/Unihan.zip">https://www.unicode.org/Public/16.0.0/ucd/Unihan.zip</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UTC" href="#UTC">UTC</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Committee</i><br>
+        <a href="https://www.unicode.org/consortium/utc.html">https://www.unicode.org/consortium/utc.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UTN5" href="#UTN5">UTN5</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Note #5:</i> <i>Canonical Equivalence in Applications</i><br>
+        <a href="https://www.unicode.org/notes/tn5/">https://www.unicode.org/notes/tn5/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UTN43" href="#UTN43">UTN43</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Note #43:</i> <i>Unihan Database Property "kStrange"</i><br>
+        <a href="https://www.unicode.org/notes/tn43/">https://www.unicode.org/notes/tn43/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UTN45" href="#UTN45">UTN45</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Note #45:</i> <i>Unihan Property History</i><br>
+        <a href="https://www.unicode.org/notes/tn45/">https://www.unicode.org/notes/tn45/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UTN50" href="#UTN50">UTN50</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Note #50:</i> <i>KP-Source Property Value History</i><br>
+        <a href="https://www.unicode.org/notes/tn50/">https://www.unicode.org/notes/tn50/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UTN54" href="#UTN54">UTN54</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Note #54:</i> <i>Annotated Line Breaking Algorithm</i><br>
+        <a href="https://www.unicode.org/notes/tn54/">https://www.unicode.org/notes/tn54/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" noWrap>[<a name="UTR17" href="#UTR17">UTR17</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Report #17: Unicode Character Encoding Model</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr17/">https://www.unicode.org/reports/tr17/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" noWrap>[<a name="UTR23" href="#UTR23">UTR23</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Report #23: The Unicode Character Property Model</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr23/">https://www.unicode.org/reports/tr23/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" noWrap>[<a name="UTR25" href="#UTR25">UTR25</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Report #25: Unicode Support for Mathematics</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr25/">https://www.unicode.org/reports/tr25/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" noWrap>[<a name="UTR33" href="#UTR33">UTR33</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Report #33: Unicode Conformance Model</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr33/">https://www.unicode.org/reports/tr33/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" noWrap>[<a name="UTR36" href="#UTR36">UTR36</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Report #36: Unicode Security Considerations</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr36/">https://www.unicode.org/reports/tr36/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" noWrap>[<a name="UTR53" href="#UTR53">UTR53</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Report #53: Unicode Arabic Mark Rendering</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr53/">https://www.unicode.org/reports/tr53/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" noWrap>[<a name="UTR54" href="#UTR54">UTR54</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Report #54: Unicode Mongolian 12.1 Snapshot</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr54/">https://www.unicode.org/reports/tr54/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" noWrap>[<a name="UTS6" href="#UTS6">UTS6</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Standard #6: A Standard Compression Scheme for Unicode</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr6/">https://www.unicode.org/reports/tr6/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" noWrap>[<a name="UTS10" href="#UTS10">UTS10</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Standard #10: Unicode Collation Algorithm</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr10/">https://www.unicode.org/reports/tr10/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/reports/tr10/tr10-51.html">
+		https://www.unicode.org/reports/tr10/tr10-51.html</a></td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" noWrap>[<a name="UTS18" href="#UTS18">UTS18</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Standard #18: Unicode Regular Expressions</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr18/">https://www.unicode.org/reports/tr18/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" noWrap>[<a name="UTS22" href="#UTS22">UTS22</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Standard #22: Unicode Character Mapping Markup Language (CharMapML)</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr22/">https://www.unicode.org/reports/tr22/</a></td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" noWrap>[<a name="UTS35" href="#UTS35">UTS35</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Standard #35: Unicode Locale Data Markup Language (LDML)</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr35/">https://www.unicode.org/reports/tr35/</a></td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" noWrap>[<a name="UTS37" href="#UTS37">UTS37</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Standard #37: Unicode Ideographic Variation Database</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr37/">https://www.unicode.org/reports/tr37/</a></td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" nowrap>[<a name="UTS39" href="#UTS39">UTS39</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Standard #39: Unicode Security Mechanisms</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr39/">https://www.unicode.org/reports/tr39/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/reports/tr39/tr39-30.html">
+		https://www.unicode.org/reports/tr39/tr39-30.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UTS46" href="#UTS46">UTS46</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Standard #46: Unicode IDNA Compatibility Processing</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr46/">https://www.unicode.org/reports/tr46/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/reports/tr46/tr46-33.html">
+		https://www.unicode.org/reports/tr46/tr46-33.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" noWrap>[<a name="UTS51" href="#UTS51">UTS51</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Standard #51: Unicode Emoji</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr51/">https://www.unicode.org/reports/tr51/</a><br>
+        Version 16.0.0:<br>
+        <a href="https://www.unicode.org/reports/tr51/tr51-27.html">
+		https://www.unicode.org/reports/tr51/tr51-27.html</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" noWrap>[<a name="UTS55" href="#UTS55">UTS55</a>]</td>
+      <td class="nb" valign="top">
+        <i>Unicode Technical Standard #55: Unicode Source Code Handling</i><br>
+        Latest version:<br>
+        <a href="https://www.unicode.org/reports/tr55/">https://www.unicode.org/reports/tr55/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Versions" href="#Versions">Versions</a>]</td>
+      <td class="nb" valign="top">
+        <i>About Versions of the Unicode Standard</i><br>
+        Information on version numbering, and citing and referencing the Unicode Standard, the Unicode Character Database, and Unicode Technical Reports:<br>
+        <a href="https://www.unicode.org/versions/">https://www.unicode.org/versions/</a><br>
+      </td>
+    </tr>
+  </table>
+
+  <br>
+  <h2>2 <a name="OtherStandards" href="#OtherStandards">References to Other Standards</a></h2>
+  <table class="ref" cellspacing="0" cellpadding="4">
+    <tr>
+      <td class="nb" valign="top">[<a name="ISO10646" href="#ISO10646">10646</a>]</td>
+      <td class="nb" valign="top">International Organization for Standardization,
+        <i>ISO/IEC 10646:2020: Information Technology &ndash; Universal Coded Character Set (UCS), Sixth Edition</i><br>
+        Available from the ISO/IEC ITTF website:<br>
+        <a href="https://standards.iso.org/ittf/PubliclyAvailableStandards/">https://standards.iso.org/ittf/PubliclyAvailableStandards/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="CharMod" href="#CharMod">CharMod</a>]</td>
+      <td class="nb" valign="top">
+        Martin J. Dürst, et al.,
+        <i>Character Model for the World Wide Web 1.0: Fundamentals</i>, W3C Recommendation<br>
+        <a href="https://www.w3.org/TR/charmod/">https://www.w3.org/TR/charmod/</a>
+        </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" nowrap>[<a name="CSS3Writing" href="#CSS3Writing">CSS3Writing</a>]</td>
+      <td class="nb" valign="top">Elika J. Etemad / fantasai, Koji Ishii,
+        <i>CSS Writing Modes Level 3</i>, W3C Candidate Recommendation<br>
+        <a href="https://www.w3.org/TR/css-writing-modes-3/">https://www.w3.org/TR/css-writing-modes-3/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" nowrap>[<a name="HTML5" href="#HTML5">HTML5</a>]</td>
+      <td class="nb" valign="top">Steve Faulkner, et al.,
+        <i>HTML 5.2</i>, W3C Recommendation, 14 December 2017<br>
+        <a href="https://www.w3.org/TR/html5/">https://www.w3.org/TR/html5/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" nowrap>[<a name="IDNA2008" href="#IDNA2008">IDNA2008</a>]</td>
+      <td class="nb" valign="top">The IDNA2008 specification is defined by a
+        cluster of IETF RFCs:
+        <ul>
+          <li>Internationalized Domain Names for Applications (IDNA): Definitions and Document Framework<br> 
+            <a href="https://www.rfc-editor.org/info/rfc5890">https://www.rfc-editor.org/info/rfc5890</a>
+          </li>
+          <li>Internationalized Domain Names in Applications (IDNA) Protocol<br>
+            <a href="https://www.rfc-editor.org/info/rfc5891">https://www.rfc-editor.org/info/rfc5891</a>
+          </li>
+          <li>The Unicode Code Points and Internationalized Domain Names for Applications (IDNA)<br>
+            <a
+            href="https://www.rfc-editor.org/info/rfc5892">https://www.rfc-editor.org/info/rfc5892</a>
+          </li>
+          <li>Right-to-Left Scripts for Internationalized Domain Names for Applications (IDNA)<br>
+            <a
+            href="https://www.rfc-editor.org/info/rfc5893">https://www.rfc-editor.org/info/rfc5893</a>
+          </li>
+        </ul> There is also an informative document:<br>
+        <ul>
+          <li>Internationalized Domain Names for Applications (IDNA): Background, Explanation, and Rationale<br>
+            <a
+            href="https://www.rfc-editor.org/info/rfc5894">https://www.rfc-editor.org/info/rfc5894</a>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" nowrap>[<a name="ISO15924" href="#ISO15924">ISO15924</a>]</td>
+      <td class="nb" valign="top">International Organization for Standardization,
+        <i>ISO 15924:2004: Information and Documentation &ndash; Codes for the Representation of Names of Scripts</i><br>
+        <a href="https://www.unicode.org/iso15924/">https://www.unicode.org/iso15924/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top" nowrap>[<a name="ISO19757" href="#ISO19757">ISO19757</a>]</td>
+      <td class="nb" valign="top">International Organization for Standardization,
+        <i>ISO/IEC 19757-2:2008: Information Technology &ndash; Document Schema Definition Language (DSDL) &ndash;
+          Part 2: Regular-Grammar-Based Validation &ndash; RELAX NG, Second Edition</i><br>
+        Available from the ISO/IEC ITTF website:<br>
+        <a href="https://standards.iso.org/ittf/PubliclyAvailableStandards/">https://standards.iso.org/ittf/PubliclyAvailableStandards/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="JIS" href="#JIS">JIS</a>]</td>
+      <td class="nb" valign="top">Japanese Standards Association,
+        <i>JIS X 4051:2004: Formatting Rules for Japanese Documents</i> 『日本語文書の組版方法』
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="KSX1026" href="#KSX1026">KSX1026</a>]</td>
+      <td class="nb" valign="top">Korean Agency for Technology and Standards,
+        <i>KS X 1026-1:2007: Information Technology &ndash; Universal Multiple Octet Coded Character Set &ndash; Hangul &ndash;
+          Part 1: Hangul Processing Guide for Information Interchange</i>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="XML" href="#XML">XML</a>]</td>
+      <td class="nb" valign="top">Tim Bray, et al.,
+        <i>Extensible Markup Language (XML) 1.0, Fifth Edition</i>, W3C Recommendation<br>
+        <a href="https://www.w3.org/TR/xml/">https://www.w3.org/TR/xml/</a>
+      </td>
+    </tr>
+  </table>
+
+  <br>
+  <h2>3 <a name="Other" href="#Other">Other References</a></h2>
+  <table class="ref" cellspacing="0" cellpadding="4">
+    <tr>
+      <td class="nb" valign="top">[<a name="CharLint" href="#CharLint">CharLint</a>]</td>
+      <td class="nb" valign="top">
+        Martin J. Dürst, <i>Charlint &ndash; A Character Normalization Tool</i><br>
+        <a href="https://www.w3.org/International/charlint/">https://www.w3.org/International/charlint/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="CharMatch" href="#CharMatch">CharMatch</a>]</td>
+      <td class="nb" valign="top">
+        Addison Phillips, <i>Character Model for the World Wide Web: String Matching and Searching</i>, W3C Working Draft<br>
+        <a href="https://www.w3.org/TR/charmod-norm/">https://www.w3.org/TR/charmod-norm/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="CharNorm" href="#CharNorm">CharNorm</a>]</td>
+      <td class="nb" valign="top">
+        François Yergeau, et al.,
+        <i>Character Model for the World Wide Web 1.0: Normalization</i>, W3C Working Draft<br>
+        <a href="https://www.w3.org/TR/2012/WD-charmod-norm-20120501/">https://www.w3.org/TR/2012/WD-charmod-norm-20120501/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="JLREQ" href="#JLREQ">JLREQ</a>]</td>
+      <td class="nb" valign="top">
+        Hiroyuki Chiba, et al.,
+        <i>Requirements for Japanese Text Layout</i>, W3C Working Group Note<br>
+        <a href="https://www.w3.org/TR/jlreq/">https://www.w3.org/TR/jlreq/</a>
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Knuth78" href="#Knuth78">Knuth78</a>]</td>
+      <td class="nb" valign="top">
+        Donald E. Knuth, et al., <i>Breaking Lines into Paragraphs</i>, republished in <i>Digital Typography</i>, CSLI 78
+        (Stanford, CA: CLSI Publications, 1997)
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="Suign98" href="#Suign98">Suign98</a>]</td>
+      <td class="nb" valign="top">
+        Michel Suignard, <i>Worldwide Typography and How to Apply JIS X 4051-1995 to Unicode</i>,
+        Proceedings of the Twelfth International Unicode / ISO 10646 Conference (Tokyo, Japan: 1998)
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="TeX" href="#TeX">TEX</a>]</td>
+      <td class="nb" valign="top">
+        Donald E. Knuth, <i>T<sub>E</sub>X, the Program</i>, Volume B of <i>Computers &amp; Typesetting</i> (Reading, MA: Addison-Wesley, 1986)
+      </td>
+    </tr>
+    <tr>
+      <td class="nb" valign="top">[<a name="UnicodeXML" href="#UnicodeXML">UnicodeXML</a>]</td>
+      <td class="nb" valign="top">
+        Martin Dürst, Asmus Freytag, <i>Unicode in XML and other Markup Languages</i>, W3C Working Group Note<br>
+        <a href="https://www.w3.org/TR/unicode-xml/">https://www.w3.org/TR/unicode-xml/</a>
+      </td>
+    </tr>
+  </table>
+  <hr width="50%">
+  <p class="copyright">© 2006–2024 Unicode, Inc. This publication is protected by copyright, and permission must be obtained from Unicode, Inc. prior to any reproduction, modification, or other use not permitted by the <a href="https://www.unicode.org/copyright.html">Terms of Use</a>. Specifically, you may make copies of this publication and may annotate and translate it solely for personal or internal business purposes and not for public distribution, provided that any such permitted copies and modifications fully reproduce all copyright and other legal notices contained in the original. You may not make copies of or modifications to this publication for public distribution, or incorporate it in whole or in part into any product or publication without the express written permission of Unicode.</p>
+
+  <p class="copyright">Use of all Unicode Products, including this publication, is governed by the Unicode <a href="https://www.unicode.org/copyright.html">Terms of Use</a>. The authors, contributors, and publishers have taken care in the preparation of this publication, but make no express or implied representation or warranty of any kind and assume no responsibility or liability for errors or omissions or for consequential or incidental damages that may arise therefrom. This publication is provided “AS-IS” without charge as a convenience to users.</p>
+
+  <p class="copyright">Unicode and the Unicode Logo are registered trademarks of Unicode, Inc., in the United States and other countries.</p>
+
+</div> <!-- body -->
+</body>
+
+</html>
