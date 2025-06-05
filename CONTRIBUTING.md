@@ -1,5 +1,5 @@
-# [codeCONTRIBUTING.md](https://github.com/T-R0052/.github/edit/main/CONTRIBUTING.md)
-# [Link project](https://github.com/T-R0052/hubhub-oneday/tree/T-r0052/Massage/Inbox)
+_>
+# [codeCONTRIBUTING.js](https://github.com/T-R0052/.github/edit/main/CONTRIBUTING.md)[Link project](https://github.com/T-R0052/hubhub-oneday/tree/T-r0052/Massage/Inbox)
 ```mermaid
     setup: [Link a project](https://github.com/T-R0052/hubhub-oneday/tree/T-r0052/Massage/Inbox) and t-r0052 repository
 Hi there! We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.
