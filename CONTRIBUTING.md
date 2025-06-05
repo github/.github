@@ -1,7 +1,6 @@
-#[codeCONTRIBUTING.md](https://github.com/T-R0052/.github/edit/main/CONTRIBUTING.md)
-#Link projects
-setup: Link a project and whatisthis repository
+# [codeCONTRIBUTING.md](https://github.com/T-R0052/.github/edit/main/CONTRIBUTING.md)(Link projects)
 
+setup: Link a project and t-r0052 repository
 Hi there! We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.
 
 Contributions to this project are [released](https://help.github.com/articles/github-terms-of-service/#6-contributions-under-repository-license)💌📧[rule](https://github.com/T-R0052/hubhub-oneday/tree/T-r0052/Rule/Recommend)to the public under the project's open source license.
