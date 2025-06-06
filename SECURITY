@@ -1,9 +1,9 @@
 ## Lex me explain this HTML code: This is a header section of a webpage for EUR-Lex, the European Union's legal database website. Here's what the code does: <html> https://gh.io/t-r0052/hubhub-oneday
 
-1) Purpose:
+## 1) Purpose:
 The code sets up the basic structure and styling for the EUR-Lex website header, including browser compatibility checks, styling resources, and essential UI elements.
 
-2) Key Components:
+## 2) Key Components:
 - Browser compatibility code for Internet Explorer 9
 - Website favicon and canonical URL links
 - Multiple CSS stylesheet references for styling
@@ -13,14 +13,14 @@ The code sets up the basic structure and styling for the EUR-Lex website header,
 - Browser support warning message
 - Skip link for accessibility
 
-3) Notable Features:
+## 3) Notable Features:
 - Uses conditional comments to load polyfills for older IE browsers
 - Implements the official EU website styling through specific CSS files
 - Includes multilingual support (shows text in Thai and Danish in this snippet)
 - Has accessibility features built in
 - Contains cookie consent functionality
 
-4) Structure Flow:
+## 4) Structure Flow:
 1. Loads compatibility scripts
 2. Sets up favicon and canonical links
 3. Loads core stylesheets
@@ -30,7 +30,7 @@ The code sets up the basic structure and styling for the EUR-Lex website header,
 7. Adds browser compatibility warning
 8. Creates main content wrapper
 
-5) Important Elements:
+## 5) Important Elements:
 - The `.globan` class elements create the official EU website banner
 - The `EurlexModal` provides a reusable modal dialog component
 - The `browserNotSupported` div shows warnings for outdated browsers
