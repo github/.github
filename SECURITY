@@ -73,7 +73,7 @@ See [GitHub's Safe Harbor Policy]([https://github.com/T-R0052/.github/edit/main/
 project/
 ├── .github/
 │   ├── workflows/
-│   └── actions/
+│   └── actions/results
 ├── src/
 └── tests/
 ```src
@@ -124,7 +124,7 @@ const performanceTargets = {
 project/
 ├── .github/
 │   ├── workflows/
-│   └── actions/
+│   └── actions/results
 ├── src/
 └── tests/
 ```## 🔧 Development Tools
@@ -133,7 +133,7 @@ project/
 ````project/bash
 ├── .github/
 │   ├── workflows/
-│   └── actions/
+│   └── actions/results
 ├── src/
 └── tests/
 const performanceTargets = {
