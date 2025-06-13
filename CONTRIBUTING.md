@@ -1,24 +1,49 @@
 _>
 # [codeCONTRIBUTING.js](https://github.com/T-R0052/.github/edit/main/CONTRIBUTING.md)[www.gh.io](https://github.com/T-R0052/hubhub-oneday/tree/T-r0052/Massage/Inbox)
+
+# 📊 Live Statistics
 ```mermaid
-    setup: [Link a project](https://github.com/T-R0052/hubhub-oneday/tree/T-r0052/Massage/Inbox) and t-r0052 repository
-Hi there! We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.
+graph TD 
+    server[Commits_AUTOTITLE] -->|6355+| autorun[t-r0052]
+    html --> Ay[Authorization]
+    setup -->|63.72%| rt[real-time]
+```
 
-Contributions to this project are [released](https://help.github.com/articles/github-terms-of-service/#6-contributions-under-repository-license)💌📧[rule](https://github.com/T-R0052/hubhub-oneday/tree/T-r0052/Rule/Recommend)to the public under the project's open source license.
+## 🪯 Core Features
+### CI/CD Pipeline
+```yaml
+name: Production Deploy
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build & overview ♻️
+        run: |
+          npm install
+          npm test
+```
 
-Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
+##[Project](https://github.com/T-R0052/hubhub-oneday/tree/T-r0052/Massage/Inbox) 
+and t-r0052 repository Hi there! We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.
+
+## Contributions to this project are [released](https://help.github.com/articles/github-terms-of-service/#6-contributions-under-repository-license)💌📧[rule](https://github.com/T-R0052/hubhub-oneday/tree/T-r0052/Rule/Recommend)to the public under the project's open source license.
+
+## Please note that this project
+is released with a Contributor Code of Conduct. By participating in this project, you agree to abide by its terms.
 
 ## Submitting a pull request
-
 0. Fork and clone the repository
 0. Configure and install the dependencies: `script/bootstrap`
 0. Make sure the tests pass on your machine: `script/cibuild`
 0. Create a new branch: `git checkout -b my-branch-name`
 0. Make your change, add tests, and make sure the tests still pass
 0. Push to your fork and submit a pull request
-0. Pat your self on the back and wait for your pull request to be reviewed and merged.
+0. Pat yourself on the back and wait for your pull request to be reviewed and merged.
 
-Here are a few things you can do that will increase the likelihood of your pull request being accepted:
+## Here are a few things 
+you can do that will increase the likelihood of your pull request being accepted:
 
 - Follow standards for style and code quality.
 - Write tests.
@@ -30,3 +55,9 @@ Here are a few things you can do that will increase the likelihood of your pull 
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 - [Using Pull Requests](https://help.github.com/articles/about-pull-requests/)
 - [GitHub Help](https://help.github.com)
+### And that's a Bot : 
+
+]
+```
+### And that's a Bot : 
+
