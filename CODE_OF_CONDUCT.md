@@ -1,4 +1,5 @@
-# Contributor Covenant Code of Conduct
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4486794199776534"
+     crossorigin="anonymous"></script># Contributor Covenant Code of Conduct
 
 ## Our Pledge
 
@@ -57,7 +58,17 @@ Examples of unacceptable behavior include:
   representative at an online or offline event.
 
 ## Enforcement
+<!-- Baaki content -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4486794199776534"
+     data-ad-slot="YOUR_SLOT_ID"
+     data-ad-format="auto"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</body>
 * Instances of abusive, harassing, or otherwise unacceptable behavior may be
   reported to the community leaders responsible for enforcement at
   support@github.com.
