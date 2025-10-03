@@ -1,4 +1,4 @@
-@Edgarruiz856 ## Hey, this is us 👋
+#@Edgarruiz856 ## Hey, this is us 👋
 
 ![An illustration showing a variety of differently themed Octocats. Monuments from different cities are indicated in the background like the Space Needle, Berlin Fernsehturm and Transamerica Pyramid.](https://user-images.githubusercontent.com/3369400/133268513-5bfe2f93-4402-42c9-a403-81c9e86934b6.jpeg)
 
@@ -53,6 +53,6 @@ Made with 🖤
 -->
 # .github
 
-*Community health files for the [@GitHub](https://github.com/github) organization*
+*Community health files for the [@Edgarruiz856](https://github.com/github) organization*
 
 For more information, please see the article on [creating a default community health file for your organization](https://help.github.com/en/articles/creating-a-default-community-health-file-for-your-organization).
