@@ -1,5 +1,13 @@
 # .github
 
-*Community health files for the [@GitHub](https://github.com/github) organization*
+*></li>
+			</ul>
+		</li>
+		मातशें िेळ्ळ्ळ्ळ्ळें <a href="http://github.com/github/docs">दस्तादजजीकरण</li> 🤓 हीय िेळ्ळ्ळ्ळ्ळें <a href="http://github.com/github/docs">
+	</ul>
+</विवरण> हें नांव
 
-For more information, please see the article on [creating a default community health file for your organization](https://help.github.com/en/articles/creating-a-default-community-health-file-for-your-organization).
+--- हें .
+
+<>उप🤫 प्स्स्ट! धांधली बुद्धी 4:1-2, 16-17, 20 ईएसव्ही 
+[१] निपुत्र जावप आनी सद्गुण आसप बरें, कारण जें सद्गुण याद जाता तें एके तरेचें अमरत्व आनी देव आनी मनीस ताची कदर करतात. [२] जेन्ना तें आसता 
