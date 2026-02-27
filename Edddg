@@ -5,7 +5,7 @@ go
 src/cmd/gofmt/testdata/typeswitch.input
 
 typeswitch.input
-1
+1by: Edgar Manuel Ruiz Arias 
 2
 3
 4
