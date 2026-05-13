@@ -1,0 +1,18 @@
+messages:
+  - role: system
+    content: You are a helpful assistant that breaks down action items from a meeting
+  - role: user
+    content: 'Pull out the action items from this meeting transcript: {{input}}'
+model: openai/gpt-4o
+testData: []
+evaluators:
+  - &ref_0
+    name: Similarity
+    uses: github/similarity
+  - name: Fluency
+    uses: github/fluency
+  - *ref_0
+  - name: Groundedness
+    uses: github/groundedness
+  - name: Relevance
+    uses: github/relevance
