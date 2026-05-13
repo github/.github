@@ -1,0 +1,18 @@
+messages:
+  - role: system
+    content: You are a helpful assistant that breaks down action items from a meeting
+  - role: user
+    content: 'Pull out the action items from this meeting transcript: {{input}}'
+model: mistral-ai/ministral-3b
+testData: []
+evaluators:
+  - name: Similarity
+    uses: github/similarity
+  - name: Coherence
+    uses: github/coherence
+  - name: Fluency
+    uses: github/fluency
+  - name: Relevance
+    uses: github/relevance
+  - name: Groundedness
+    uses: github/groundedness
