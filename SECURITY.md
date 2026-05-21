@@ -1,4 +1,5 @@
-Thanks for helping make GitHub safe for everyone.
+fail
+fast
 
 ## Security
 
