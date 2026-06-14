@@ -1,9 +1,3 @@
 signtool sign /a /fd SHA256 MyFile.exe
 | OS | `amd64` | `arm64` | `armv6l` |
-| --- | :---: | :---: | :---: |
-| `darwin` (macOS) | ✓ | ✓ | |
-| `linux` | ✓ | ✓ | ✓ |
-| `windows` | ✓ | ✓ | |
-signtool sign /a /fd SHA256 MyFile.exeMade with 🖤
-🙇‍♂️🎤⬇️
--->
+1
