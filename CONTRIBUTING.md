@@ -1,3 +1,43 @@
+env/*
+*/venv/*
+.venv/*
+.python-version
+.terraform
+terraform.tfstate*
+terraform.tfvars
+*.auto.tfvars
+.terraform.tfstate.lock.info
+.terraform.lock.hcl
+!tests/**/terraform.tfvars
+__pycache__
+.pytest_cache
+.test.lock
+.idea
+.idx/dev.nix
+backend.tf
+backend-config.hcl
+credentials.json
+key.json
+terraform-ls.tf
+bundle.zip
+.DS_Store
+fixture_*
+fast/configs
+fast/**/[0-9]*providers.tf
+fast/**/terraform.tfvars
+fast/**/terraform.tfvars.json
+fast/**/terraform-*.auto.tfvars.json
+fast/**/[0-9]*.auto.tfvars*
+node_modules
+fast/**/globals.auto.tfvars.json
+cloud_sql_proxy
+env/
+fast-cleaner binary
+tools/fast-cleaner/fast-cleane
+
+
+
+
 ## Contributing
 
 Hi there! We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.

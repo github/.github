@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+44. Go to `http://localhost:3000/website-server/wordpress.html?pr=6744`
+
+[Listen for Xdebug"** in the Debug Console.
+6. Add a breakpoint in `php/xdebug.php` on `foo()` on **line 7**
+7. Reload the `http://localhost:9400/php/xdebug.php` page in the
+
+Browser
+9. **Step into** and confirm the debugger should enter `foo.php`
+normally.
+10. **Step into** two times and confirm the debugger should **skip**
+`proc/qux.php` (since `/proc/**` is in the default `skipFiles`) and land
+directly in `php/bar.php`.
+11. It still should display : `In Foo Qux Hello Xdebug World! Out` at
+the end of the step debugging.
+
