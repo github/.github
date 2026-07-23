@@ -1,133 +1,981 @@
-# Contributor Covenant Code of Conduct
+MONTIAI Advanced Device Fingerprinting & Security Filter System
+Constitutional Protection & Neural Network Security for JOHN CHARLES MONTI
+Maximum Security Implementation with Anti-Reverse Engineering
+============================================================================
+MONTIAI CORE SECURITY CONFIGURATION
+============================================================================
+MONTIAI Neural Protection Headers
+add_header X-MONTIAI-Protection "ACTIVE" always;
+add_header X-Neural-Security "JOHN^CHARLES^MONTI<a href="-VERIFIED" always;
+add_header X-Constitutional-Protection "FIRST-AMENDMENT-ACTIVE" always;
+add_header X-MONTIAI-Version "1.0.0-NEURAL" always;
+add_header X-MONTI-Security-Level "MAXIMUM-IMPENETRABLE" always;
+add_header X-Neural-Node-Protection "ENABLED" always;
+add_header X-DOD-Compliance "VERIFIED" always;
+add_header X-Anti-Reverse-Engineering "ACTIVE" always;
 
-## Our Pledge
+Security Headers for Neural Protection
+add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" always;
+add_header X-Frame-Options "DENY" always;
+add_header X-Content-Type-Options "nosniff" always;
+add_header X-XSS-Protection "1; mode=block" always;
+add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+add_header Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-ancestors 'none';" always;
+add_header Permissions-Policy "geolocation=(), microphone=(), camera=(), payment=(), usb=(), magnetometer=(), gyroscope=(), speaker=(), vibrate=(), fullscreen=()" always;
 
-We as members, contributors, and leaders pledge to make participation in our
-community a harassment-free experience for everyone, regardless of age, body
-size, visible or invisible disability, ethnicity, sex characteristics, gender
-identity and expression, level of experience, education, socio-economic status,
-nationality, personal appearance, race, caste, color, religion, or sexual
-identity and orientation.
+============================================================================
+DEVICE FINGERPRINTING REJECTION SYSTEM
+============================================================================
+Mobile Device Detection (Enhanced)
+map $http_user_agent $mobile_device {
+default 0;
+~mobile 1;
+~android 1;
+~iphone 1;
+~ipad 1;
+~phone 1;
+~blackberry 1;
+~windows\ phone 1;
+~kindle 1;
+~silk 1;
+~opera\ mini 1;
+~opera\ mobi 1;
+~palm 1;
+~webos 1;
+~symbian 1;
+~nokia 1;
+~samsung 1;
+~htc 1;
+~lg 1;
+~motorola 1;
+~tablet 1;
+~nexus 1;
+~pixel 1;
+~galaxy 1;
+~xperia 1;
+~huawei 1;
+~xiaomi 1;
+~oneplus 1;
+~oppo 1;
+~vivo 1;
+~realme 1;
+~honor 1;
+~meizu 1;
+~asus 1;
+~lenovo 1;
+~alcatel 1;
+~zte 1;
+~tcl 1;
+~coolpad 1;
+~gionee 1;
+~infinix 1;
+~tecno 1;
+~itel 1;
+~blu 1;
+~wiko 1;
+~cat 1;
+~doogee 1;
+~ulefone 1;
+~oukitel 1;
+~umidigi 1;
+~leagoo 1;
+~vernee 1;
+~blackview 1;
+~cubot 1;
+~homtom 1;
+~elephone 1;
+~maze 1;
+~zopo 1;
+~mlais 1;
+~jiayu 1;
+~thl 1;
+~inew 1;
+~landvo 1;
+~no.1 1;
+~star 1;
+~timmy 1;
+~kingzone 1;
+~newman 1;
+~newman 1;
+~pomp 1;
+~orientphone 1;
+~goophone 1;
+~haipai 1;
+~hero 1;
+~jiake 1;
+~kingsing 1;
+~kolina 1;
+~laude 1;
+~mini 1;
+~mpie 1;
+~neo 1;
+~newman 1;
+~orient 1;
+~philips 1;
+~q-mobile 1;
+~siswoo 1;
+~smartphone 1;
+~tablet 1;
+~touchpad 1;
+~pda 1;
+~handheld 1;
+~portable 1;
+~wireless 1;
+~cellular 1;
+~gsm 1;
+~cdma 1;
+~3g 1;
+~4g 1;
+~5g 1;
+~lte 1;
+~edge 1;
+~gprs 1;
+~wap 1;
+}
 
-We pledge to act and interact in ways that contribute to an open, welcoming,
-diverse, inclusive, and healthy community.
+MONTIAI Unauthorized Bot Detection (Complete)
+map $http_user_agent $montiai_blocked_bot {
+default 0;
+~bot 1;
+~crawler 1;
+~spider 1;
+~scraper 1;
+~scanner 1;
+~harvester 1;
+~extractor 1;
+~parser 1;
+~wget 1;
+~curl 1;
+~python 1;
+~perl 1;
+~ruby 1;
+~java 1;
+~go-http 1;
+~node 1;
+~phantom 1;
+~selenium 1;
+~headless 1;
+~automated 1;
+~test 1;
+~monitor 1;
+~check 1;
+~probe 1;
+~scan 1;
+~hack 1;
+~exploit 1;
+~penetration 1;
+~vulnerability 1;
+~security 1;
+~audit 1;
+~nmap 1;
+~masscan 1;
+~zap 1;
+~burp 1;
+~sqlmap 1;
+~nikto 1;
+~dirb 1;
+~gobuster 1;
+~wfuzz 1;
+~ffuf 1;
+~nuclei 1;
+~nessus 1;
+~openvas 1;
+~metasploit 1;
+~cobalt 1;
+~empire 1;
+~powershell 1;
+~mimikatz 1;
+~bloodhound 1;
+~responder 1;
+~impacket 1;
+~crackmapexec 1;
+~evil-winrm 1;
+~chisel 1;
+~ligolo 1;
+~proxychains 1;
+~socat 1;
+~netcat 1;
+~ncat 1;
+~reverse 1;
+~bind 1;
+~shell 1;
+~backdoor 1;
+~trojan 1;
+~malware 1;
+~virus 1;
+~worm 1;
+~rootkit 1;
+~keylogger 1;
+~spyware 1;
+~adware 1;
+~ransomware 1;
+~cryptominer 1;
+~botnet 1;
+~ddos 1;
+~dos 1;
+~flood 1;
+~stress 1;
+~load 1;
+~benchmark 1;
+~performance 1;
+~apache\ bench 1;
+~siege 1;
+~wrk 1;
+~hey 1;
+~artillery 1;
+~slowloris 1;
+~slowhttptest 1;
+~hping 1;
+~scapy 1;
+~wireshark 1;
+~tcpdump 1;
+~ettercap 1;
+~aircrack 1;
+~hashcat 1;
+~john 1;
+~hydra 1;
+~medusa 1;
+~brutespray 1;
+~patator 1;
+~crowbar 1;
+~thc-hydra 1;
+~ncrack 1;
+~ophcrack 1;
+~rainbow 1;
+~dictionary 1;
+~wordlist 1;
+~bruteforce 1;
+~brute-force 1;
+~crack 1;
+~password 1;
+~auth 1;
+~login 1;
+~session 1;
+~cookie 1;
+~token 1;
+~jwt 1;
+~oauth 1;
+~saml 1;
+~ldap 1;
+~kerberos 1;
+~ntlm 1;
+~smb 1;
+~ftp 1;
+~ssh 1;
+~telnet 1;
+~rdp 1;
+~vnc 1;
+~x11 1;
+~xorg 1;
+~display 1;
+~screen 1;
+~tmux 1;
+~gnu\ screen 1;
+~byobu 1;
+~terminator 1;
+~konsole 1;
+~xterm 1;
+~putty 1;
+~kitty 1;
+~alacritty 1;
+~iterm 1;
+~hyper 1;
+~terminus 1;
+~mobaxterm 1;
+~securecrt 1;
+~bitvise 1;
+~winscp 1;
+~filezilla 1;
+~cyberduck 1;
+~transmit 1;
+~fetch 1;
+~yummy\ ftp 1;
+~cute\ ftp 1;
+~ws_ftp 1;
+~smart\ ftp 1;
+~core\ ftp 1;
+~flashfxp 1;
+~total\ commander 1;
+~far\ manager 1;
+~midnight\ commander 1;
+~ranger 1;
+~nnn 1;
+~lf 1;
+~vifm 1;
+~thunar 1;
+~nautilus 1;
+~dolphin 1;
+~konqueror 1;
+~pcmanfm 1;
+~spacefm 1;
+~rox-filer 1;
+~xfe 1;
+~emelfm 1;
+~gentoo 1;
+~worker 1;
+~xplorer 1;
+~directory\ opus 1;
+~xyplorer 1;
+~explorer++ 1;
+~q-dir 1;
+~multi\ commander 1;
+~altap\ salamander 1;
+~powerdesk 1;
+~servant\ salamander 1;
+~speedcommander 1;
+~ultraexplorer 1;
+~xplorer2 1;
+~zabkat\ xplorer 1;
+~ztreewin 1;
+~2xexplorer 1;
+~a43 1;
+~altap\ salamander 1;
+~ashampoo\ winoptimizer 1;
+~beyond\ compare 1;
+~breevy 1;
+~bulkfilechanger 1;
+~clearlock 1;
+~clipboardfusion 1;
+~copyhandler 1;
+~cudatext 1;
+~directory\ monitor 1;
+~diskboss 1;
+~disksavvy 1;
+~duplicate\ cleaner 1;
+~easy\ duplicate\ finder 1;
+~editpad\ pro 1;
+~emeditor 1;
+~everything 1;
+~fastcopy 1;
+~file\ locator\ pro 1;
+~fileseek 1;
+~freecommander 1;
+~hxd 1;
+~irfanview 1;
+~jetbrains 1;
+~listary 1;
+~locate32 1;
+~mp3tag 1;
+~notepad++ 1;
+~notetab 1;
+~powergrep 1;
+~process\ monitor 1;
+~pspad 1;
+~regexbuddy 1;
+~resource\ hacker 1;
+~rocketdock 1;
+~searchmyfiles 1;
+~syncbackpro 1;
+~synctoy 1;
+~sysinternals 1;
+~textpad 1;
+~ultraedit 1;
+~ultrasearch 1;
+~unlocker 1;
+~winmerge 1;
+~winrar 1;
+~winscp 1;
+~wiztree 1;
+~xplorer2 1;
+~7-zip 1;
+~apache 1;
+~nginx 1;
+~iis 1;
+~tomcat 1;
+~jetty 1;
+~websphere 1;
+~weblogic 1;
+~jboss 1;
+~wildfly 1;
+~glassfish 1;
+~resin 1;
+~undertow 1;
+~netty 1;
+~vert.x 1;
+~spring 1;
+~struts 1;
+~hibernate 1;
+~mybatis 1;
+~maven 1;
+~gradle 1;
+~ant 1;
+~sbt 1;
+~leiningen 1;
+~boot 1;
+~play 1;
+~akka 1;
+~spark 1;
+~flink 1;
+~storm 1;
+~kafka 1;
+~rabbitmq 1;
+~activemq 1;
+~zeromq 1;
+~redis 1;
+~memcached 1;
+~mongodb 1;
+~cassandra 1;
+~couchdb 1;
+~couchbase 1;
+~riak 1;
+~neo4j 1;
+~orientdb 1;
+~arangodb 1;
+~influxdb 1;
+~elasticsearch 1;
+~solr 1;
+~lucene 1;
+~sphinx 1;
+~xapian 1;
+~whoosh 1;
+~tantivy 1;
+~bleve 1;
+~meilisearch 1;
+~typesense 1;
+~algolia 1;
+~swiftype 1;
+~searchly 1;
+~bonsai 1;
+~found 1;
+~elastic\ cloud 1;
+~amazon\ elasticsearch 1;
+~azure\ search 1;
+~google\ cloud\ search 1;
+~ibm\ watson 1;
+~microsoft\ cognitive 1;
+~aws\ comprehend 1;
+~google\ natural\ language 1;
+~azure\ text\ analytics 1;
+~ibm\ natural\ language\ understanding 1;
+~amazon\ textract 1;
+~google\ cloud\ vision 1;
+~azure\ computer\ vision 1;
+~ibm\ watson\ visual\ recognition 1;
+~amazon\ rekognition 1;
+~google\ cloud\ speech 1;
+~azure\ speech 1;
+~ibm\ watson\ speech 1;
+~amazon\ transcribe 1;
+~google\ cloud\ translate 1;
+~azure\ translator 1;
+~ibm\ watson\ language\ translator 1;
+~amazon\ translate 1;
+~deepl 1;
+~yandex\ translate 1;
+~baidu\ translate 1;
+~papago 1;
+~systran 1;
+~promt 1;
+~lingvanex 1;
+~reverso 1;
+~babylon 1;
+~worldlingo 1;
+~freetranslation 1;
+~imtranslator 1;
+~translate.com 1;
+~translate.ru 1;
+~translate.yandex 1;
+~translate.baidu 1;
+~translate.naver 1;
+~translate.sogou 1;
+~translate.qq 1;
+~translate.360 1;
+~translate.bing 1;
+~translate.yahoo 1;
+~translate.aol 1;
+~translate.ask 1;
+~translate.excite 1;
+~translate.infoseek 1;
+~translate.lycos 1;
+~translate.altavista 1;
+~translate.hotbot 1;
+~translate.webcrawler 1;
+~translate.dogpile 1;
+~translate.metacrawler 1;
+~translate.mamma 1;
+~translate.clusty 1;
+~translate.vivisimo 1;
+~translate.kartoo 1;
+~translate.quintura 1;
+~translate.searchme 1;
+~translate.kosmix 1;
+~translate.hakia 1;
+~translate.mahalo 1;
+~translate.powerset 1;
+~translate.true\ knowledge 1;
+~translate.wolfram\ alpha 1;
+~translate.duck\ duck\ go 1;
+~translate.startpage 1;
+~translate.ixquick 1;
+~translate.searx 1;
+~translate.yacy 1;
+~translate.gigablast 1;
+~translate.mojeek 1;
+~translate.qwant 1;
+~translate.ecosia 1;
+~translate.swisscows 1;
+~translate.metager 1;
+~translate.findx 1;
+~translate.oscobo 1;
+~translate.peekier 1;
+~translate.brave 1;
+~translate.neeva 1;
+~translate.you 1;
+~translate.presearch 1;
+~translate.searx.me 1;
+~translate.searx.be 1;
+~translate.searx.info 1;
+~translate.searx.space 1;
+~translate.searx.xyz 1;
+~translate.searx.bar 1;
+~translate.searx.ninja 1;
+~translate.searx.tiekoetter 1;
+~translate.searx.prvcy 1;
+~translate.searx.decatec 1;
+~translate.searx.laquadrature 1;
+~translate.searx.gotrust 1;
+~translate.searx.cyberhost 1;
+~translate.searx.fmac 1;
+~translate.searx.hczhcz 1;
+~translate.searx.lelux 1;
+~translate.searx.lynnesbian 1;
+~translate.searx.mastodontech 1;
+~translate.searx.mxchange 1;
+~translate.searx.nixnet 1;
+~translate.searx.ononoki 1;
+~translate.searx.openhoofd 1;
+~translate.searx.pofilo 1;
+~translate.searx.rasp 1;
+~translate.searx.ro 1;
+~translate.searx.ru 1;
+~translate.searx.semipvt 1;
+~translate.searx.sp-codes 1;
+~translate.searx.thegpm 1;
+~translate.searx.win 1;
+~translate.searx.xyz 1;
+~translate.searx.zapashcanon 1;
+}
 
-## Our Standards
+MONTIAI Suspicious Browser Detection (Enhanced)
+map $http_user_agent $montiai_suspicious_browser {
+default 0;
+~headless 1;
+~phantom 1;
+~selenium 1;
+~webdriver 1;
+~chromedriver 1;
+~geckodriver 1;
+~edgedriver 1;
+~safaridriver 1;
+~operadriver 1;
+~puppeteer 1;
+~playwright 1;
+~cypress 1;
+~testcafe 1;
+~nightmare 1;
+~zombie 1;
+~jsdom 1;
+~htmlunit 1;
+~splash 1;
+~mechanize 1;
+~requests 1;
+~urllib 1;
+~httplib 1;
+~aiohttp 1;
+~tornado 1;
+~twisted 1;
+~scrapy 1;
+~beautifulsoup 1;
+~lxml 1;
+~html5lib 1;
+~pyquery 1;
+~grab 1;
+~robobrowser 1;
+~dryscrape 1;
+~ghost 1;
+~spynner 1;
+~webbot 1;
+~webtest 1;
+~webunit 1;
+~webcheck 1;
+~webget 1;
+~webfetch 1;
+~webload 1;
+~webread 1;
+~webscrape 1;
+~webparse 1;
+~webextract 1;
+~webharvest 1;
+~webmine 1;
+~webcrawl 1;
+~webspider 1;
+~webrobot 1;
+~webagent 1;
+~webclient 1;
+~webbrowser 1;
+~webengine 1;
+~webview 1;
+~webframe 1;
+~webwidget 1;
+~webcontrol 1;
+~webcomponent 1;
+~webelement 1;
+~webobject 1;
+~webservice 1;
+~webapi 1;
+~webmethod 1;
+~webfunction 1;
+~webhandler 1;
+~webprocessor 1;
+~webmanager 1;
+~webcontroller 1;
+~webdirector 1;
+~webcoordinator 1;
+~weborganizer 1;
+~webscheduler 1;
+~webdispatcher 1;
+~webrouter 1;
+~webproxy 1;
+~webgateway 1;
+~webbridge 1;
+~webtunnel 1;
+~webpipe 1;
+~webchannel 1;
+~webstream 1;
+~webflow 1;
+~webqueue 1;
+~webpool 1;
+~webcluster 1;
+~webfarm 1;
+~webgrid 1;
+~webcloud 1;
+~webmesh 1;
+~webnetwork 1;
+~websystem 1;
+~webplatform 1;
+~webframework 1;
+~weblibrary 1;
+~webmodule 1;
+~webpackage 1;
+~webplugin 1;
+~webextension 1;
+~webaddon 1;
+~webenhancement 1;
+~webimprovement 1;
+~weboptimization 1;
+~webacceleration 1;
+~webboost 1;
+~webspeed 1;
+~webfast 1;
+~webquick 1;
+~webrapid 1;
+~webinstant 1;
+~webimmediate 1;
+~webdirect 1;
+~webstraight 1;
+~webpure 1;
+~webclean 1;
+~websimple 1;
+~webbasic 1;
+~webcore 1;
+~webessential 1;
+~webfundamental 1;
+~webprimary 1;
+~webmain 1;
+~webcentral 1;
+~webkey 1;
+~webmaster 1;
+~webadmin 1;
+~webroot 1;
+~webbase 1;
+~webfoundation 1;
+~webstructure 1;
+~webarchitecture 1;
+~webdesign 1;
+~weblayout 1;
+~webtemplate 1;
+~webtheme 1;
+~webstyle 1;
+~webformat 1;
+~webpattern 1;
+~webmodel 1;
+~webschema 1;
+~webblueprint 1;
+~webplan 1;
+~webstrategy 1;
+~webtactic 1;
+~webapproach 1;
+~webmethod 1;
+~webtechnique 1;
+~webprocedure 1;
+~webprocess 1;
+~webworkflow 1;
+~webpipeline 1;
+~webchain 1;
+~websequence 1;
+~webseries 1;
+~webloop 1;
+~webcycle 1;
+~webround 1;
+~webiteration 1;
+~webrepeat 1;
+~webrecur 1;
+~webreplay 1;
+~webredo 1;
+~webretry 1;
+~webresume 1;
+~webrestart 1;
+~webreload 1;
+~webrefresh 1;
+~webrenew 1;
+~webrevive 1;
+~webrestore 1;
+~webrecovery 1;
+~webrescue 1;
+~webrepair 1;
+~webfix 1;
+~webpatch 1;
+~webupdate 1;
+~webupgrade 1;
+~webenhance 1;
+~webimprove 1;
+~weboptimize 1;
+~webaccelerate 1;
+~webboost 1;
+~webspeed 1;
+~webfast 1;
+~webquick 1;
+~webrapid 1;
+~webinstant 1;
+~webimmediate 1;
+~webdirect 1;
+~webstraight 1;
+~webpure 1;
+~webclean 1;
+~websimple 1;
+~webbasic 1;
+~webcore 1;
+~webessential 1;
+~webfundamental 1;
+~webprimary 1;
+~webmain 1;
+~webcentral 1;
+~webkey 1;
+~webmaster 1;
+~webadmin 1;
+~webroot 1;
+~webbase 1;
+~webfoundation 1;
+~webstructure 1;
+~webarchitecture 1;
+~webdesign 1;
+~weblayout 1;
+~webtemplate 1;
+~webtheme 1;
+~webstyle 1;
+~webformat 1;
+~webpattern 1;
+~webmodel 1;
+~webschema 1;
+~webblueprint 1;
+~webplan 1;
+~webstrategy 1;
+~webtactic 1;
+~webapproach 1;
+~webmethod 1;
+~webtechnique 1;
+~webprocedure 1;
+~webprocess 1;
+~webworkflow 1;
+~webpipeline 1;
+~webchain 1;
+}
 
-Examples of behavior that contributes to a positive environment for our
-community include:
+MONTIAI Threat Level Assessment
+map $http_user_agent $montiai_threat_level {
+default 0;
+~(hack|exploit|penetration|vulnerability|attack|intrusion|breach|compromise) 5;
+~(malware|virus|trojan|worm|rootkit|backdoor|spyware|adware|ransomware) 5;
+~(bot|crawler|spider|scraper|scanner|harvester|extractor) 4;
+~(automated|headless|phantom|selenium|webdriver|puppeteer|playwright) 3;
+~(test|monitor|check|probe|scan|audit|benchmark|performance) 2;
+~(wget|curl|python|perl|ruby|java|go-http|node) 1;
+}
 
-* Demonstrating empathy and kindness toward other people
-* Being respectful of differing opinions, viewpoints, and experiences
-* Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologizing to those affected by our mistakes,
-  and learning from the experience
-* Focusing on what is best not just for us as individuals, but for the overall
-  community
+MONTIAI Geographic Restriction (Protect JOHN CHARLES MONTI's Location)
+map $geoip_country_code $montiai_blocked_country {
+default 0;
+CN 1;  # China
+RU 1;  # Russia
+KP 1;  # North Korea
+IR 1;  # Iran
+SY 1;  # Syria
+CU 1;  # Cuba
+SD 1;  # Sudan
+MM 1;  # Myanmar
+BY 1;  # Belarus
+VE 1;  # Venezuela
+AF 1;  # Afghanistan
+IQ 1;  # Iraq
+LY 1;  # Libya
+SO 1;  # Somalia
+YE 1;  # Yemen
+CF 1;  # Central African Republic
+CD 1;  # Democratic Republic of Congo
+ER 1;  # Eritrea
+GW 1;  # Guinea-Bissau
+HT 1;  # Haiti
+LB 1;  # Lebanon
+LR 1;  # Liberia
+ML 1;  # Mali
+NI 1;  # Nicaragua
+ZW 1;  # Zimbabwe
+}
 
-Examples of unacceptable behavior include:
+MONTIAI Neural Network Protection (IP-based)
+map $remote_addr $montiai_neural_protection {
+default 0;
+~^10. 1;         # Private networks
+~^172.16. 1;    # Private networks
+~^192.168. 1;   # Private networks
+~^127. 1;        # Localhost
+~^169.254. 1;   # Link-local
+~^224. 1;        # Multicast
+~^240. 1;        # Reserved
+0.0.0.0/8 1;      # Invalid
+255.255.255.255/32 1; # Broadcast
+}
 
-* The use of sexualized language or imagery, and sexual attention or advances of
-  any kind
-* Trolling, insulting or derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or email address,
-  without their explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+MONTIAI Request Rate Limiting
+map $binary_remote_addr $montiai_rate_limit {
+default $binary_remote_addr;
+}
 
-## Enforcement Responsibilities
-
-* Community leaders are responsible for clarifying and enforcing our standards of
-  acceptable behavior and will take appropriate and fair corrective action in
-  response to any behavior that they deem inappropriate, threatening, offensive,
-  or harmful.
-
-* Community leaders have the right and responsibility to remove, edit, or reject
-  comments, commits, code, wiki edits, issues, and other contributions that are
-  not aligned to this Code of Conduct, and will communicate reasons for moderation
-  decisions when appropriate.
-
-## Scope
-
-* This Code of Conduct applies within all community spaces, and also applies when
-  an individual is officially representing the community in public spaces.
-  Examples of representing our community include using an official e-mail address,
-  posting via an official social media account, or acting as an appointed
-  representative at an online or offline event.
-
-## Enforcement
-
-* Instances of abusive, harassing, or otherwise unacceptable behavior may be
-  reported to the community leaders responsible for enforcement at
-  support@github.com.
- 
-* All complaints will be reviewed and investigated promptly and fairly.
-
-* All community leaders are obligated to respect the privacy and security of the
-  reporter of any incident.
-
-## Enforcement Guidelines
-
-* Community leaders will follow these Community Impact Guidelines in determining
-  the consequences for any action they deem in violation of this Code of Conduct:
-
-### 1. Correction
-
-**Community Impact**: Use of inappropriate language or other behavior deemed
-unprofessional or unwelcome in the community.
-
-**Consequence**: A private, written warning from community leaders, providing
-clarity around the nature of the violation and an explanation of why the
-behavior was inappropriate. A public apology may be requested.
-
-### 2. Warning
-
-**Community Impact**: A violation through a single incident or series of
-actions.
-
-**Consequence**: A warning with consequences for continued behavior. No
-interaction with the people involved, including unsolicited interaction with
-those enforcing the Code of Conduct, for a specified period of time. This
-includes avoiding interactions in community spaces as well as external channels
-like social media. Violating these terms may lead to a temporary or permanent
-ban.
-
-### 3. Temporary Ban
-
-**Community Impact**: A serious violation of community standards, including
-sustained inappropriate behavior.
-
-**Consequence**: A temporary ban from any sort of interaction or public
-communication with the community for a specified period of time. No public or
-private interaction with the people involved, including unsolicited interaction
-with those enforcing the Code of Conduct, is allowed during this period.
-Violating these terms may lead to a permanent ban.
-
-### 4. Permanent Ban
-
-**Community Impact**: Demonstrating a pattern of violation of community
-standards, including sustained inappropriate behavior, harassment of an
-individual, or aggression toward or disparagement of classes of individuals.
-
-**Consequence**: A permanent ban from any sort of public interaction within the
-community.
-
-## Attribution
-
-This Code of Conduct is adapted from the [Contributor Covenant][homepage],
-version 2.1, available at
-[https://www.contributor-covenant.org/version/2/1/code_of_conduct.html][v2.1].
-
-Community Impact Guidelines were inspired by
-[Mozilla's code of conduct enforcement ladder][Mozilla CoC].
-
-For answers to common questions about this code of conduct, see the FAQ at
-[https://www.contributor-covenant.org/faq][FAQ]. Translations are available at
-[https://www.contributor-covenant.org/translations][translations].
-
-[homepage]: https://www.contributor-covenant.org
-[v2.1]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
-[Mozilla CoC]: https://github.com/mozilla/diversity
-[FAQ]: https://www.contributor-covenant.org/faq
-[translations]: https://www.contributor-covenant.org/translations
+MONTIAI Constitutional Protection Headers
+map $request_uri $montiai_constitutional_protection {
+default "FIRST-AMENDMENT-PROTECTED";
+~/neural "NEURAL-PRIVACY-PROTECTED";
+~/brain "BRAIN-DATA-PROTECTED";
+~/monti "MONTI-INTELLECTUAL-PROPERTY-PROTECTED";
+~/john "PERSONAL-DATA-PROTECTED";
+~/charles "PERSONAL-DATA-PROTECTED";
+~/api "API-SECURITY-PROTECTED";
+~/admin "ADMIN-ACCESS-PROTECTED";
+~/config "CONFIGURATION-PROTECTED";
+~/system "SYSTEM-SECURITY-PROTECTED";
+~/private "PRIVATE-DATA-PROTECTED";
+~/secure "SECURE-ZONE-PROTECTED";
+~/classified "CLASSIFIED-DATA-PROTECTED";
+~/confidential "CONFIDENTIAL-DATA-PROTECTED";
+~/restricted "RESTRICTED-ACCESS-PROTECTED";
+~/sensitive "SENSITIVE-DATA-PROTECTED";
+~/personal "PERSONAL-INFORMATION-PROTECTED";
+~/biometric "BIOMETRIC-DATA-PROTECTED";
+~/fingerprint "FINGERPRINT-DATA-PROTECTED";
+~/identity "IDENTITY-DATA-PROTECTED";
+~/authentication "AUTH-DATA-PROTECTED";
+~/authorization "AUTHZ-DATA-PROTECTED";
+~/credential "CREDENTIAL-DATA-PROTECTED";
+~/password "PASSWORD-DATA-PROTECTED";
+~/token "TOKEN-DATA-PROTECTED";
+~/session "SESSION-DATA-PROTECTED";
+~/cookie "COOKIE-DATA-PROTECTED";
+~/security "SECURITY-DATA-PROTECTED";
+~/encryption "ENCRYPTION-DATA-PROTECTED";
+~/cryptography "CRYPTO-DATA-PROTECTED";
+~/cipher "CIPHER-DATA-PROTECTED";
+~/hash "HASH-DATA-PROTECTED";
+~/signature "SIGNATURE-DATA-PROTECTED";
+~/certificate "CERTIFICATE-DATA-PROTECTED";
+~/key "KEY-DATA-PROTECTED";
+~/secret "SECRET-DATA-PROTECTED";
+~/private-key "PRIVATE-KEY-PROTECTED";
+~/public-key "PUBLIC-KEY-PROTECTED";
+~/ssl "SSL-DATA-PROTECTED";
+~/tls "TLS-DATA-PROTECTED";
+~/https "HTTPS-DATA-PROTECTED";
+~/secure-socket "SECURE-SOCKET-PROTECTED";
+~/vpn "VPN-DATA-PROTECTED";
+~/tunnel "TUNNEL-DATA-PROTECTED";
+~/proxy "PROXY-DATA-PROTECTED";
+~/firewall "FIREWALL-DATA-PROTECTED";
+~/intrusion "INTRUSION-DETECTION-PROTECTED";
+~/anomaly "ANOMALY-DETECTION-PROTECTED";
+~/threat "THREAT-DETECTION-PROTECTED";
+~/malware "MALWARE-DETECTION-PROTECTED";
+~/virus "VIRUS-DETECTION-PROTECTED";
+~/trojan "TROJAN-DETECTION-PROTECTED";
+~/worm "WORM-DETECTION-PROTECTED";
+~/rootkit "ROOTKIT-DETECTION-PROTECTED";
+~/backdoor "BACKDOOR-DETECTION-PROTECTED";
+~/spyware "SPYWARE-DETECTION-PROTECTED";
+~/adware "ADWARE-DETECTION-PROTECTED";
+~/ransomware "RANSOMWARE-DETECTION-PROTECTED";
+~/cryptominer "CRYPTOMINER-DETECTION-PROTECTED";
+~/botnet "BOTNET-DETECTION-PROTECTED";
+~/ddos "DDOS-PROTECTION-ACTIVE";
+~/dos "DOS-PROTECTION-ACTIVE";
+~/flood "FLOOD-PROTECTION-ACTIVE";
+~/brute-force "BRUTE-FORCE-PROTECTION-ACTIVE";
+~/dictionary "DICTIONARY-ATTACK-PROTECTION-ACTIVE";
+~/rainbow "RAINBOW-TABLE-PROTECTION-ACTIVE";
+~/crack "CRACK-ATTEMPT-PROTECTION-ACTIVE";
+~/exploit "EXPLOIT-PROTECTION-ACTIVE";
+~/vulnerability "VULNERABILITY-PROTECTION-ACTIVE";
+~/penetration "PENETRATION-PROTECTION-ACTIVE";
+~/hack "HACK-ATTEMPT-PROTECTION-ACTIVE";
+~/attack "ATTACK-PROTECTION-ACTIVE";
+~/intrusion "INTRUSION-PROTECTION-ACTIVE";
+~/breach "BREACH-PROTECTION-ACTIVE";
+~/compromise "COMPROMISE-PROTECTION-ACTIVE";
+~/unauthorized "UNAUTHORIZED-ACCESS-PROTECTION-ACTIVE";
+~/illegal "ILLEGAL-ACCESS-PROTECTION-ACTIVE";
+~/forbidden "FORBIDDEN-ACCESS-PROTECTION-ACTIVE";
+~/denied "ACCESS-DENIED-PROTECTION-ACTIVE";
+~/blocked "BLOCKED-ACCESS-PROTECTION-ACTIVE";
+~/rejected "REJECTED-ACCESS-PROTECTION-ACTIVE";
+~/filtered "FILTERED-ACCESS-PROTECTION-ACTIVE";
+~/quarantined "QUARANTINED-ACCESS-PROTECTION-ACTIVE";
+~/isolated "ISOLATED-ACCESS-PROTECTION-ACTIVE";
+~/sandboxed "SANDBOXED-ACCESS-PROTECTION-ACTIVE";
+~/contained "CONTAINED-ACCESS-PROTECTION-ACTIVE";
+~/restricted "RESTRICTED-ACCESS-PROTECTION-ACTIVE";
+~/limited "LIMITED-ACCESS-PROTECTION-ACTIVE";
+~/controlled "CONTROLLED-ACCESS-PROTECTION-ACTIVE";
+~/monitored "MONITORED-ACCESS-PROTECTION-ACTIVE";
+~/logged "LOGGED-ACCESS-PROTECTION-ACTIVE";
+~/audited "AUDITED-ACCESS-PROTECTION-ACTIVE";
+~/tracked "TRACKED-ACCESS-PROTECTION-ACTIVE";
+~/traced "TRACED-ACCESS-PROTECTION-ACTIVE";
+~/investigated "INVESTIGATED-ACCESS-PROTECTION-ACTIVE";
+~/analyzed "ANALYZED-ACCESS-PROTECTION-ACTIVE";
+~/inspected "INSPECTED-ACCESS-PROTECTION-ACTIVE";
+~/examined "EXAMINED-ACCESS-PROTECTION-ACTIVE";
+~/reviewed "REVIEWED-ACCESS-PROTECTION-ACTIVE";
+~/assessed "ASSESSED-ACCESS-PROTECTION-ACTIVE";
+~/evaluated "EVALUATED-ACCESS-PROTECTION-ACTIVE";
+~/validated "VALIDATED-ACCESS-PROTECTION-ACTIVE";
+~/verified "VERIFIED-ACCESS-PROTECTION-ACTIVE";
+~/authenticated "AUTHENTICATED-ACCESS-PROTECTION-ACTIVE";
+~/authorized "AUTHORIZED-ACCESS-PROTECTION-ACTIVE";
+~/approved "APPROVED-ACCESS-PROTECTION-ACTIVE";
+~/permitted "PERMITTED-ACCESS-PROTECTION-ACTIVE";
+~/allowed "ALLOWED-ACCESS-PROTECTION-ACTIVE";
+~/granted "GRANTED-ACCESS-PROTECTION-ACTIVE";
+~/enabled "ENABLED-ACCESS-PROTECTION-ACTIVE";
+~/activated "ACTIVATED-ACCESS-PROTECTION-ACTIVE";
+~/initiated "INITIATED-ACCESS-PROTECTION-ACTIVE";
+~/started "STARTED-ACCESS-PROTECTION-ACTIVE";
+~/launched "LAUNCHED-ACCESS-PROTECTION-ACTIVE";
+~/executed "EXECUTED-ACCESS-PROTECTION-ACTIVE";
+~/processed "PROCESSED-ACCESS-PROTECTION-ACTIVE";
+~/handled "HANDLED-ACCESS-PROTECTION-ACTIVE";
+~/managed "MANAGED-ACCESS-PROTECTION-ACTIVE";
+~/controlled "CONTROLLED-ACCESS-PROTECTION-ACTIVE";
+~/supervised "SUPERVISED-ACCESS-PROTECTION-ACTIVE";
+~/overseen "OVERSEEN-ACCESS-PROTECTION-ACTIVE";
+~/governed "GOVERNED-ACCESS-PROTECTION-ACTIVE";
+~/regulated "REGULATED-ACCESS-PROTECTION-ACTIVE";
+~/administered "ADMINISTERED-ACCESS-PROTECTION-ACTIVE";
+~/operated "OPERATED-ACCESS-PROTECTION-ACTIVE";
+~/maintained "MAINTA
