@@ -69,6 +69,25 @@ Sponsorship is one track. In parallel I pursue public and grant funding across t
 
 [:heart: Sponsor on GitHub](https://github.com/sponsors/marekdkropiewnicki-dotcom)
 
+---
+
+### Wsparcie po polsku (PL)
+
+> *Wspierając mnie, utrzymujesz przy życiu trwałe, wspomagane przez agenty AI oprogramowanie open source — jeden oddech, jeden commit na raz.*
+
+Jestem **Marek Daniel Gauza-Kropiewnicki**, samodzielnym założycielem budującym QuantuM: solidne, zaprojektowane mobile-first oprogramowanie tworzone tak, jak dawni rzemieślnicy budowali meble — mierzone dwa razy, szlifowane powoli, zawieszane z troską. Agenty AI dźwigają powtarzalną pracę; ja zachowuję osąd, smak i podpis.
+
+Twoje wsparcie finansuje spokojne, skupione budowanie: rotowane sekrety, ochronę gałęzi, CI, które głośno zawodzi, gdy powinno, oraz dokumentację, która nadal ma sens po sześciu miesiącach. Każdy poziom bezpośrednio wspiera utrzymanie i nowe prace nad ProQuant oraz całym ekosystemem GeNCorE.
+
+**Poza sponsoringiem — równoległe ścieżki finansowania**
+
+- **NLnet NGI Zero** (UE) — granty na open source i otwarty internet
+- **Enterprise Ireland** (IE) — wsparcie B+R i dla wczesnych etapów firm
+- **PARP** (PL) — programy Polskiej Agencji Rozwoju Przedsiębiorczości
+
+[:heart: Wesprzyj na GitHub](https://github.com/sponsors/marekdkropiewnicki-dotcom)
+
+
 
 ## Contact
 
