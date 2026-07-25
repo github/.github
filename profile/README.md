@@ -44,6 +44,32 @@ Astrologically I'm a paradox: a Leo who guards his fire, a Scorpio who tells the
 
 `Next.js` · `Vercel` · `Supabase` · `Neon` · `Upstash` · `Sentry` · `Cloudflare` · `GitHub Enterprise` · `Cursor` · `Claude` · `Perplexity`
 
+## Sponsor this work
+
+> *Sponsoring me keeps durable, agent-assisted open source alive — one breath, one commit at a time.*
+
+I'm **Marek Daniel Gauza-Kropiewnicki**, a solo founder building QuantuM: hardened, mobile-first software engineered the way old craftsmen built cabinets — measured twice, sanded slowly, hinged with care. AI agents carry the repetitive weight; I keep the judgment, the taste, and the signature.
+
+Your sponsorship funds focused, quiet building: rotated secrets, branch protection, CI that fails loudly when it should, and documentation that still makes sense six months later. Every tier directly supports maintenance and new work on ProQuant and the wider GeNCorE estate.
+
+**Sponsor tiers**
+
+- **$5 / month** — Thank-you shout-out + your name in the README
+- **$25 / month** — Priority handling of your issues
+- **$100 / month** — Your logo in the README
+- **$500 / month** — Monthly 1:1 advisory call
+
+**Beyond sponsorship — parallel funding paths**
+
+Sponsorship is one track. In parallel I pursue public and grant funding across the EU and Ireland to keep this work independent and sustainable:
+
+- **NLnet NGI Zero** (EU) — open-source and open-internet grants
+- **Enterprise Ireland** (IE) — R&D and early-stage company supports
+- **PARP** (PL) — Polish Agency for Enterprise Development programmes
+
+[:heart: Sponsor on GitHub](https://github.com/sponsors/marekdkropiewnicki-dotcom)
+
+
 ## Contact
 
 - GitHub: [@marekdkropiewnicki-dotcom](https://github.com/marekdkropiewnicki-dotcom)
