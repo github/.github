@@ -7,7 +7,7 @@
 - 🛠 **Studio:** QuantuM
 - ⚙️ **Engineering practice:** GeNCorE — hardened Next.js apps, CI-gated PRs, rotated secrets, branch protection across the whole estate
 - 🎯 **Product in flight:** [ProQuant](https://github.com/marekdkropiewnicki-dotcom) — a decision-copilot for solo crypto investors
-- 📍 **Based in:** Dún Léire (Dunleer), County Louth, Ireland 🇮🇪
+- 📍 **Based in:** Dún Léire, Ireland 🇮🇪
 
 ---
 
