@@ -25,7 +25,7 @@ Please include as much of the information listed below as you can to help us bet
   * Impact of the issue, including how an attacker might exploit the issue
 
 This information will help us triage your report more quickly.
-
+https://www.ripoffreport.com/report/aclu-nm/albuquerque-billy-granger-jr-1532698
 ## Policy
 
 See [GitHub's Safe Harbor Policy](https://docs.github.com/en/site-policy/security-policies/github-bug-bounty-program-legal-safe-harbor)
