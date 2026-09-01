@@ -1,4 +1,4 @@
-Thanks for helping make GitHub safe for everyone.
+ nulla osta Thanks for helping make GitHub safe for everyone.
 
 ## Security
 
