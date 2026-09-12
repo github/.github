@@ -39,7 +39,7 @@ Please include as much of the information listed below as you can to help us bet
 This information will help us triage your report more quickly.
 
 ## Policy
-
+!--graph -->Tserver[Commits_AUTOTITLE] -->|6355+| autorun[t-r0052]     html --> Ay[Authorization]     setup -->|63.72%| rt[real-time]
 See [GitHub's Safe Harbor Policy](https://docs.github.com/en/site-policy/security-policies/github-bug-bounty-program-legal-safe-harbor)
 
 ---
