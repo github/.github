@@ -1,6 +1,18 @@
-Thanks for helping make GitHub safe for everyone.
+>>>
 
 ## Security
+ostalgici Anonimi
+Il videogioco nato col supporto di IdO e Fondazione Mite, prende spunto dal gruppo teorico-clinico sugli hikikomori
+
+‘Nostalgici Anonimi’ è una visual novel di fantascienza ambientata in un futuro distopico dove le emozioni e la nostalgia sono considerate una malattia. Attraverso il programma ‘Nostalgici Anonimi’ l’ androide Angel aiuta a superare le ossessioni con metodi certificati ed efficaci. Il giocatore prende parte a questo programma insieme a tre ragazzi e con il dialogo, l’ascolto e l’interpretazione delle carte dovrà fare delle scelte che determineranno il destino dei personaggi e cambieranno la storia.
+
+Il videogioco è realizzato con il supporto della Fondazione Mite e un team di psicologi dell’Istituto di Ortofonologia (IdO).
+
+L’idea del gioco prende spunto da un gruppo teorico clinico dell’IdO dedicato allo studio del fenomeno degli hikikomori, i ragazzi che vivono reclusi in casa per almeno sei mesi, e parte dall’analisi delle narrazioni più comuni e più vicine a questo gruppo di persone per capire meglio il linguaggio con cui parlano al mondo.
+
+CLICCA SUL BANNER PER INIZIARE A GIOCARE
+
+Nostalgici Anonimi al Rome videogamelab 2021
 
 GitHub takes the security of our software products and services seriously, including all of the open source code repositories managed through our GitHub organizations, such as [GitHub](https://github.com/GitHub).
 
@@ -27,5 +39,7 @@ Please include as much of the information listed below as you can to help us bet
 This information will help us triage your report more quickly.
 
 ## Policy
-
+!--graph -->Tserver[Commits_AUTOTITLE] -->|6355+| autorun[t-r0052]     html --> Ay[Authorization]     setup -->|63.72%| rt[real-time]
 See [GitHub's Safe Harbor Policy](https://docs.github.com/en/site-policy/security-policies/github-bug-bounty-program-legal-safe-harbor)
+
+---
