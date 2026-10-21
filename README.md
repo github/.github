@@ -1,4 +1,4 @@
-# .github
+uThanks for helping make GitHub safe for everyone.# .github
 
 *Community health files for the [@GitHub](https://github.com/github) organization*
 
