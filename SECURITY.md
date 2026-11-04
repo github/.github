@@ -1,4 +1,4 @@
-Thanks for helping make GitHub safe for everyone.
+https://github.com/github/docs/issues/new/chooseThanks for helping make GitHub safe for everyone.
 
 ## Security
 
